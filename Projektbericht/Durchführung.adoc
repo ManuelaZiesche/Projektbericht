@@ -1,0 +1,14 @@
+= Projektbericht Durchführung - MZi
+Manuela Ziesche <manuela.ziesche@htw-dresden.de>
+{localdatetime}
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:source-highlighter: highlightjs
+
+== Ziele, Aktivitäten, Ergebnisse
+
+== Hauptaktivitäten
+
+== Wesentlichen Entscheidungen
+
+== Probleme im Projekt
