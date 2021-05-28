@@ -1,0 +1,54 @@
+= Anwenderdokumentation (SAd)
+
+== Einführung
+
+=== Zweck
+
+Die bestehende Anwendung ist in der Lage Mitglieder des Studentenrates (Stura) der HTW Dresden zu verwalten. Dies beinhaltet das Erstellen eines neuen Mitgliederdatensatzes in der Datenbank, das Bearbeiten und Löschen über eine leicht bedienbare Weboberfläche, die von der Software bereitgestellt wird. +
+Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exeltabellen, welche vorher vom Admin für die Verwaltung genutzt worden sind und reduziert den allgemeinen Zeitaufwand zum Einpflegen neuer Mitgliederdaten.
+
+=== Funktionsumfang
+
+Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Modules Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
+Neben der Aufnahme von Mitgliedern in die datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
+Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
+Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
+
+== Nutzung als Admin
+
+=== Vorbedingungen und Ausgangssituation
+* stabile Internetverbindung
+* der Admin muss angemeldet sein
+
+Sind die oben genannten Bedingungen erfüllt, befinden wir uns in der Ausgangssituation, welche durch folgendes Bild dargestellt wird.
+
+//Bild von der Übersicht, nach dem login
+
+=== Use-Case 01: Kandidaten verwalten
+
+* der Tab "Kandidaturen" muss ausgewählt worden sein
+
+==== Kandidatur anlegen
+
+Um eine neue Kandidatur anzulegen, muss zuerst der Button "Hinzufügen" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "Speichern" geclickt werden. Anschließend schließt sich die Maske und der neu erstellte kandidat sollte in der Übersicht angezeigt werden.
+
+==== Kandidatur bearbeiten
+
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das Stift-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "Speichern", welcher sich am Ende der seite befindet.
+
+==== Kandidatur löschen
+
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die Checkbox am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "Löschen" Button, welcher sich oberhalb der Übersicht neben dem "Hinzufügen" Button befindet. Mit der bestätigung des "Löschen" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt.
+
+=== Use-Case 02: Mitglieder aufnehmen 
+
+* der Tab "Kandidaturen" muss ausgewählt worden sein
+//Wie heißt der Button, mit dem hinzugefügt wird ß
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser aus der Übersicht rausgesucht werden(siehe "Kandidatur bearbeiten"). Anschließend wird der -Button betätigt, woraufhin sich eine Checkliste öffnen wird. 
+
+== Nutzung als User
+
+
+== FAQ
+
+
