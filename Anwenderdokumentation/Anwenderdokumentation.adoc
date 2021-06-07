@@ -16,6 +16,9 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 
 == Nutzung als Admin
 
+* als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
+* der Admin steht es frei die Anwendung auch als normaler User zu nutzen
+
 === Vorbedingungen und Ausgangssituation
 * stabile Internetverbindung
 * der Admin muss angemeldet sein
@@ -30,7 +33,9 @@ Sind die oben genannten Bedingungen erfüllt, befinden wir uns in der Ausgangssi
 
 ==== Kandidatur anlegen
 
-Um eine neue Kandidatur anzulegen, muss zuerst der Button "Hinzufügen" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "Speichern" geclickt werden. Anschließend schließt sich die Maske und der neu erstellte kandidat sollte in der Übersicht angezeigt werden.
+Um eine neue Kandidatur anzulegen, muss zuerst der Button "Hinzufügen" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "Speichern" geclickt werden. Anschließend schließt sich die Maske und der neu erstellte kandidat sollte in der Übersicht angezeigt werden. +
+
+Sollte der Admin nicht alle benötigten Daten angegeben haben, schlägt die Abspeicherung fehl und eine entsprechnde fehlermeldung wird ausgegeben.
 
 ==== Kandidatur bearbeiten
 
@@ -38,17 +43,39 @@ Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit H
 
 ==== Kandidatur löschen
 
-Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die Checkbox am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "Löschen" Button, welcher sich oberhalb der Übersicht neben dem "Hinzufügen" Button befindet. Mit der bestätigung des "Löschen" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt.
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die Checkbox am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "Entfernen" Button, welcher sich oberhalb der Übersicht neben dem "Hinzufügen" Button befindet. Mit der Bestätigung des "Entfernen" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben.
 
 === Use-Case 02: Mitglieder aufnehmen 
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
-//Wie heißt der Button, mit dem hinzugefügt wird ß
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser aus der Übersicht rausgesucht werden(siehe "Kandidatur bearbeiten"). Anschließend wird der -Button betätigt, woraufhin sich eine Checkliste öffnen wird. 
+
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "Hinzufügen"-Button betätigt werden, woraufhin der Kandidat zum Mitglied wird. Der passende Eintrag in der Kandidaturen-Überisicht wird entfernt.
+
+=== Use-Case 03: Mitgliederinformationen einpflegen
+
+* der Tab "Mitglieder" muss ausgewählt worden sein
+
+Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das Stiftsymbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser vorgang abgeschlossen, werden die Daten nach Betätigung des "Speichern"-Buttons in die Datenbank übernommen. 
 
 == Nutzung als User
 
+* als User besitzt man eingeschränkten Zugriff auf die Anwendung
 
-== FAQ
+=== Use-Case 04: Mitglieder per E-Mail kontaktieren
+
+* der Tab "Mitglieder" muss ausgewählt worden sein
+
+==== Indirekte Kontaktierung
+
+Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
+
+==== Direkte Kontaktierung
+
+Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das Mail-Icon clicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+
+== Allgemeine Hinweise
+
+* Hinweise über den Erfolg einer Anlegung/Löschung werden textuell ausgegeben
+* rot unterstrichene Felder sind ein Zeichen dafür, dass noch nicht alle benötigten Eingaben getätigt worden sind
 
 
