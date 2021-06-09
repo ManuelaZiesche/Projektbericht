@@ -39,6 +39,8 @@ image::k-hinzufuegen.PNG[Neue Kandidatur anlegen]
 
 Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geclickt werden. +
 
+image::speichern.PNG[Neue Kandidatur abspeichern]
+
 Daraufhin schließt sich die Maske und der neu erstellte Kandidat sollte in der Übersicht angezeigt werden. +
 
 Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende Information aufmerksam gemacht. +
