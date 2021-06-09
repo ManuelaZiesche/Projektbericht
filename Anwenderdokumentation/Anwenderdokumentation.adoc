@@ -74,7 +74,7 @@ image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
 * der Tab "Mitglieder" muss ausgewählt worden sein
 
-Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das Stiftsymbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser Vorgang abgeschlossen, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
+Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das *Stift*-Symbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser Vorgang abgeschlossen, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
 == Nutzung als User
 
