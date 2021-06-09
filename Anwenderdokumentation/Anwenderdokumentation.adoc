@@ -28,6 +28,8 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
+image::k-tab.PNG[Kandidaturentab auswählen]
+
 ==== Kandidatur anlegen
 
 Um eine neue Kandidatur anzulegen, muss zuerst der Button "*HINZUFÜGEN*" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. +
@@ -70,6 +72,8 @@ image::k-aufnehmen-dialog.PNG[Dialogfenster]
 === Use-Case 03: Mitgliederinformationen einpflegen
 
 * der Tab "Mitglieder" muss ausgewählt worden sein
+
+image::m-tab.PNG[Mitgliedertab auswählen]
 
 Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das *Stift*-Symbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser Vorgang abgeschlossen, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
