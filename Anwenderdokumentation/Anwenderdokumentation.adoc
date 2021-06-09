@@ -14,6 +14,16 @@ Neben der Aufnahme von Mitgliedern in die datenbank ist die bearbeitete Anwendun
 Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
 Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
 
+== Aufbau der Benutzeroberfläche am Beispiel des Kandidaturen Tabs
+
+Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [A] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
+Unter dem jeweiligen Tab befindet sich eine Übersicht [B], die die eingetragenen Personen auflistet. Über ein Suchfeld [C] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht werden. +
+Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [D], zu bearbeiten [E] oder zu löschen [F]. +
+
+image::tab.PNG[Aufbau Benutzeroberfläche]
+
+Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den kommenden Abschnitten.
+
 == Nutzung als Admin
 
 * als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
