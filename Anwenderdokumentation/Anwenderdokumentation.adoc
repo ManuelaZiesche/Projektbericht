@@ -49,7 +49,7 @@ image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
 Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
-image::k-bearbeitenn.PNG[Kandidatur bearbeiten]
+image::k-bearbeiten.PNG[Kandidatur bearbeiten]
 
 Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "*SPEICHERN*", welcher sich am Ende der Seite befindet.
 
