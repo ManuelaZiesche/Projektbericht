@@ -19,13 +19,10 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 * als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
 * der Admin steht es frei die Anwendung auch als normaler User zu nutzen
 
-=== Vorbedingungen und Ausgangssituation
+=== Vorbedingungen
+
 * stabile Internetverbindung
 * der Admin muss angemeldet sein
-
-Sind die oben genannten Bedingungen erfüllt, befinden wir uns in der Ausgangssituation, welche durch folgendes Bild dargestellt wird.
-
-//Bild von der Übersicht, nach dem login
 
 === Use-Case 01: Kandidaten verwalten
 
@@ -79,6 +76,11 @@ Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus 
 == Nutzung als User
 
 * als User besitzt man eingeschränkten Zugriff auf die Anwendung
+
+=== Vorbedingungen
+
+* stabile Internetverbindung
+* der User muss angemeldet sein
 
 === Use-Case 04: Mitglieder per E-Mail kontaktieren
 
