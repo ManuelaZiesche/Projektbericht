@@ -26,7 +26,7 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 
 === Use-Case 01: Kandidaten verwalten
 
-* der Tab "Kandidaturen" muss ausgewählt worden sein
+* der Tab "Kandidaturen" muss ausgewählt worden sein +
 
 image::k-tab.PNG[Kandidaturentab auswählen]
 
@@ -64,14 +64,14 @@ image::k-loeschen.PNG[Kandidatur löschen]
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". 
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
 
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
 === Use-Case 03: Mitgliederinformationen einpflegen
 
-* der Tab "Mitglieder" muss ausgewählt worden sein
+* der Tab "Mitglieder" muss ausgewählt worden sein +
 
 image::m-tab.png[Mitgliedertab auswählen]
 
