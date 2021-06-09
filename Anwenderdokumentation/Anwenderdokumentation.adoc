@@ -33,29 +33,46 @@ Sind die oben genannten Bedingungen erfüllt, befinden wir uns in der Ausgangssi
 
 ==== Kandidatur anlegen
 
-Um eine neue Kandidatur anzulegen, muss zuerst der Button "Hinzufügen" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "Speichern" geclickt werden. Anschließend schließt sich die Maske und der neu erstellte kandidat sollte in der Übersicht angezeigt werden. +
+Um eine neue Kandidatur anzulegen, muss zuerst der Button "*HINZUFÜGEN*" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. +
 
-Sollte der Admin nicht alle benötigten Daten angegeben haben, schlägt die Abspeicherung fehl und eine entsprechnde fehlermeldung wird ausgegeben.
+image::/AD-Images/k-hinzufuegen.PNG[Neue Kandidatur anlegen]
+
+Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geclickt werden. +
+
+Daraufhin schließt sich die Maske und der neu erstellte Kandidat sollte in der Übersicht angezeigt werden. +
+
+Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende Information aufmerksam gemacht. +
+
+image::/AD-Images/fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das Stift-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "Speichern", welcher sich am Ende der seite befindet.
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+
+image::/AD-Images/k-bearbeitenn.PNG[Kandidatur bearbeiten]
+
+Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "*SPEICHERN*", welcher sich am Ende der Seite befindet.
 
 ==== Kandidatur löschen
 
-Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die Checkbox am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "Entfernen" Button, welcher sich oberhalb der Übersicht neben dem "Hinzufügen" Button befindet. Mit der Bestätigung des "Entfernen" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben.
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
+
+image::/AD-Images/k-loeschen.PNG[Kandidatur löschen]
 
 === Use-Case 02: Mitglieder aufnehmen 
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "Hinzufügen"-Button betätigt werden, woraufhin der Kandidat zum Mitglied wird. Der passende Eintrag in der Kandidaturen-Überisicht wird entfernt.
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". 
+
+image::/AD-Images/k-aufnehmen.PNG[Kandidatur aufnehmen]
+image::/AD-Images/k-aufnehmen-dialog.PNG[Kandidatur aufnehmen]
 
 === Use-Case 03: Mitgliederinformationen einpflegen
 
 * der Tab "Mitglieder" muss ausgewählt worden sein
 
-Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das Stiftsymbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser vorgang abgeschlossen, werden die Daten nach Betätigung des "Speichern"-Buttons in die Datenbank übernommen. 
+Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das Stiftsymbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser Vorgang abgeschlossen, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
 == Nutzung als User
 
