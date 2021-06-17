@@ -9,7 +9,7 @@ Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exeltabellen, welche
 
 === Funktionsumfang
 
-Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Modules Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
+Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Moduls Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
 Neben der Aufnahme von Mitgliedern in die datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
 Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
 Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
@@ -46,7 +46,7 @@ Um eine neue Kandidatur anzulegen, muss zuerst der Button "*HINZUFÜGEN*" betät
 
 image::k-hinzufuegen.PNG[Neue Kandidatur anlegen]
 
-Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geclickt werden. +
+Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geklickt werden. +
 
 image::speichern.PNG[Neue Kandidatur abspeichern]
 
@@ -58,7 +58,7 @@ image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
 image::k-bearbeiten.PNG[Kandidatur bearbeiten]
 
@@ -106,7 +106,7 @@ Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jew
 
 ==== Direkte Kontaktierung
 
-Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das Mail-Icon clicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das Mail-Icon klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
 
 == Allgemeine Hinweise
 
