@@ -34,7 +34,7 @@ Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den komme
 * stabile Internetverbindung
 * der Admin muss angemeldet sein
 
-=== Use-Case 01: Kandidaten verwalten
+=== Kandidaten verwalten
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein +
 
@@ -70,7 +70,7 @@ Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden 
 
 image::k-loeschen.PNG[Kandidatur löschen]
 
-=== Use-Case 02: Mitglieder aufnehmen 
+=== Mitglieder aufnehmen 
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
@@ -79,7 +79,7 @@ Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgre
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
-=== Use-Case 03: Mitgliederinformationen einpflegen
+=== Mitgliederinformationen einpflegen
 
 * der Tab "Mitglieder" muss ausgewählt worden sein +
 
@@ -96,7 +96,7 @@ Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus 
 * stabile Internetverbindung
 * der User muss angemeldet sein
 
-=== Use-Case 04: Mitglieder per E-Mail kontaktieren
+=== Mitglieder per E-Mail kontaktieren
 
 * der Tab "Mitglieder" muss ausgewählt worden sein
 
