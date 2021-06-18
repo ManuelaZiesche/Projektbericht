@@ -9,11 +9,5 @@ Die oben beschriebenen Funktionalitäten beziehen sich alle auf umgesetzte Use C
 
 Use Cases mit einer geringen bis sehr geringen Priorität konnten teilweise aus Zeitgründen oder Komplexitätsgründen nicht umgesetzt werden. Gewünscht war unter anderem, dass der Workload der Mitglieder erfasst und daraus die Aufwandsentschädigung berechnet werden sollte. Nach einem langen Meeting mit einem der Admins wurde uns das umfangreiche Ausmaß dieser Aufgabe dargelegt und unter Anbetracht der Implementation der anderen Wünsche, haben wir davon abgesehen diesen Use Case weiter auszuarbeiten und umzusetzen. Die Generierung von druckbaren Stimmzetteln, welche verschiedene Kandidaturen für eine Wahl listen sollten, konnte aus zeitlichen Gründen nicht verwirklicht werden.
 
-
-Über ein rotes Ausrufezeichen vor dem Namen des jeweiligen Mitgliedes wird der Admin darauf aufmerksam gemacht, dass die angegebenen Daten der Person unvollständig sind. 
-
-
-Durch unsere integrierten Checklisten und unser
-
 == Reflexion pro Teammitglied
 
