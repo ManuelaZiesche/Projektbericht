@@ -134,7 +134,7 @@ image::mail-direkt.png[Mail-Icon]
 
 == Allgemeine Hinweise
 
-* Hinweise über den Erfolg einer Anlegung/Löschung werden textuell ausgegeben
+* Hinweise über den Erfolg einer Neuanlegung/Löschung werden textuell ausgegeben
 * rot unterstrichene Felder sind ein Zeichen dafür, dass noch nicht alle benötigten Eingaben getätigt worden sind
 
 
