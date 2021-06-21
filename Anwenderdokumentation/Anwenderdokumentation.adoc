@@ -10,7 +10,7 @@ Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exeltabellen, welche
 === Funktionsumfang
 
 Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Moduls Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
-Neben der Aufnahme von Mitgliedern in die datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
+Neben der Aufnahme von Mitgliedern in die Datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
 Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
 Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
 
@@ -52,7 +52,7 @@ image::speichern.PNG[Neue Kandidatur abspeichern]
 
 Daraufhin schließt sich die Maske und der neu erstellte Kandidat sollte in der Übersicht angezeigt werden. +
 
-Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende Information aufmerksam gemacht. +
+Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende(n) Information(en) aufmerksam gemacht. +
 
 image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
@@ -79,13 +79,25 @@ Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgre
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
+Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die daten wurden übernommen, müssen aber noch ergänzt werden.
+
 === Mitgliederinformationen einpflegen
 
 * der Tab "Mitglieder" muss ausgewählt worden sein +
 
 image::m-tab.png[Mitgliedertab auswählen]
 
-Um weitere Informationen zu einem neuen Mitglied hinzuzufügen, muss dieses aus der Übersicht rausgesucht und das *Stift*-Symbol am Ende der Zeile angeklickt werden. Daraufhin öffnet sich eine Eingabemaske in der weitere Daten zum Mitglied eingetragen werden können. Ist dieser Vorgang abgeschlossen, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
+Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). +
+Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
+
+image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
+
+Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken (siehe "Kandidatur bearbeiten"), woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
+
+image::m-checkliste.PNG[Checkliste]
+
+Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
 == Nutzung als User
 
