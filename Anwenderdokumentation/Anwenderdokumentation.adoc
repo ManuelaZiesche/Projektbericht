@@ -16,9 +16,10 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 
 == Aufbau der Benutzeroberfläche am Beispiel des Kandidaturen Tabs
 
-Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [A] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
-Unter dem jeweiligen Tab befindet sich eine Übersicht [B], die die eingetragenen Personen auflistet. Über ein Suchfeld [C] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht werden. +
-Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [D], zu bearbeiten [E] oder zu löschen [F]. +
+Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [*A*] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
+Unter dem jeweiligen Tab befindet sich eine Übersicht [*B*], die die eingetragenen Personen auflistet. Über ein Suchfeld [*C*] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht und mit Hilfe der Checkbox [*H*] gegebenenfalls ausgewählt werden. +
+Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [*D*], zu bearbeiten [*E*] oder zu löschen [*F*]. +
+Über das Mail-Icon [*G*] können direkt Mails an den gewünschten Empfänger gesendet werden.
 
 image::tab.PNG[Aufbau Benutzeroberfläche]
 
@@ -27,7 +28,7 @@ Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den komme
 == Nutzung als Admin
 
 * als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
-* der Admin steht es frei die Anwendung auch als normaler User zu nutzen
+* dem Admin steht es frei die Anwendung auch als normaler User zu nutzen
 
 === Vorbedingungen
 
@@ -79,7 +80,7 @@ Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgre
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
-Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die daten wurden übernommen, müssen aber noch ergänzt werden.
+Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die bereits angegebenen Daten wurden übernommen, müssen aber noch ergänzt werden.
 
 === Mitgliederinformationen einpflegen
 
@@ -87,7 +88,7 @@ Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglied
 
 image::m-tab.png[Mitgliedertab auswählen]
 
-Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden. +
+Um weitere Informationen zu einem Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden. +
 Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
 
 image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
@@ -104,7 +105,7 @@ Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHE
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
--> siehe <<Indirekte Kontaktierung>>/<<Direkte Kontaktierung>>
+-> siehe <<Direkte Kontaktierung>>
 
 == Nutzung als User
 
@@ -127,7 +128,7 @@ image::mail-indirekt.png[Mail]
 
 ==== Direkte Kontaktierung
 
-Für eine direkte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das präferierte Mailprogramm öffnet, welches die angegebene Mail-Adresse schon in der Empfängerzeile einer neuen Mail enthält.
+Für eine direkte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann auf das *Mail-Icon* geklickt werden, woraufhin sich das präferierte Mailprogramm öffnet, welches die angegebene Mail-Adresse schon in der Empfängerzeile einer neuen Mail enthält.
 
 image::mail-direkt.png[Mail-Icon]
 
