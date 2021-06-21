@@ -66,7 +66,7 @@ Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetr
 
 ==== Kandidatur löschen
 
-Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden. Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
 
 image::k-loeschen.PNG[Kandidatur löschen]
 
@@ -74,7 +74,7 @@ image::k-loeschen.PNG[Kandidatur löschen]
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden. Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
 
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
@@ -87,18 +87,24 @@ Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglied
 
 image::m-tab.png[Mitgliedertab auswählen]
 
-Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). +
+Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden. +
 Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
 
 image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
-Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken (siehe "Kandidatur bearbeiten"), woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
 
 Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
 image::m-checkliste.PNG[Checkliste]
 
 Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
+
+=== Kandidaten per Mail kontaktieren
+
+* der Tab "Kandidaturen" muss ausgewählt worden sein
+
+-> siehe <<Indirekte Kontaktierung>>/<<Direkte Kontaktierung>>
 
 == Nutzung als User
 
@@ -115,11 +121,15 @@ Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHE
 
 ==== Indirekte Kontaktierung
 
-Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
+Für eine indirekte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an den gewünschten Empfänger zu adressieren.
+
+image::mail-indirekt.png[Mail]
 
 ==== Direkte Kontaktierung
 
-Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+Für eine direkte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das präferierte Mailprogramm öffnet, welches die angegebene Mail-Adresse schon in der Empfängerzeile einer neuen Mail enthält.
+
+image::mail-direkt.png[Mail-Icon]
 
 == Allgemeine Hinweise
 
