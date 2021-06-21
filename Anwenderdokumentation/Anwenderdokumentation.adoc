@@ -9,46 +9,121 @@ Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exeltabellen, welche
 
 === Funktionsumfang
 
-Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Modules Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
-Neben der Aufnahme von Mitgliedern in die datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
+Durch die Weiterentwicklung des Projektes durch unser Team im Rahmen des Moduls Software Engineering I/II wurde das bereits vorhandene System um weitere nützliche Funktionen ergänzt, welche vom Auftraggeber erbeten wurden. +
+Neben der Aufnahme von Mitgliedern in die Datenbank ist die bearbeitete Anwendung nun auch in der Lage Kandidaturen anzulegen, zu bearbeiten oder zu löschen. +
 Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
 Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
 
+== Aufbau der Benutzeroberfläche am Beispiel des Kandidaturen Tabs
+
+Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [A] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
+Unter dem jeweiligen Tab befindet sich eine Übersicht [B], die die eingetragenen Personen auflistet. Über ein Suchfeld [C] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht werden. +
+Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [D], zu bearbeiten [E] oder zu löschen [F]. +
+
+image::tab.PNG[Aufbau Benutzeroberfläche]
+
+Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den kommenden Abschnitten.
+
 == Nutzung als Admin
 
-=== Vorbedingungen und Ausgangssituation
+* als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
+* der Admin steht es frei die Anwendung auch als normaler User zu nutzen
+
+=== Vorbedingungen
+
 * stabile Internetverbindung
 * der Admin muss angemeldet sein
 
-Sind die oben genannten Bedingungen erfüllt, befinden wir uns in der Ausgangssituation, welche durch folgendes Bild dargestellt wird.
+=== Kandidaten verwalten
 
-//Bild von der Übersicht, nach dem login
+* der Tab "Kandidaturen" muss ausgewählt worden sein +
 
-=== Use-Case 01: Kandidaten verwalten
-
-* der Tab "Kandidaturen" muss ausgewählt worden sein
+image::k-tab.PNG[Kandidaturentab auswählen]
 
 ==== Kandidatur anlegen
 
-Um eine neue Kandidatur anzulegen, muss zuerst der Button "Hinzufügen" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "Speichern" geclickt werden. Anschließend schließt sich die Maske und der neu erstellte kandidat sollte in der Übersicht angezeigt werden.
+Um eine neue Kandidatur anzulegen, muss zuerst der Button "*HINZUFÜGEN*" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. +
+
+image::k-hinzufuegen.PNG[Neue Kandidatur anlegen]
+
+Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geklickt werden. +
+
+image::speichern.PNG[Neue Kandidatur abspeichern]
+
+Daraufhin schließt sich die Maske und der neu erstellte Kandidat sollte in der Übersicht angezeigt werden. +
+
+Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende(n) Information(en) aufmerksam gemacht. +
+
+image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entwerder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das Stift-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "Speichern", welcher sich am Ende der seite befindet.
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+
+image::k-bearbeiten.PNG[Kandidatur bearbeiten]
+
+Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "*SPEICHERN*", welcher sich am Ende der Seite befindet.
 
 ==== Kandidatur löschen
 
-Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die Checkbox am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "Löschen" Button, welcher sich oberhalb der Übersicht neben dem "Hinzufügen" Button befindet. Mit der bestätigung des "Löschen" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt.
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
 
-=== Use-Case 02: Mitglieder aufnehmen 
+image::k-loeschen.PNG[Kandidatur löschen]
+
+=== Mitglieder aufnehmen 
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
-//Wie heißt der Button, mit dem hinzugefügt wird ß
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser aus der Übersicht rausgesucht werden(siehe "Kandidatur bearbeiten"). Anschließend wird der -Button betätigt, woraufhin sich eine Checkliste öffnen wird. 
+
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
+
+image::k-aufnehmen.PNG[Kandidatur aufnehmen]
+image::k-aufnehmen-dialog.PNG[Dialogfenster]
+
+Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die daten wurden übernommen, müssen aber noch ergänzt werden.
+
+=== Mitgliederinformationen einpflegen
+
+* der Tab "Mitglieder" muss ausgewählt worden sein +
+
+image::m-tab.png[Mitgliedertab auswählen]
+
+Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). +
+Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
+
+image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
+
+Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken (siehe "Kandidatur bearbeiten"), woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+
+Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
+
+image::m-checkliste.PNG[Checkliste]
+
+Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
 == Nutzung als User
 
+* als User besitzt man eingeschränkten Zugriff auf die Anwendung
 
-== FAQ
+=== Vorbedingungen
+
+* stabile Internetverbindung
+* der User muss angemeldet sein
+
+=== Mitglieder per E-Mail kontaktieren
+
+* der Tab "Mitglieder" muss ausgewählt worden sein
+
+==== Indirekte Kontaktierung
+
+Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
+
+==== Direkte Kontaktierung
+
+Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+
+== Allgemeine Hinweise
+
+* Hinweise über den Erfolg einer Anlegung/Löschung werden textuell ausgegeben
+* rot unterstrichene Felder sind ein Zeichen dafür, dass noch nicht alle benötigten Eingaben getätigt worden sind
 
 
