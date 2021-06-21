@@ -59,7 +59,7 @@ image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Bearbeitungs-Icon* am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
 image::k-bearbeiten.PNG[Kandidatur bearbeiten]
 
@@ -93,7 +93,7 @@ Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, wel
 
 image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
-Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+Zur Bearbeitung muss der Admin das *Bearbeitungs-Icon* am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
 
 Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
