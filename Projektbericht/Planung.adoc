@@ -9,24 +9,25 @@ Manuela Ziesche <manuela.ziesche@htw-dresden.de>
 
 == Blabla 1
 === Aufgabenstellung
-Unsere Aufgabe war es, eine Datenbank und deren graphische Benutzeroberfläche des Studentinnenrates der Hochschule für Technik und Wirtschaft weiterzuentwickeln. In dem Studienjahr 2019/2020 hat eine Gruppe auch durch das Modul Software Engineering angefangen, die Datenbank aufzusetzen und die Benutzeroberfläche anfänglich zu gestalten. Die Auftraggeber haben für unser Projekt ein paar Ergänzungs- und Änderungswünsche gehabt.
+Unsere Aufgabe ist es, eine Datenbank und deren graphische Benutzeroberfläche für den Studentinnenrat der Hochschule für Technik und Wirtschaft Dresden weiterzuentwickeln. In dem Studienjahr 2019/2020 hat eine Gruppe auch durch das Modul Software Engineering angefangen, die Datenbank aufzusetzen und die Benutzeroberfläche anfänglich zu gestalten. Die Auftraggeber haben für unser Projekt Ergänzungs- und Änderungswünsche, der schon bestehenden Datenbank und deren Benutzeroberfläche.
 
 === Auftraggeber
-Unsere Auftraggeber waren Studierende aus dem Studentinnenrat der HTW Dresden. Anfänglich wurden wir von Sophia von Asow betreut. Diese wird nur von dem Mitarbeiter des StuRa Axel unterstützt, da er in Zukunft die hauptsächliche Arbeit mit der Datenbank machen wird. 
+Unser Auftraggeber ist der Studentinnenrat der HTW Dresden und deren Mitglieder. Am Anfang des dritten Semesters wurden wir nur von Sophia von Asow betreut. Diese wird seit Ende November 2020 von dem Mitarbeiter des Studentinnenrates Axel Schiller unterstützt, da er in Zukunft am meisten mit der Datenbank arbeiten wird. 
 
 === Ausgangssituation zum Semsterbeginn
 ==== Beginn 3. Semester
-Am Anfang des gesamten Projektes existierte da schon eine Grundversion der Datenbank und deren graphische Oberfläche. Wir haben sehr zeitnah mit unserer Auftraggeberin Sophia ein Meeting zu dem Projekt gehabt. Sie hat uns ihre Anforderungen erläutert und uns in die Grundidee der Datenbank für den Studentinnenrat eingefüht. Auch ziemlich schnell haben wir von Sophia den Kontakt zu einem Mitglied des letzten Jahres bekommen, der uns dann nütztliche Tools für die Planung und Durchführung der Tests gegeben hat. Außerdem hat er uns auch etwas von der Dokumentation der vorherigen Gruppe erzählt und uns etwas Quellcode gezeigt.
+Am Anfang des gesamten Projektes existierte schon eine Grundversion der Datenbank und deren graphische Benutzeroberfläche. Wir haben sehr zeitnah mit unserer Ansprechpartnerin Sophia von Asow, welche den großen Auftraggeber Studentinnenrat der HTW Dresden vertritt, ein Meeting zu dem Projekt gehabt. Sie hat uns ihre Anforderungen erläutert und uns in die Grundidee der Datenbank für den Studentinnenrat eingefüht. Auch ziemlich schnell haben wir von Sophia den Kontakt zu einem Mitglied des Projektes vom letzten Jahr bekommen, der uns dann nütztliche Tools für die Planung und Durchführung der Tests gegeben hat. Außerdem hat er uns auch etwas von der Dokumentation der vorherigen Gruppe erzählt und uns den Quellcode gezeigt und anfänglich erläutert.
 
 ==== Beginn 4. Semester
-Am Anfang des 4. Semesters war die gesamte Gruppe etwas träge. Die Projektdokumentation aus dem 3. Semester hatte keine zufriedenstellende Leistung erreicht und wir mussten von den letzten Wochen Arbeit einiges aufarbeiten, was uns sehr viel Zeit und Nerven gekostet hat. 
+Am Anfang des 4. Semesters war die gesamte Gruppe etwas träge. Die Projektdokumentation aus dem 3. Semester hatte keine zufriedenstellende Leistung erreicht und wir mussten von dem letzten Semester einiges aufarbeiten, was uns sehr viel Zeit gekostet hat. Aus diesem Grund sind wir auch relativ spät in die weitere Bearbeitung des gesamten Projektes gestartet. 
 
 == Organisation
 === Projektorganisation
-==== Team
+==== Team und Rollen der Mitglieder
 
-Unser Team bestand am Anfang aus 8 Studierenden der Hochschule, 1 Informatik Studentin, 2 Wirtschaftsingenieur Studierende und 5 Wirtschaftsinformatik Studierende.
-Nach dem 3. Semester sind die 2 Wirtschaftsingenieurwesen Studierende aus dem Team ausgeschieden, da das Modul Software Engineering für die beiden nur ein Wahlpflichtmodul im Wintersemester 2020/2021 war. Aus diesem grund wurde die Analyse auf zwei weitere Teammitglieder aufgeteilt.
+Unser Team bestand am Anfang aus 8 Studierenden der Hochschule, eine Informatik-Studentin, zwei Wirtschaftsingenieurwesen-Studierende und fünf Wirtschaftsinformatik-Studierende.
+Nach dem 3. Semester sind die zwei Wirtschaftsingenieurwesen-Studierende aus dem Team ausgeschieden, da das Modul Software Engineering für die beiden nur ein Wahlpflichtmodul im Wintersemester 2020/2021 war. Aus diesem g
+Grund wurde die Analyse auf zwei weitere Teammitglieder aufgeteilt, damit wir den Weggang der anderen beiden ausgleichen.
 
 Wir haben im 4. Semester für jede Rolle noch eine Backup-Person hinzugefügt, um einen möglichen Ausfall abdecken zu können.
 
@@ -43,17 +44,19 @@ Wir haben im 4. Semester für jede Rolle noch eine Backup-Person hinzugefügt, u
 |
 
 ==== Kommunikation im Team
-Die Kommunikation im Team haben wir über mehrere Stellen geregelt. Wir haben eine WhatsApp Gruppe, in der alle drin sind, welche für kurze Erinnerungen/Nachrichten bezüglich Meetings oder Aufgaben genutzt wird. WhatsApp ist auch die erste Anlaufstelle, wenn jemand aus der Gruppe ein Problem hat, oder Hilfe braucht.
-Meetings/Gespräche werden auf unserem eigenen Discord Server geführt, welcher direkt am Anfang des 3. Semesters angelegt wurde. Zum Start des 4. Semesters haben wir diesen noch etwas erweitert und mehrere Sprach- und Textkanäle hinzugefüt, um ein paar Leuten die Möglichkeit zu geben, gemeinsam arbeiten zu können und einfach zwischen den Gruppen hin- und herzuwechseln. 
+Die Kommunikation im Team haben wir über mehrere Stellen geregelt. Wir haben eine WhatsApp Gruppe, welche für kurze Erinnerungen/Nachrichten bezüglich Meetings oder Aufgaben genutzt wird. WhatsApp ist auch die erste Anlaufstelle, wenn jemand aus der Gruppe ein Problem hat, oder Hilfe braucht.
+Meetings/Gespräche werden auf unserem eigenen Discord Server geführt, welcher direkt am Anfang des 3. Semesters angelegt wurde. Zum Start des 4. Semesters haben wir diesen noch etwas erweitert und mehrere Sprach- und Textkanäle hinzugefüt, um ein paar Leuten die Möglichkeit zu geben, gemeinsam arbeiten zu können und einfach zwischen den Gruppen hin- und herzuwechseln.
 
 
-Durch die längere Zeit in dieser gemeinsamen Gruppe ist die allgemeine Kommunikation auch sehr angenehm geworden. Nach Meetings bleiben wir auch gern noch eine Weile im Sprachkanal und tauschen uns über private oder Uni-Dinge aus. Meines Erachtens (MZi) nach stärkt das die gesamte Gruppe und macht das Arbeiten für das Projekt angenehmer. Wir können Probleme oder Fragen super untereinander klären und haben Vertrauen in die Arbeit der jeweils anderen.
+Durch die längere Zeit in dieser gemeinsamen Gruppe hat sich die allgemeine Kommunikation sehr angenehm entwickelt. Nach Meetings bleiben wir auch gern noch eine Weile im Sprachkanal und tauschen uns über private oder Hochschulinterne Dinge aus. Meines Erachtens (MZi) nach stärkt das die gesamte Gruppe und macht das Arbeiten für das Projekt angenehmer. Wir können Probleme oder Fragen super untereinander klären und haben Vertrauen in die Arbeit der jeweils anderen.
 
 ==== Kommunikation zum Auftraggeber
 Die Kommunikation mit den Auftraggebern hat sich am Anfang etwas schwieriger gestaltet, weil Sophia auf ihre E-Mail nicht immer gleich geantwortet hat. Aber durch das Hinzukommen von Axel klären sich mit ihm viele Probleme einfach viel schneller. 
-Die Meetings mit den Stakeholdern haben wir auch über unseren Discord-Server, wofür denen einfach der Link per Mail zugeschickt wird und diese sich einwählen können. Bei der Erweiterung des Discord-Servers haben wir öffentliche und private Channel hinzugefügt, um beispielsweise unseren Auftraggebern nicht unsere komplette Kommunikation darzustellen. 
+Die Meetings mit den Stakeholdern halten wir auch über unseren Discord-Server ab, wofür wir den Stakeholdern einfach den Link per Mail zuschicken und diese sich einwählen können. Bei der Erweiterung des Discord-Servers haben wir öffentliche und private Channel hinzugefügt, um beispielsweise unseren Auftraggebern nicht unsere komplette Kommunikation darzustellen. 
  
 === Eingesetzte Tools in der Projektarbeit
+Planung: 
+Dokumentation:
 
 == Projekttechniken/Projektpraktiken
 === Eingesetzte Techniken und Praktiken im Projekt

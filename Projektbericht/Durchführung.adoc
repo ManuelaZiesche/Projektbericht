@@ -7,8 +7,22 @@ Manuela Ziesche <manuela.ziesche@htw-dresden.de>
 
 == Ziele, Aktivitäten, Ergebnisse
 
+
 == Hauptaktivitäten
 
 == Wesentlichen Entscheidungen
 
+Wir haben uns am Anfang des gesamten Projektes dafür entschieden, dasswir statt 2-wochenlange Iterationen lieber 3-wochenlange Iterationen bevorzugen, da 
+
+Entdscheidung für Akzeptanz- und bla bla Tests.
+
+Wir haben Silenium nicht für das Testen genutzt, da uns der Zeit/Nutzen Aufwand 
+
 == Probleme im Projekt
+
+Die Kommunikation mit den Stakeholdern war ein größeres Problem. Anfangs war Sophia von Asow unsere einzige Ansprechpartnerin, doch im Laufe des Projektes ist Axel Schiller dazu gekommen, welcher einige Fragen auch schneller beantworten kann. Viele Sturainterne Fragen können jetzt auch schnell während den Teammeetings geklärt werden, weil Manuela Ziesche seit März/April ein Teil des Studentinnenrates der HTW Dresden ist. So lassen sich einfache fachliche Fragen schneller beantworten, ohne dass wir groß ein Meeting mit den Stakeholdern ausmachen müssen.
+
+Die Architektur unseres Projektes war 
+
+Das Testen ist im Projekt nicht so gelaufen, wie wir es wollten. Durch die Schwierigkeiten durch das Nachbereiten des Beleges beim Start des vierten Semesters ist uns viel Zeit verloren gegangen. Das hat dazu geführt, das wir zu spät angefangen haben, uns intensiv mit dem Testen auseinander zu setzen. Auch ein sehr großer Punkt war dabei Bayu Anggi Saputra. Er ist der zweite Tester in unserem Projekt, hat aber anfangs definitiv nicht so viel geleistet, wie er es hätte machen sollen. Nach Gesprächen mit Felix Müller hat manuela Ziesche als Projektleiterin noch einmal das Gespräch mit ihm gesucht und ihm ihre Bedenken/Meinung geäußert. Zeitnah darauf hat er sich wesentlich besser in das Team und die Arbeit eingebracht.
+Der zu späte Start des Testens hat keine große Auswirkung auf das erfolgreiche Bestehen, da es gut geklappt hat. Durch die fehlende Zeit für die Tests haben wir uns eben wie bei: wesenltiche Entscheidungen schon angberacht, für die Akzeptanztests entschieden.
