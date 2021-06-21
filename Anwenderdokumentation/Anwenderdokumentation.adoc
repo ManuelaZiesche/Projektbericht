@@ -93,6 +93,7 @@ Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, wel
 image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
 Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken (siehe "Kandidatur bearbeiten"), woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+
 Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
 image::m-checkliste.PNG[Checkliste]
@@ -114,11 +115,11 @@ Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHE
 
 ==== Indirekte Kontaktierung
 
-Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
+Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
 
 ==== Direkte Kontaktierung
 
-Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann der User auf das Mail-Icon klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
 
 == Allgemeine Hinweise
 
