@@ -16,9 +16,10 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 
 == Aufbau der Benutzeroberfläche am Beispiel des Kandidaturen Tabs
 
-Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [A] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
-Unter dem jeweiligen Tab befindet sich eine Übersicht [B], die die eingetragenen Personen auflistet. Über ein Suchfeld [C] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht werden. +
-Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [D], zu bearbeiten [E] oder zu löschen [F]. +
+Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [*A*] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
+Unter dem jeweiligen Tab befindet sich eine Übersicht [*B*], die die eingetragenen Personen auflistet. Über ein Suchfeld [*C*] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht und mit Hilfe der Checkbox [*H*] gegebenenfalls ausgewählt werden. +
+Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [*D*], zu bearbeiten [*E*] oder zu löschen [*F*]. +
+Über das Mail-Icon [*G*] können direkt Mails an den gewünschten Empfänger gesendet werden.
 
 image::tab.PNG[Aufbau Benutzeroberfläche]
 
@@ -27,7 +28,7 @@ Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den komme
 == Nutzung als Admin
 
 * als Admin besitzt man uneingeschränkten Zugriff auf die Anwendung
-* der Admin steht es frei die Anwendung auch als normaler User zu nutzen
+* dem Admin steht es frei die Anwendung auch als normaler User zu nutzen
 
 === Vorbedingungen
 
@@ -58,7 +59,7 @@ image::fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Stift*-Symbol am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Bearbeitungs-Icon* am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
 image::k-bearbeiten.PNG[Kandidatur bearbeiten]
 
@@ -66,7 +67,7 @@ Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetr
 
 ==== Kandidatur löschen
 
-Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
+Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden. Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
 
 image::k-loeschen.PNG[Kandidatur löschen]
 
@@ -74,12 +75,12 @@ image::k-loeschen.PNG[Kandidatur löschen]
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
+Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden. Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
 
 image::k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::k-aufnehmen-dialog.PNG[Dialogfenster]
 
-Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die daten wurden übernommen, müssen aber noch ergänzt werden.
+Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die bereits angegebenen Daten wurden übernommen, müssen aber noch ergänzt werden.
 
 === Mitgliederinformationen einpflegen
 
@@ -87,18 +88,24 @@ Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglied
 
 image::m-tab.png[Mitgliedertab auswählen]
 
-Um weitere Informationen zu Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). +
+Um weitere Informationen zu einem Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden. +
 Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
 
 image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
-Zur Bearbeitung muss der Admin das "*Stift*"-Symbol am Ende der Zeile anklicken (siehe "Kandidatur bearbeiten"), woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
+Zur Bearbeitung muss der Admin das *Bearbeitungs-Icon* am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
 
 Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
 image::m-checkliste.PNG[Checkliste]
 
 Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
+
+=== Kandidaten per Mail kontaktieren
+
+* der Tab "Kandidaturen" muss ausgewählt worden sein
+
+-> siehe <<Direkte Kontaktierung>>
 
 == Nutzung als User
 
@@ -115,15 +122,19 @@ Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHE
 
 ==== Indirekte Kontaktierung
 
-Für eine indirekte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an das jeweilige Mitglied zu adressieren.
+Für eine indirekte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an den gewünschten Empfänger zu adressieren.
+
+image::mail-indirekt.png[Mail]
 
 ==== Direkte Kontaktierung
 
-Für eine direkte Kontaktierung muss das zu kontaktierende Mitglied in der jeweiligen Übersicht rausgesucht werden (siehe "Kandidatur bearbeiten"). Am Ende der Datenzeile kann der User auf das *Mail-Icon* klicken, woraufhin sich das Mailprogramm Thunderbird öffnet, welches die Mail-Adresse schon in der Empfängerzeile enthält.
+Für eine direkte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann auf das *Mail-Icon* geklickt werden, woraufhin sich das präferierte Mailprogramm öffnet, welches die angegebene Mail-Adresse schon in der Empfängerzeile einer neuen Mail enthält.
+
+image::mail-direkt.png[Mail-Icon]
 
 == Allgemeine Hinweise
 
-* Hinweise über den Erfolg einer Anlegung/Löschung werden textuell ausgegeben
+* Hinweise über den Erfolg einer Neuanlegung/Löschung werden textuell ausgegeben
 * rot unterstrichene Felder sind ein Zeichen dafür, dass noch nicht alle benötigten Eingaben getätigt worden sind
 
 
