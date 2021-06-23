@@ -6,7 +6,21 @@ Manuela Ziesche <manuela.ziesche@htw-dresden.de>
 :source-highlighter: highlightjs
 
 == Ziele, Aktivitäten, Ergebnisse
+=== Inception Phase:
+Die Ziele in der Inception Phase waren es, sich anfangs erst einmal einen Überblick über unsere Aufgabe zu machen und diese mit den Stakeholdern zu analysieren und zu besprechen.
 
+
+
+
+Elaboration:
+In der Elaboration Phase haben wir uns hauptsächlich damit beschäftigt, was das System im Detail enthalten soll. Das heißt, wir haben angefangen Use Cases zu beschreiben, 
+
+
+Construction:
+In der Construction Phase waren unsere eigentlichen Ziele, den Entwurf abzuschließen und die Use Cases zu implementieren. Durch den nicht zufriedenstellenden Beleg, war ein anderes, selbst ernanntes Ziel, diesen und dessen Fehler zu überarbeiten und auszubessern. 
+
+
+Transition:
 
 == Hauptaktivitäten
 
