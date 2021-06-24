@@ -1,0 +1,53 @@
+= Betriebsdokumentation
+
+== Backup
+
+.Voraussetzungen
+* der Admin muss über root Rechte verfügen
+
+=== Backup einrichten
+
+.*(1) Backup-Skript erstellen und abspeichern*
+
+[source, bash]
+----
+/root/bin/db-backup-skript
+----
+
+.db-backup-skript
+[source, bash]
+----
+#!/bin/bash
+DIR=/pfad/zur/datenbank
+BACKUPDIR=/gewünschter/speicherort/für/das/backup
+WEEK=`date +"%W"`
+OLDWEEK=`date -d "-3 week" +"%W"`
+
+#Generiert das Backup
+sqlite3 ${DIR}/db.sqlite3 .dump > ${BACKUPDIR}/db-backup-kw${WEEK}.txt
+
+#Löscht Backups, die älter als 3 Wochen alt sind
+rm ${BACKUPDIR}/db-backup-kw${OLDWEEK}.txt
+----
+
+.*(2) Cronjob erstellen und speichern*
+
+[source, bash]
+----
+/root/etc/nano crontab
+----
+
+.Ergänzungen am Ende der Datei
+[source, bash]
+----
+#db-backup-skript (jeden Sonntag 00:15)
+15 0   * * sun   user    test -x /bin/db-backup-skript && /bin/db-backup-skript- >/dev/null 2>&1
+----
+
+=== Wiederherstellung der Datenbank aus Backup
+
+[source, bash]
+----
+sqlite3 neueDB.sqlite3 < db-backup-min10.txt
+----
+
