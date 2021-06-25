@@ -11,6 +11,19 @@
 
 [source, bash]
 ----
+sudo -i
+----
+[source, bash]
+----
+[sudo] password: ***********
+----
+[source, bash]
+----
+cd /bin
+----
+
+[source, bash]
+----
 /root/bin/db-backup-skript
 ----
 
