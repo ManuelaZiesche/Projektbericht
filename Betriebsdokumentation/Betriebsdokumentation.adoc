@@ -1,31 +1,32 @@
 = Betriebsdokumentation
 
-== Backup
+:!table-caption:
+
+== Backup unter Linux
 
 .Voraussetzungen
 * der Admin muss über root Rechte verfügen
+* ein Termina muss geöffnet worden sein
 
 === Backup einrichten
 
+[cols="1,4,6"]
+|===
+| Schritt | Befehl | Kommentar
+
+| 1 | `sudo -i` | Login aufrufen
+| 2 | `[sudo] password: * * *`  | Passwort eingeben
+|===
+
 .*(1) Backup-Skript erstellen und abspeichern*
 
-[source, bash]
-----
-sudo -i
-----
-[source, bash]
-----
-[sudo] password: ***********
-----
-[source, bash]
-----
-cd /bin
-----
+[cols="1,4,6"]
+|===
+| Schritt | Befehl | Kommentar
 
-[source, bash]
-----
-/root/bin/db-backup-skript
-----
+| 3 | `cd /bar` | Zu einem beliebigen Verzeichnis wechseln
+| 4 | `nano db-backup-skript` | Backup Skript mit einem beliebigen Editor erstellen und abspeichern
+|===
 
 .db-backup-skript
 [source, bash]
@@ -43,24 +44,33 @@ sqlite3 ${DIR}/db.sqlite3 .dump > ${BACKUPDIR}/db-backup-kw${WEEK}.txt
 rm ${BACKUPDIR}/db-backup-kw${OLDWEEK}.txt
 ----
 
-.*(2) Cronjob erstellen und speichern*
+.*(2) CronJob erstellen und speichern*
 
+[cols="1,4,6"]
+|===
+| Schritt | Befehl | Kommentar
+
+| 5 | `cd /etc` | etc-Verzeichnis aufrufen
+| 6 | `/nano crontab` | crontab mit beliebigen Editor öffnen, CronJob am Ende der Datei einfügen und speichern
+|===
+
+.CronJob
 [source, bash]
 ----
-/root/etc/nano crontab
-----
-
-.Ergänzungen am Ende der Datei
-[source, bash]
-----
-#db-backup-skript (jeden Sonntag 00:15)
+#Backup-Skript "db-backup-skript" wird jeden Sonntag 00:15 aufgerufen
 15 0   * * sun   user    test -x /bin/db-backup-skript && /bin/db-backup-skript- >/dev/null 2>&1
 ----
 
-=== Wiederherstellung der Datenbank aus Backup
+=== Wiederherstellung der Datenbank aus einem Backup
 
-[source, bash]
-----
-sqlite3 neueDB.sqlite3 < db-backup-min10.txt
-----
+[cols="1,5,5"]
+|===
+| Schritt | Befehl | Kommentar
+
+| 1 | `cd /backup` | Verzeichnis aufrufen, in der das Backup gespeichert wurde
+| 2 | `sqlite3 foo.sqlite3 < db-backup-kwXX.txt` | XX durch die jeweilige Kalenderwoche des backups ersetzten, aus der die neue Datenbank "foo" generiert werden soll
+| 3 | `mv /backup/foo.sqlite3 /baz/` | Die Datenbank "foo" kann nun in einen beliebigen Ordner verschoben werden
+|===
+
+
 
