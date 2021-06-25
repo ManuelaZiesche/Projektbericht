@@ -120,22 +120,19 @@ image::ED-images/C4_Lvl1.png[C4 Level 1]
 .Level 2
 image::ED-images/C4_Lvl2.png[C4 Level 2]
 .Level 3
-image::ED-images/C4_Lvl1.png[C4 Level 3]
-.Legende
+image::ED-images/C4_Lvl3.png[C4 Level 3]
 image::ED-images/Legende_C4.png[C4 Legende]
 
 ==== Klassendiagramm
 
 .Klassendiagramm
 image::ED-images/Klassendiagramm.png[Klassendiagramm]
-.Legende
 image::ED-images/Legende_Klassendiagramm.png[Klassendiagramm Legende]
 
 ==== Paketdiagramm
 
 .Paketdiagramm mit Klassen
 image::ED-images/Paketdiagramm_(mit_Klassen).png[Paketdiagramm]
-.Legende
 image::ED-images/Legende_Paketdiagramm.png[Paketdiagramm Legende]
 
 === Ablaufsicht
@@ -143,10 +140,9 @@ image::ED-images/Legende_Paketdiagramm.png[Paketdiagramm Legende]
 ==== Sequenzdiagramme
 
 .UC01: Kandidat hinzufügen
-image::ED-images/Sequenzdiagramm_Kandidat_hinzufügen.png[Sequenzdiagramm UC01]
+image::ED-images/Sequenzdiagramm_Kandidat_hinzufügen_UC01.png[Sequenzdiagramm UC01]
 .UC02: Kandidat aufnehmen
-image::ED-images/Sequenzdiagramm_Kandidat_zu_Mitglied.png[Sequenzdiagramm UC02]
-.Legende
+image::ED-images/Sequenzdiagramm_Kandidat_zu_Mitglied_UC02.png[Sequenzdiagramm UC02]
 image::ED-images/Legende_Sequenzdiagramm.png[Sequenzdiagramm Legende]
 
 === Szenarien
@@ -154,8 +150,7 @@ image::ED-images/Legende_Sequenzdiagramm.png[Sequenzdiagramm Legende]
 ==== Aktivitätsdiagramme
 
 .UC01: Kandidat hinzufügen
-image::ED-images/Aktivitätsdiagramm_Kandidat_hinzufügen.png[Aktivitätsdiagramm UC01]
+image::ED-images/Aktivitätsdiagramm_Kandidat_hinzufügen_UC01.png[Aktivitätsdiagramm UC01]
 .UC02: Kandidat aufnehmen
-image::ED-images/Aktivitätsdiagramm_Kandidat_zu_Mitglied.png[Aktivitätsdiagramm UC02]
-.Legende
+image::ED-images/Aktivitätsdiagramm_Kandidat_zu_Mitglied_UC02.png[Aktivitätsdiagramm UC02]
 image::ED-images/Legende_Aktivitätsdiagramm.png[Aktivitätsdiagramm Legende]
