@@ -21,7 +21,7 @@ Unter dem jeweiligen Tab befindet sich eine Übersicht [*B*], die die eingetrage
 Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [*D*], zu bearbeiten [*E*] oder zu löschen [*F*]. +
 Über das Mail-Icon [*G*] können direkt Mails an den gewünschten Empfänger gesendet werden.
 
-image::tab.PNG[Aufbau Benutzeroberfläche]
+image::/AD-images/tab.PNG[Aufbau Benutzeroberfläche]
 
 Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den kommenden Abschnitten.
 

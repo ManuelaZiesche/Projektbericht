@@ -97,9 +97,9 @@ Die Weboberfläche wurde mittels HTML/CSS erstellt.
 
 Bereitstellung der Daten für Organisations- und Informationszwecke auf der Webseite
 
-== Systemarchitektur
+== Systemarchitektur (BMü)
 
-=== logische Sicht
+=== Logische Sicht
 
 === physische Sicht
 
