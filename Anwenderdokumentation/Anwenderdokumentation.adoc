@@ -39,29 +39,29 @@ Weitere Informationen zu den Funktionen und zu deren Nutzung folgen in den komme
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein +
 
-image::k-tab.PNG[Kandidaturentab auswählen]
+image::AD-images/k-tab.PNG[Kandidaturentab auswählen]
 
 ==== Kandidatur anlegen
 
 Um eine neue Kandidatur anzulegen, muss zuerst der Button "*HINZUFÜGEN*" betätigt werden, welcher sich über der Übersicht befindet, die die bereits bestehenden Kandidaturen listet. +
 
-image::k-hinzufuegen.PNG[Neue Kandidatur anlegen]
+image::AD-images/k-hinzufuegen.PNG[Neue Kandidatur anlegen]
 
 Daraufhin erscheint eine leere Eingabemaske, in die die Daten des Kandidaten eingetragen werden können. Zum Abschließen des Vorgangs muss der Button mit der Aufschrift "*SPEICHERN*" geklickt werden. +
 
-image::speichern.PNG[Neue Kandidatur abspeichern]
+image::AD-images/speichern.PNG[Neue Kandidatur abspeichern]
 
 Daraufhin schließt sich die Maske und der neu erstellte Kandidat sollte in der Übersicht angezeigt werden. +
 
 Sollten nicht alle benötigten Daten angegeben worden sein, schlägt die Abspeicherung fehl und der Admin wird auf die fehlende(n) Information(en) aufmerksam gemacht. +
 
-image::fehlende-informationen.PNG[Eingabedaten fehlen]
+image::AD-images/fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
 Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Bearbeitungs-Icon* am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
-image::k-bearbeiten.PNG[Kandidatur bearbeiten]
+image::AD-images/k-bearbeiten.PNG[Kandidatur bearbeiten]
 
 Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetragenen Daten können vorgenommen werden. Sind diese abgeschlossen, müssen sie gespeichert werden. Dies geschieht über die Nutzung des Buttons mit der Aufschrift "*SPEICHERN*", welcher sich am Ende der Seite befindet.
 
@@ -69,7 +69,7 @@ Daraufhin öffnet sich die gefüllte Eingabemaske und Änderungen an den eingetr
 
 Um eine bestehende Kandidatur zu löschen, muss diese zuerst rausgesucht werden. Anschließend wird die Kandidatur über die *Checkbox* am Beginn der Zeile ausgewählt. Daraufhin aktiviert sich der "ENTFERNEN" Button, welcher sich oberhalb der Übersicht neben dem "HINZUFÜGEN"-Button befindet. Mit der Bestätigung des "*ENTFERNEN*" Buttons, wird der Datensatz der ausgewählten Kandidatur aus der Übersicht und somit auch aus der Datenbank entfernt. Dem Benutzer wird eine entsprechende Meldung ausgegeben. +
 
-image::k-loeschen.PNG[Kandidatur löschen]
+image::AD-images/k-loeschen.PNG[Kandidatur löschen]
 
 === Mitglieder aufnehmen 
 
@@ -77,8 +77,8 @@ image::k-loeschen.PNG[Kandidatur löschen]
 
 Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden. Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
 
-image::k-aufnehmen.PNG[Kandidatur aufnehmen]
-image::k-aufnehmen-dialog.PNG[Dialogfenster]
+image::AD-images/k-aufnehmen.PNG[Kandidatur aufnehmen]
+image::AD-images/k-aufnehmen-dialog.PNG[Dialogfenster]
 
 Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglieder-Reiter gelistet. Die bereits angegebenen Daten wurden übernommen, müssen aber noch ergänzt werden.
 
@@ -86,18 +86,18 @@ Die Kandidatur wird nun zum Mitglied und wird auch als solche unter dem Mitglied
 
 * der Tab "Mitglieder" muss ausgewählt worden sein +
 
-image::m-tab.png[Mitgliedertab auswählen]
+image::AD-images/m-tab.png[Mitgliedertab auswählen]
 
 Um weitere Informationen zu einem Mitglied hinzuzufügen, muss dieses zu erst aus der Übersicht rausgesucht werden. +
 Neu hinzugefügte Mitglieder sind durch ein *rotes Ausrufezeichen* markiert, welches darauf hinweist, dass verschiedene Leistungen noch erbracht werden müssen.
 
-image::m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
+image::AD-images/m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
 Zur Bearbeitung muss der Admin das *Bearbeitungs-Icon* am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
 
 Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
-image::m-checkliste.PNG[Checkliste]
+image::AD-images/m-checkliste.PNG[Checkliste]
 
 Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHERN*"-Buttons in die Datenbank übernommen. 
 
@@ -124,13 +124,13 @@ Nach Beendigung der Bearbeitung, werden die Daten nach Betätigung des "*SPEICHE
 
 Für eine indirekte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Neben dem Namen und den Funktionen kann der User auch die Mail-Adresse einsehen und sie dazu verwenden eine E-Mail an den gewünschten Empfänger zu adressieren.
 
-image::mail-indirekt.png[Mail]
+image::AD-images/mail-indirekt.png[Mail]
 
 ==== Direkte Kontaktierung
 
 Für eine direkte Kontaktierung muss die zu kontaktierende Person in der jeweiligen Übersicht rausgesucht werden. Am Ende der Datenzeile kann auf das *Mail-Icon* geklickt werden, woraufhin sich das präferierte Mailprogramm öffnet, welches die angegebene Mail-Adresse schon in der Empfängerzeile einer neuen Mail enthält.
 
-image::mail-direkt.png[Mail-Icon]
+image::AD-images/mail-direkt.png[Mail-Icon]
 
 == Allgemeine Hinweise
 
