@@ -124,6 +124,7 @@ image::ED-images/C4_Lvl2.png[C4 Level 2]
 .Level 3
 image::ED-images/C4_Lvl3.png[C4 Level 3]
 
+.Legende
 image::ED-images/Legende_C4.png[C4 Legende]
 
 ==== Klassendiagramm
