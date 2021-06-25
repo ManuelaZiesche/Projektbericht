@@ -1,8 +1,10 @@
 //rund 4 Seiten am Ende
 
-= Projektbericht Planung - MZi
-Manuela Ziesche <manuela.ziesche@htw-dresden.de>
-{localdatetime}
+= Projektbericht Planung (SAd/MZi)
+
+//Manuela Ziesche <manuela.ziesche@htw-dresden.de>; Sabine Adam <sabineelisabeth.adam@htw-dresden.de>
+//{localdatetime}
+
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
