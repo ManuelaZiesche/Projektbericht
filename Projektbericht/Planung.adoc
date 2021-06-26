@@ -9,6 +9,69 @@
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
 
+== Aufgabenstellung und Auftraggeber (AG)
+
+Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der sogenannten Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRas als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
+
+== Ausgangssituation
+
+Grundlage unseres Projektes bildete die einsatzbereite Anwendung des Vorgängerteams, deren Hauptkomponenten aus einer Datenbank und einer intuitiv bedienbaren Benutzeroberfläche bestand. Durch ein einprogrammiertes Anmeldefenster war es dem System möglich zwischen normalen Nutzern und dem Admin zu unterscheiden, was sich auf die Nutzung von verschiedenen Funktionen auswirkte. Datensätze zu Mitgliedern des StuRa konnten neu angelegt, bearbeitet und gelöscht werden. Bereits bestehende Datensätze wurden in einer Übersicht aufgelistet, welche mit Hilfe einer Suchfunktion gezielt nach Mitgliedern durchmustert werden konnte. Welches Mitglied welche Funktion besetzte, konnte unter dem Tab "Funktionen" eingesehen werden. Außerdem konnten individuelle Checklisten angelegt werden, welche noch zu erledigende Aufgaben beinhielten.
+
+Durch ein Mitglied der Vorgängergruppe erhielten wir die Zugangsdaten für die bestehende Anwendung, sowie Einsicht in all die verschiedenen Dokumentationen, die im Zuge des vergangenen Projektes angefertigt worden sind. In einem weiteren Meeting wurde uns, von einem der ursprünglichen Entwickler, eine sehr informative Einführung in den umfangreichen Quellcode gegeben.
+
+== Projektorganisation
+
+=== Team
+
+
+=== Rollenverteilung
+==== 3. Semester
+
+Die jeweiligen Rollen der Mitglieder ergaben sich nach dem ersten gemeinsamen Meeting. Nach einer kurzen Vorstellungsrunde durfte jeder der reihe nach kund tun, welche Rolle er gerne übernehmen würde und daraus entstand die folgende Verteilung.
+
+[cols="2,5"]
+|===
+| Rolle         | Mitglied(er)
+
+| Analyst       | Kristina Lapatanova, Erik Würfel
+| Architekt     | Benjamin Müller, Sebastian Matthäus
+| Entwickler    | Leander Vasco Schwarze, Sabine Adam
+| Projektmanager| Manuela Ziesche
+| Tester        | Bayu Anggi Saputra, Sebastian Matthäus
+|===
+
+==== 4. Semester
+
+Zu Beginn des vierten Semesters starteten wir geplant mit zwei Mitgliedern weniger, da die Wirtschaftsingenieure in der Regel nur den ersten Teil des Projektes begleiteten. Infolgedessen und der tatsache, dass weitere zu besetztende rollen hinzukamen, fand eine Umverteilung statt. Zusätzlich wurden Backup-Rollen vergeben, um einen möglichen Ausfall abzusichern.
+
+//[cols="2, 6"]
+|===
+| Rolle                 | Mitglied(er)                          | Helfer/Backup
+
+| Analyst               | Sabine Adam                           | Manuela Ziesche
+| Architekt             | Benjamin Müller, Sebastian Matthäus   |
+| Deployment Engineer   | Leander Vasco Schwarze                | Sabine Adam
+| Entwickler            | Leander Vasco Schwarze                | Sabine Adam
+| Projektmanager        | Manuela Ziesche                       | Sabine Adam
+| Technical Writer      | Manuela Ziesche                       | alle
+| Tester                | Sebastian Matthäus, Bayu Anggi Saputra|
+|===
+
+Des Weiteren wurden wichtige Gespräche, die im Rahmen des Projektes stattfanden, von Sabine Adam als Protokollantin festgehalten.
+
+=== Kommunikation im Team
+
+
+=== Kommunikation mit dem Auftraggeber
+
+== Eingesetzte Techniken und Praktiken
+
+
+
+//----------------------------------------------------------------
+
+
+
 == Blabla 1
 === Aufgabenstellung
 Unsere Aufgabe ist es, eine Datenbank und deren graphische Benutzeroberfläche für den Studentinnenrat der Hochschule für Technik und Wirtschaft Dresden weiterzuentwickeln. In dem Studienjahr 2019/2020 hat eine Gruppe auch durch das Modul Software Engineering angefangen, die Datenbank aufzusetzen und die Benutzeroberfläche anfänglich zu gestalten. Die Auftraggeber haben für unser Projekt Ergänzungs- und Änderungswünsche, der schon bestehenden Datenbank und deren Benutzeroberfläche.
