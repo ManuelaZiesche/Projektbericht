@@ -8,6 +8,7 @@
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
+//:!table-capturing:
 
 == Aufgabenstellung und Auftraggeber (AG)
 
@@ -88,7 +89,7 @@ Des Weiteren wurde am Anfang der Gruppenarbeit eine WhatsApp-Gruppe eingerichtet
 
 .E-Mail
 
-
+Die Kommunikation mit der Auftraggeberin fand größtenteils über E-Mail statt.
 
 ==== Dokumentation
 
@@ -105,17 +106,8 @@ Des Weiteren wurde am Anfang der Gruppenarbeit eine WhatsApp-Gruppe eingerichtet
 
 == Eingesetzte Techniken und Praktiken
 
+Der Ablauf des Projekts richtete sich hauptsächlich nach dem Open Unified Process. Die dort beschriebenen Rollen wurden direkt am Anfang des Projektes verteilt und deren Aufgaben nach bestem Wissen und Gewissen der jeweiligen Mitglieder umgesetzt.
 
+Zu Beginn jeder Iteration, welche drei Wochen lang waren, haben wir unsere Ziele besprochen. Während der wöchentlichen Meetings innerhalb der einzelnen Iterationen konnte jedes Mitglied seinen Fortschritt vorzeigen oder offen um Hilfe bitten. Dabei wurden Probleme, welche von einzelnen Rollen gemeldet wurden, in aktiver Zusammenarbeit noch während der selben Konferenz gelöst.
 
-//----------------------------------------------------------------
-
-==== Kommunikation zum Auftraggeber
-Die Kommunikation mit den Auftraggebern hat sich am Anfang etwas schwieriger gestaltet, weil Sophia auf ihre E-Mail nicht immer gleich geantwortet hat. Aber durch das Hinzukommen von Axel klären sich mit ihm viele Probleme einfach viel schneller. 
-Die Meetings mit den Stakeholdern halten wir auch über unseren Discord-Server ab, wofür wir den Stakeholdern einfach den Link per Mail zuschicken und diese sich einwählen können. Bei der Erweiterung des Discord-Servers haben wir öffentliche und private Channel hinzugefügt, um beispielsweise unseren Auftraggebern nicht unsere komplette Kommunikation darzustellen. 
- 
-=== Eingesetzte Tools in der Projektarbeit
-Planung: 
-Dokumentation:
-
-== Projekttechniken/Projektpraktiken
-=== Eingesetzte Techniken und Praktiken im Projekt
+Ergaben sich Fragen, die nur von der Auftraggeberin Sophia von Asow oder von Axel Schiller beantwortet werden konnten, wurden diese gesammelt und dann im nächsten gemeinsamen Meeting vorgetragen. Gerade bei Gesprächen mit den oben genannten Stackholdern wurde Protokoll geführt, um die wichtigsten Informationen festzuhalten und anschließend verarbeiten zu können.
