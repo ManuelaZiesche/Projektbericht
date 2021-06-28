@@ -19,6 +19,7 @@ Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem St
 Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [*A*] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
 Unter dem jeweiligen Tab befindet sich eine Übersicht [*B*], die die eingetragenen Personen auflistet. Über ein Suchfeld [*C*] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht und mit Hilfe der Checkbox [*H*] gegebenenfalls ausgewählt werden. +
 Des Weiteren befinden sich unter dem Tab verschiedene Funktionen, die es ermöglichen Datensätze neu hinzuzufügen [*D*], zu bearbeiten [*E*] oder zu löschen [*F*]. +
+Speziell für Kandidaten existiert ein Button, der die direkte Aufnahme [*I*] zu den Mitgliedern ermöglicht. +
 Über das Mail-Icon [*G*] können direkt Mails an den gewünschten Empfänger gesendet werden.
 
 image::AD-images/tab.PNG[Aufbau Benutzeroberfläche]
