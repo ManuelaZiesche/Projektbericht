@@ -6,7 +6,7 @@
 
 .Voraussetzungen
 * der Admin muss über root Rechte verfügen
-* ein Termina muss geöffnet worden sein
+* ein Terminal muss geöffnet worden sein
 
 === Backup einrichten
 
