@@ -5,38 +5,74 @@ Manuela Ziesche <manuela.ziesche@htw-dresden.de>
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
 
-== Ziele, Aktivitäten, Ergebnisse
+== Ziele, Aktivitäten, Ergebnisse in den einzelnen Open UP-Phasen
 === Inception Phase:
-Die Ziele in der Inception Phase waren es, sich anfangs erst einmal einen Überblick über unsere Aufgabe zu machen und diese mit den Stakeholdern zu analysieren und zu besprechen.
+Die Inception Phase war die erste Iteration in unserem Projekt???  Wir haben hier mit der Anforderungsanalyse begonnen
 
 
 
+=== Elaboration Phase:
+Die Elaboration Phase fand auch noch im Wintersemester 2020 statt. Das Ziel war es, herauszuarbeiten, was das System im Detail enthalten soll. Außerdem, wie es technisch und organisatorisch realisiert wird. Dafür mussten unsere Analysten Use Cases ausformulieren und die Architekten sollten eine sinnvolle Architektur Idee haben, damit das System funktionieren kann. Zweiteres hat leider nicht so funktioniert, wie wir uns es gewünscht hatten.
 
-Elaboration:
 In der Elaboration Phase haben wir uns hauptsächlich damit beschäftigt, was das System im Detail enthalten soll. Das heißt, wir haben angefangen Use Cases zu beschreiben, 
 
+=== Construction Phase:
 
-Construction:
 In der Construction Phase waren unsere eigentlichen Ziele, den Entwurf abzuschließen und die Use Cases zu implementieren. Durch den nicht zufriedenstellenden Beleg, war ein anderes, selbst ernanntes Ziel, diesen und dessen Fehler zu überarbeiten und auszubessern. 
 
-
+=== Transition Phase:
 Transition:
 
 == Hauptaktivitäten
+=== Anforderungserhebung und -analyse
+Im Wintersemester 2020 bekamen wir eine kurz gefasste Aufgabe, welche groben Dinge wir an der Datenbank überarbeiten sollten. Die Anforderungen an das Projekt haben wir dann mündlich besprochen, wobei unser Team Protokoll geführt hat, damit wir alle Punkte notiert haben und jederzeit darauf zuzrückgreifen können. 
+Die Anforderungen haben sich im Laufe des Projektes leicht verändert, weil wir mit den Auftraggebern festgestellt haben, dass für eine Anforderung einfach nicht mehr genug Zeit übrig ist. Beispielsweise sollten wir die Aufwandsentschädigung des StuRa mit in das Projekt einbinden. In einem Gespräch mit den Auftraggebern ist uns allen klar geworden, dass das fast ein eigenes Projekt wär, weil es da sehr viel zu beachten gibt. Im Einverständnis mit den Stakeholdern haben wir uns dann dazu entschieden, diese Anforderung nicht weiter zu betrachten.
+
+=== Entwurf
+
+
+=== Implementierung
+=== Test
+Wir hatten ein paar Schwierigkeiten in die Tests richtig reinzukommen, sodass wir ziemlich spät angefangen haben, uns damit wirklich zielführend zu beschäftigen. Unser Coach hat uns empfohlen dann keine Tests zu implementieren, sondern mit den Stakeholdern Akzeptanztests durchzuführen. 
+
+=== Übergabe
+
+
+=== Dokumentation
+Unsere Dokumentation des Projektes ist in mehrere Teile gegliedert:
+
+.Projektbericht
+Wir haben den Projektbericht geschrieben, welcher den Ablauf des gesamten Projektes in den einzelnen Phasen wiederspiegelt. Hier sollen die Planung, die Durchführung und die Ergebnisse für alle Leser nachvollziehbar gemacht werden. Die Planung beschreibt hierbei die Anfangsphase des Projektes
+
+.Dokumentationen
+Außerdem gibt es noch die einzelnen Dokumentationen, welche sich so gliedern:
+- Entwurfsdokumentation: Die Entwurfsdokumentation
+- Testdokumentation: Diese ist nur zum Notieren unserer Tests da, im Vordergrund steht kein Administrator oder zukünftiger Entwickler, der mithilfe dieser Dokumentation Fragestellungen beseitigt.
+- Betriebsdokumentation: Die Betriebsdokumentation ist dafür da, um dem Administrator zu zeigen, wie man das System einrichtet. Es soll außerdem eine Hilfestellung bei der Konfiguration und Betreuung des Systems bieten. 
+- Anwenderdokumentation: Deren Ziel ist es, künftige Nutzer in der Verwendung der Software zu unterstützen. 
+
+
+.Anforderungsspezifikationen
+BLABLABLA
 
 == Wesentlichen Entscheidungen
-
+.Iterationslängen
 Wir haben uns am Anfang des gesamten Projektes dafür entschieden, dasswir statt 2-wochenlange Iterationen lieber 3-wochenlange Iterationen bevorzugen, da 
 
+.Testvariante
 Entdscheidung für Akzeptanz- und bla bla Tests.
 
 Wir haben Silenium nicht für das Testen genutzt, da uns der Zeit/Nutzen Aufwand 
 
 == Probleme im Projekt
 
+.Kommunikation mit den Stakeholdern
 Die Kommunikation mit den Stakeholdern war ein größeres Problem. Anfangs war Sophia von Asow unsere einzige Ansprechpartnerin, doch im Laufe des Projektes ist Axel Schiller dazu gekommen, welcher einige Fragen auch schneller beantworten kann. Viele Sturainterne Fragen können jetzt auch schnell während den Teammeetings geklärt werden, weil Manuela Ziesche seit März/April ein Teil des Studentinnenrates der HTW Dresden ist. So lassen sich einfache fachliche Fragen schneller beantworten, ohne dass wir groß ein Meeting mit den Stakeholdern ausmachen müssen.
+Mit den zwei Stakeholdern (bzw. mit Manuela drei), die wir anprechen konnten, hat sich das Problem von alleine geklärt.
+
 
 Die Architektur unseres Projektes war 
 
+.Testen - Bayu
 Das Testen ist im Projekt nicht so gelaufen, wie wir es wollten. Durch die Schwierigkeiten durch das Nachbereiten des Beleges beim Start des vierten Semesters ist uns viel Zeit verloren gegangen. Das hat dazu geführt, das wir zu spät angefangen haben, uns intensiv mit dem Testen auseinander zu setzen. Auch ein sehr großer Punkt war dabei Bayu Anggi Saputra. Er ist der zweite Tester in unserem Projekt, hat aber anfangs definitiv nicht so viel geleistet, wie er es hätte machen sollen. Nach Gesprächen mit Felix Müller hat manuela Ziesche als Projektleiterin noch einmal das Gespräch mit ihm gesucht und ihm ihre Bedenken/Meinung geäußert. Zeitnah darauf hat er sich wesentlich besser in das Team und die Arbeit eingebracht.
 Der zu späte Start des Testens hat keine große Auswirkung auf das erfolgreiche Bestehen, da es gut geklappt hat. Durch die fehlende Zeit für die Tests haben wir uns eben wie bei: wesenltiche Entscheidungen schon angberacht, für die Akzeptanztests entschieden.
