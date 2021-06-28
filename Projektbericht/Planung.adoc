@@ -1,62 +1,115 @@
 //rund 4 Seiten am Ende
 
-= Projektbericht Planung - MZi
-Manuela Ziesche <manuela.ziesche@htw-dresden.de>
-{localdatetime}
+= Projektbericht Planung (SAd/MZi)
+
+//Manuela Ziesche <manuela.ziesche@htw-dresden.de>; Sabine Adam <sabineelisabeth.adam@htw-dresden.de>
+//{localdatetime}
+
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlightjs
+//:!table-capturing:
 
-== Blabla 1
-=== Aufgabenstellung
-Unsere Aufgabe ist es, eine Datenbank und deren graphische Benutzeroberfläche für den Studentinnenrat der Hochschule für Technik und Wirtschaft Dresden weiterzuentwickeln. In dem Studienjahr 2019/2020 hat eine Gruppe auch durch das Modul Software Engineering angefangen, die Datenbank aufzusetzen und die Benutzeroberfläche anfänglich zu gestalten. Die Auftraggeber haben für unser Projekt Ergänzungs- und Änderungswünsche, der schon bestehenden Datenbank und deren Benutzeroberfläche.
+== Aufgabenstellung und Auftraggeber (AG)
 
-=== Auftraggeber
-Unser Auftraggeber ist der Studentinnenrat der HTW Dresden und deren Mitglieder. Am Anfang des dritten Semesters wurden wir nur von Sophia von Asow betreut. Diese wird seit Ende November 2020 von dem Mitarbeiter des Studentinnenrates Axel Schiller unterstützt, da er in Zukunft am meisten mit der Datenbank arbeiten wird. 
+Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der sogenannten Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRas als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
 
-=== Ausgangssituation zum Semsterbeginn
-==== Beginn 3. Semester
-Am Anfang des gesamten Projektes existierte schon eine Grundversion der Datenbank und deren graphische Benutzeroberfläche. Wir haben sehr zeitnah mit unserer Ansprechpartnerin Sophia von Asow, welche den großen Auftraggeber Studentinnenrat der HTW Dresden vertritt, ein Meeting zu dem Projekt gehabt. Sie hat uns ihre Anforderungen erläutert und uns in die Grundidee der Datenbank für den Studentinnenrat eingefüht. Auch ziemlich schnell haben wir von Sophia den Kontakt zu einem Mitglied des Projektes vom letzten Jahr bekommen, der uns dann nütztliche Tools für die Planung und Durchführung der Tests gegeben hat. Außerdem hat er uns auch etwas von der Dokumentation der vorherigen Gruppe erzählt und uns den Quellcode gezeigt und anfänglich erläutert.
+== Ausgangssituation
 
-==== Beginn 4. Semester
-Am Anfang des 4. Semesters war die gesamte Gruppe etwas träge. Die Projektdokumentation aus dem 3. Semester hatte keine zufriedenstellende Leistung erreicht und wir mussten von dem letzten Semester einiges aufarbeiten, was uns sehr viel Zeit gekostet hat. Aus diesem Grund sind wir auch relativ spät in die weitere Bearbeitung des gesamten Projektes gestartet. 
+Grundlage unseres Projektes bildete die einsatzbereite Anwendung des Vorgängerteams, deren Hauptkomponenten aus einer Datenbank und einer intuitiv bedienbaren Benutzeroberfläche bestand. Durch ein einprogrammiertes Anmeldefenster war es dem System möglich zwischen normalen Nutzern und dem Admin zu unterscheiden, was sich auf die Nutzung von verschiedenen Funktionen auswirkte. Datensätze zu Mitgliedern des StuRa konnten neu angelegt, bearbeitet und gelöscht werden. Bereits bestehende Datensätze wurden in einer Übersicht aufgelistet, welche mit Hilfe einer Suchfunktion gezielt nach Mitgliedern durchmustert werden konnte. Welches Mitglied welche Funktion besetzte, konnte unter dem Tab "Funktionen" eingesehen werden. Außerdem konnten individuelle Checklisten angelegt werden, welche noch zu erledigende Aufgaben beinhielten.
 
-== Organisation
-=== Projektorganisation
-==== Team und Rollen der Mitglieder
+Durch ein Mitglied der Vorgängergruppe erhielten wir die Zugangsdaten für die bestehende Anwendung, sowie Einsicht in all die verschiedenen Dokumentationen, die im Zuge des vergangenen Projektes angefertigt worden sind. In einem weiteren Meeting wurde uns, von einem der ursprünglichen Entwickler, eine sehr informative Einführung in den umfangreichen Quellcode gegeben.
 
-Unser Team bestand am Anfang aus 8 Studierenden der Hochschule, eine Informatik-Studentin, zwei Wirtschaftsingenieurwesen-Studierende und fünf Wirtschaftsinformatik-Studierende.
-Nach dem 3. Semester sind die zwei Wirtschaftsingenieurwesen-Studierende aus dem Team ausgeschieden, da das Modul Software Engineering für die beiden nur ein Wahlpflichtmodul im Wintersemester 2020/2021 war. Aus diesem g
-Grund wurde die Analyse auf zwei weitere Teammitglieder aufgeteilt, damit wir den Weggang der anderen beiden ausgleichen.
+== Projektorganisation
 
-Wir haben im 4. Semester für jede Rolle noch eine Backup-Person hinzugefügt, um einen möglichen Ausfall abdecken zu können.
+=== Team
 
-| ===
-| Person | Rolle
-|Sabine Elisabeth Adam | Entwicklerin  [Projektmanagerin, Analystin]
-|Manuela Ziesche | Projektmanagerin [Analystin]
-|Sebastian Matthäus | Architekt & Tester
-|Benjamin Müller | Architektur
-|Vasco Leander Schwarze | Entwickler
-|Bayu Anggi Saputra | Tester
-|Erik Würfel | Analyst
-|Kristina Lapatanova | Analystin 
-|
+Anfänglich bestand unser Team aus acht Studierenden: fünf kamen aus dem Studiengang Wirtschaftsinformatik, zwei aus dem Wirtschaftsingeneurewesen und eine aus der Allgemeinen Informatik. Fast alle Mitglieder nahmen während des ersten Meetings an der kleinen Vorstellungsrunde teil, die von der Projektmanagerin Manuela Ziesche initiiert worden war. So konnte sich jeder ein Bild von seinen neuen Teamkolleg:innen machen, mit denen man die kommenden zwei Semester das Projekt bearbeiten würde.
 
-==== Kommunikation im Team
-Die Kommunikation im Team haben wir über mehrere Stellen geregelt. Wir haben eine WhatsApp Gruppe, welche für kurze Erinnerungen/Nachrichten bezüglich Meetings oder Aufgaben genutzt wird. WhatsApp ist auch die erste Anlaufstelle, wenn jemand aus der Gruppe ein Problem hat, oder Hilfe braucht.
-Meetings/Gespräche werden auf unserem eigenen Discord Server geführt, welcher direkt am Anfang des 3. Semesters angelegt wurde. Zum Start des 4. Semesters haben wir diesen noch etwas erweitert und mehrere Sprach- und Textkanäle hinzugefüt, um ein paar Leuten die Möglichkeit zu geben, gemeinsam arbeiten zu können und einfach zwischen den Gruppen hin- und herzuwechseln.
+=== Rollenverteilung
+==== 3. Semester
 
+Die jeweiligen Rollen der Mitglieder ergaben sich nach dem ersten gemeinsamen Meeting. Nach einer kurzen Kennlernphase durfte jeder der Reihe nach kund tun, welche Rolle er gerne übernehmen würde, woraus die folgende Verteilung entstand.
 
-Durch die längere Zeit in dieser gemeinsamen Gruppe hat sich die allgemeine Kommunikation sehr angenehm entwickelt. Nach Meetings bleiben wir auch gern noch eine Weile im Sprachkanal und tauschen uns über private oder Hochschulinterne Dinge aus. Meines Erachtens (MZi) nach stärkt das die gesamte Gruppe und macht das Arbeiten für das Projekt angenehmer. Wir können Probleme oder Fragen super untereinander klären und haben Vertrauen in die Arbeit der jeweils anderen.
+[cols="2,5"]
+|===
+| Rolle         | Mitglied(er)
 
-==== Kommunikation zum Auftraggeber
-Die Kommunikation mit den Auftraggebern hat sich am Anfang etwas schwieriger gestaltet, weil Sophia auf ihre E-Mail nicht immer gleich geantwortet hat. Aber durch das Hinzukommen von Axel klären sich mit ihm viele Probleme einfach viel schneller. 
-Die Meetings mit den Stakeholdern halten wir auch über unseren Discord-Server ab, wofür wir den Stakeholdern einfach den Link per Mail zuschicken und diese sich einwählen können. Bei der Erweiterung des Discord-Servers haben wir öffentliche und private Channel hinzugefügt, um beispielsweise unseren Auftraggebern nicht unsere komplette Kommunikation darzustellen. 
- 
-=== Eingesetzte Tools in der Projektarbeit
-Planung: 
-Dokumentation:
+| Analyst       | Kristina Lapatanova, Erik Würfel
+| Architekt     | Benjamin Müller, Sebastian Matthäus
+| Entwickler    | Leander Vasco Schwarze, Sabine Adam
+| Projektmanager| Manuela Ziesche
+| Tester        | Bayu Anggi Saputra, Sebastian Matthäus
+|===
 
-== Projekttechniken/Projektpraktiken
-=== Eingesetzte Techniken und Praktiken im Projekt
+==== 4. Semester
+
+Zu Beginn des vierten Semesters starteten wir geplant mit zwei Mitgliedern weniger, da die Wirtschaftsingenieure in der Regel nur den ersten Teil des Projektes begleiteten. Infolgedessen und der Tatsache, dass weitere zu besetztende Rollen hinzukamen, fand eine Umverteilung dieser statt. Zusätzlich wurden Backup-Rollen vergeben, um einen möglichen Ausfall abzusichern.
+
+//[cols="2, 6"]
+|===
+| Rolle                 | Mitglied(er)                          | Helfer/Backup
+
+| Analyst               | Sabine Adam                           | Manuela Ziesche
+| Architekt             | Benjamin Müller, Sebastian Matthäus   |
+| Deployment Engineer   | Leander Vasco Schwarze                | Sabine Adam
+| Entwickler            | Leander Vasco Schwarze                | Sabine Adam
+| Projektmanager        | Manuela Ziesche                       | Sabine Adam
+| Technical Writer      | Manuela Ziesche                       | alle
+| Tester                | Sebastian Matthäus, Bayu Anggi Saputra|
+|===
+
+Des Weiteren wurden wichtige Gespräche, die im Rahmen des Projektes stattfanden, von Sabine Adam als Protokollantin festgehalten.
+
+=== Kommunikation im Team
+
+Im dritten, sowie im vierten Semester machten virtuellen Meetings den Hauptbestandteil unserer Kommunikation im Team aus. Ein Mal in der Woche wurde sich online verabredet um Erarbeitetes zu diskutieren und um Probleme vorzutragen. Gerade am Anfang waren diese Konferenzen sehr stockend und von längeren stillen Pausen durchzogen, da es für alle das erste größere Projekt war und man noch nicht so ganz wusste, wie man miteinander umgehen sollte. +
+Doch dies änderte sich mit der Zeit. Neben den essenziell wichtigen Dingen für das Projekt, tauschte man sich am Ende der Meetings auch über andere Module oder private Angelegenheiten aus. Daraus entwickelte sich in Summe eine sehr angenehmes Arbeitsklima, in dem ein offener und ehrlicher Umgang stattfinden konnte. +
+Das vierte Semester brachte, neben neuen Herausforderungen, auch einen im Stundenplan eingetragenen Slot für das Modul Software Engineering II mit sich, den wir zum gemeinsamen Arbeiten nutzten. Zusätzlich wurden montags Meetings abgehalten, in der gemeinsam die bevorstehende Woche geplant wurde und sich jeder seine Aufgaben vor Augen führte.
+
+=== Kommunikation mit dem Auftraggeber
+
+Nach dem ersten Meeting mit der Auftraggeberin, welches kurz nach Start des Projektes stattfand, gestaltete sich die Kommunikation etwas schleppender. E-Mails, die von unserer Projektmanagerin an Sophia von Asow gesendet worden sind, wurden leider nicht umgehend beantwortet, was zu Verzögerungen in der Analyse-Phase führte. +
+Ab dem vierten Semester hatten wir das Glück durch Sophia mit dem zukünftigen Admin unserer Anwendung, Axel Schiller, in Kontakt zu kommen. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners zu übernehmen, wodurch verschiedene Fragen schneller beantwortet werden konnten. 
+
+=== Verwendete Tools
+
+==== Planung
+
+Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte  Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, dass eigens für uns angelegte Board zu verwalten.
+
+==== Kommunikation
+
+*Discord/ Microsoft Teams* +
+Gleich zu Beginn des Projektes im dritten Semester wurde ein Discord Server aufgesetzt, der für das erste Meeting genutzt werden sollte. Auch nach dieser Konferenz nutzen wir den Server für unsere wöchentlichen Meetings, welche den Hauptanteil unserer Kommunikation ausmachten. Neben der Audioübertragung war es uns auch möglich unsere Bildschirmausgabe zu teilen. Zumeist wurde davon am Ende jeder Iteration Gebrauch gemacht, wenn wir gemeinsam über den Essence-Navigator den Fortschritt unseres Projektes erfasst haben. Wenn der Discord-Server nicht zu erreichen war (einmaliges Ereignis), wurde auf Microsoft Teams gewechselt, welches ähnliche Vorteile bietet. +
+Im vierten Semester wurde der Server um weitere Kanäle erweitert, die die Namen der verschiedenen Rollen trugen und die es ermöglichten in kleineren Gruppen miteinander zu arbeiten.
+
+*WhatsApp* +
+Des Weiteren wurde am Anfang der Gruppenarbeit eine WhatsApp-Gruppe eingerichtet, in der zumeist Termine für Meetings ausgemacht wurden. Auch kleinere Probleme oder Fragen konnten so textuell geklärt werden, sodass das Arbeiten nicht groß unterbrochen werden musste.
+
+*E-Mail* +
+
+Die Kommunikation mit der Auftraggeberin fand hauptsächlich über E-Mail statt.
+
+==== Dokumentation
+
+[cols="3, 5"]
+|===
+| Tool                  | Verwendungszweck
+
+| git/ Github           | Verwaltung der Dateien
+| Asciidoc              | Verfassung schriftlicher Dokumentationen
+| Sphinx                | automatische generierung der codedokumentation
+| Paint.net/ Photoshop  | Bearbeitung von Bilder
+| Diagrams.net          |Erstellung von Diagrammen
+|===
+
+== Eingesetzte Techniken und Praktiken
+
+Der Ablauf des Projekts richtete sich hauptsächlich nach dem Open Unified Process. Die dort beschriebenen Rollen wurden direkt am Anfang des Projektes verteilt und deren Aufgaben nach bestem Wissen und Gewissen der jeweiligen Mitglieder umgesetzt.
+
+Zu Beginn jeder Iteration, welche drei Wochen lang waren, haben wir unsere Ziele besprochen. Während der wöchentlichen Meetings innerhalb der einzelnen Iterationen konnte jedes Mitglied seinen Fortschritt vorzeigen oder offen um Hilfe bitten. Dabei wurden Probleme, welche von einzelnen Rollen gemeldet wurden, in aktiver Zusammenarbeit noch während der selben Konferenz gelöst.
+
+Ergaben sich Fragen, die nur von der Auftraggeberin Sophia von Asow oder von Axel Schiller beantwortet werden konnten, wurden diese gesammelt und dann im nächsten gemeinsamen Meeting vorgetragen. Gerade bei Gesprächen mit den oben genannten Stackholdern wurde Protokoll geführt, um die wichtigsten Informationen festzuhalten und anschließend verarbeiten zu können.
+
+Am Ende jeder Iteration wurde der Fortschritt des Projektes diskutiert und mit Hilfe des Essence-Nvigators erfasst. 
