@@ -1,0 +1,53 @@
+= Durchführung (SAd/MZi)
+//Manuela Ziesche <manuela.ziesche@htw-dresden.de>
+//{localdatetime}
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:source-highlighter: highlightjs
+
+== Inception Phase
+=== Iteration 01: Anforderungsanalyse (SAd)
+
+Die Inception Phase startete im Wintersemester 2020 mit unserer kleinen, aber informativen Kennlernrunde, die wir im ersten Meeting durchführten. Nachdem wir uns von unseren zukünftigen Teamkollegen ein Bild gemacht haben, wurden die im Unified Process beschriebenen Rollen nach Wunsch aufgeteilt.
+
+Im weiteren Verlauf der Phase haben wir uns zunächst mit dem bestehenden Software System beschäftigt, welches unserem Projekt als Grundlage dienen sollte. Dazu nahmen wir Kontakt mit der Vorgängergruppe auf und erhielten die Zugangsdaten, mit deren Hilfe wir uns selbst ein Überblick über bestehende Funktionalitäten schaffen konnten. Wir erhielten außerdem Einblick in die angefertigten Dokumentationen, sowie eine kurze einführung in den Quellcode von einem ursprünglichen Entwickler.
+
+Als nächstes vereinbarten wir ein Meeting mit der Auftraggeberin Sophia von Asow. Dies erwies sich als etwas schwierig, da diese leider eine Woche lang nicht auf unsere E-Mail reagierte. +
+Neben den in der Aufgabenstellung festgelegten Einschränkungen erfuhren wir in der nächsten konferenz mit ihr mehr über wichtige Anforderungen, die sie als Vertretung für den Student:innenrat an das System stellte. Jene wurden textuell sowohl in einem Gesprächsprotokoll, als auch in der Vison festgehalten und sollten die Basis des neuen Systemabschnittes bilden.
+
+== Elaboration Phase
+=== Iteration 02: Use-Cases und Architektur (SAd)
+
+Ziel dieser Iteration war es, aus den gestellten Anforderungen Use Cases zu formulieren, welche uns eine Aussicht auf zu implementierende Funktionen gaben.
+
+Parallel wurde das System lokal anhand der Einrichtungshinweise in der Dokumentation in Betrieb genommen und der Quellcode analysiert. Zwar hatte keines der Teammitglieder Erfahrungen im Umgang mit der Programmiersprache Python gesammelt, doch wir haben uns dennoch dazu entschieden das System in dieser Sprache zu erweitern. Aufgrund der Menge an Quelltext schien es uns aufwendiger die bestehende Anwendung in einer uns bekannten Programmiersprache zu realisieren, als jene zu erlernen, in der es programmiert wurde.
+
+Außerdem wurde begonnen das Architektur Notebook zu erstellen.
+
+=== Iteration 03: Architektur (SAd)
+
+Das Hauptaugenmerk in dieser Iteration lag auf der weiteren Ausarbeitung der Use Cases und der Architektur durch die Analysten und Architekten. Aussagekräftige Wireframes wurden erstellt. 
+
+== Construction Phase
+=== Iteration 04: Anforderungen formal anpassen (SAd)
+
+Mit dieser Iteration starteten wir nicht nur in die Construction Phase, sondern auch in das neue Semester, welches einen in den Stundenplan eingetragenen Slot zum Arbeiten mit sich brachte. Dieser ergänzte die wöchentlichen Meetings, in der die jeweiligen Wochen geplant und Aufgaben besprochen wurden.
+
+Der genutzte Discord-Server wurde um weitere Sprachkanäle erweitert, die es erlaubten themenbezogen in kleineren Gruppen zu arbeiten, was die Produktivität steigerte.
+
+Der im Modul Software Engineering I abgegebene Beleg hatte hatte mehrere Defizite, die es galt auszubessern. +
+Dazu zählte unter anderem der Zustand des Architecture Notebook und die Ausformulierung der Use cases. Beide probleme wurden innerhalb die
+
+Die Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser Iteration außerordentlich gut geklärt werden, da die Projektmanagerin Manuela Ziesche nun selbst Mitglied im StuRa war. Des Weiteren kamen wir durch unsere Auftraggeberin in Kontakt mit Axel Schiller, dem zukünftigen Admin der gesamten Anwendung. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners einzunehmen, was die Kommunikation verbesserte. Die Aufgaben, die unser System übernehmen soll, werden zur Zeit mit Hilfe von Exellisten ausgeübt, welche manuell von Axel bearbeitet werden. Aus dieser Position heraus konnte er uns wertvolle Umsetzungsvorschläge und sehr gutes feedback zu unseren entwickelten Wireframes geben, die wir ihm und Sophia präsentiert haben.
+
+=== Iteration 05: Prototypen 
+
+
+=== Iteration 06: Implementation
+
+
+=== Iteration 07: Tests
+
+
+== Transition Phase
+=== Iteration 08: Dokumentation
