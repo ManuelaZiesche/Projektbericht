@@ -53,3 +53,12 @@ Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitun
 
 == Transition Phase
 === Iteration 08: Dokumentation
+
+Zuversichtlich starteten wir in die letzte Iteration des Projektes. Die Implementation der Use Cases, die wir uns vorgenommen hatten, war soweit abgeschlossen und konnte nun weiter getestet werden.
+Des Weiteren bestand unsere Aufgabe hauptsächlich daraus die verschiedenen Dokumentationen, die wir in der vergangenen Iteration begonnen haben, zu beenden. Der Fachaustausch zum Thema Dokumentation hat uns diesbezüglich noch einige Hinweise geben können, die wir direkt umsetzten konnten.
+
+Die erstellte Anwendungsdokumentation konnte nach Abschluss der Implementation des Use Cases 4, welcher sich mit der Kontaktaufnahme von Mitgliedern per E-Mail befasst, angepasst und beendet werden. Letztendlich gliedert sie sich in zwei größere Abschnitte, die sich zum einen mit den Funktionen beschäftigen, die vom normalen Nutzer verwendet werden können und zum anderen nur vom Admin mit seinen uneingeschränkten Rechten.
+
+Die Entwicklungsdokumentation setzt sich aus der Entwurfsdokumentation und der Codedokumentation zusammen. Letztere wurde mit Sphinx automatisch generiert und wird im HTML-Format beigelegt werden.
+
+Abgesehen von den Dokumentationen stand uns auch noch die Übergabe des Systems an die Auftraggeber bevor. Als Vorbereitung darauf sollte das bereitgestellte Abnahmeprotokoll erstellt werden, welches unter anderem die umgesetzten Anforderungen und Use Cases festhalten soll. Daraufhin haben wir uns vor Augen geführt, wie viel wir, von den gestellten Anforderungen an das System, wir umsetzten konnten. Bemessen an der Anzahl der Use Cases hatten wir vier von sieben erfolgreich implementiert und darauf sind wir sehr stolz. Abgesehen davon unterschied sich der Umfang der jeweiligen Szenarien, doch letztendlich kann festgehalten werden, dass sich die wichtigsten, bereit zur Nutzung, im System befinden.
