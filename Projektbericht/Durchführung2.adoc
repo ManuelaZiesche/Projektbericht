@@ -35,10 +35,12 @@ Mit dieser Iteration starteten wir nicht nur in die Construction Phase, sondern 
 
 Der genutzte Discord-Server wurde um weitere Sprachkanäle erweitert, die es erlaubten themenbezogen in kleineren Gruppen zu arbeiten, was die Produktivität steigerte.
 
-Der im Modul Software Engineering I abgegebene Beleg hatte hatte mehrere Defizite, die es galt auszubessern. +
-Dazu zählte unter anderem der Zustand des Architecture Notebook und die Ausformulierung der Use Cases. Beide Probleme wurden innerhalb dieser Iteration bearbeitet werden.
+In den ersten Wochen nach Semesterbeginn fand eine Konsultation zu dem abgegebenen beleg aus Software Engineering I statt. Diese lies uns mehrere Defizite in unserer Arbeit erkennen, die wir in den kommenden Wochen ausbessern wollten.
+Dazu zählte unter anderem der Zustand des Architecture Notebook und die Ausformulierungen der Use Cases. Beide Probleme wurden innerhalb dieser Iteration bearbeitet.
 
-Die Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser Iteration außerordentlich gut geklärt werden, da die Projektmanagerin Manuela Ziesche nun selbst Mitglied im StuRa war. Des Weiteren kamen wir durch unsere Auftraggeberin in Kontakt mit Axel Schiller, dem zukünftigen Admin der gesamten Anwendung. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners einzunehmen, was die Kommunikation verbesserte. Die Aufgaben, die unser System übernehmen soll, werden zur Zeit mit Hilfe von Exellisten ausgeübt, welche manuell von Axel bearbeitet werden. Aus dieser Position heraus konnte er uns wertvolle Umsetzungsvorschläge und sehr gutes feedback zu unseren entwickelten Wireframes geben, die wir ihm und Sophia präsentiert haben.
+Allgemeine Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser Iteration außerordentlich gut geklärt werden, da die Projektmanagerin Manuela Ziesche nun selbst Mitglied im StuRa war. Des Weiteren kamen wir durch unsere Auftraggeberin in Kontakt mit Axel Schiller, dem zukünftigen Admin der gesamten Anwendung. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners einzunehmen, was die Klärung von Fragen enorm verbesserte. Die Aufgaben, die unser System übernehmen soll, werden zur Zeit mit Hilfe von Exellisten ausgeübt, welche manuell von Axel bearbeitet werden. Aus dieser Position heraus konnte er uns wertvolle Umsetzungsvorschläge und sehr gutes Feedback zu unseren entwickelten Wireframes geben, die wir ihm und Sophia präsentiert haben.
+
+Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitung des Beleges aus dem Wintersemester 20/21 um das weitere Arbeiten zu erleichtern.
 
 === Iteration 05: Prototypen 
 
