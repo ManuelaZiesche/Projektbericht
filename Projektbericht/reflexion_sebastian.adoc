@@ -1,0 +1,35 @@
+= Sebastian Matthäus
+
+Zuallererst muss ich zugeben, dass ich vor der 1. SE-Vorlesung keine wirkliche Vorstellung davon hatte, was mich bzgl. Software Engineering in den 2 Semestern erwarten würde. Ich hatte nur das Bild im Kopf, das mehrere Personen vor einem Whiteboard, in einem Büro sitzen, den schwarzen Stift schwingen und wöchentliche Meetings abhalten.
+
+In den ersten Wochen habe ich durch Vorlesungen, Praktika und Projekt-Meetings erkannt, worauf (vor allem agile) Entwicklungsmethoden aus sind und wie sie uns in vielerlei Hinsicht bei Aufgaben unter die Arme greifen können.
+Mit dem Start in das Projekt tat ich mich ein wenig schwer. Mir fiel es aus verschiedensten Gründen relativ schwer, mich in das Projekt hineinzudenken (vor allem in die Dokumentation unserer Vorgänger) und das mit bereits Gelerntem zu verknüpfen. Auch hatte ich bis dato noch nie etwas mit Webentwicklung zu tun. Und das bereitete mir etwas Bauchschmerzen, da ich wusste, dass meine Teammitglieder auch nur wenig bis gar keine Erfahrungen hatten und ich mich fragte, wie das wohl werden würde. Dieses Gefühl zog sich leider über mehrere Tage, wenn nicht gar Wochen hin und wurde auch einfach nicht besser. Es fühlte sich manchmal regelrecht zäh an.
+
+Die interessanten Vorlesungen und die Aufgaben in den Praktika waren dagegen eine reine Wohltat und haben maßgeblich dazu beigetragen, dass sich dies zum Positiven ändern sollte.
+Mit der Zeit wurde das Arbeiten am Projekt immer besser und machte somit auch mehr Spaß, trotz immer wieder neu auftretender Fragen oder Probleme. Diese konnten jedoch in den wöchentlichen Teammeetings (manchmal sogar 2 an der Zahl) mit den Köpfen aller geklärt werden.
+Bis zum Schluss des 2. Projektsemesters spürte ich eine zunehmende Häufung von Erkenntnissen und den Wunsch, gerne mehr in diesem Projekt arbeiten zu wollen.
+
+Auf der anderen Seite hätte ich mir gewünscht, vor dem Projekt noch mehr über Software Engineering gewusst zu haben, da mir leider vieles im Projekt erst relativ spät klar wurde. Auch muss ich sagen, dass der Entwicklungsprozess in meinen Augen hätte eher starten können, da sich gegen Ende ein gewisser Druck aufgebaut hat. Dieser Druck (und bestimmt auch das zunehmende Wissen) wiederum ließ uns im Team alle ziemlich produktiv werden, was mich sehr gefreut hat.
+Jetzt, wo dieses Projekt für mich und mein Team abgeschlossen ist, freue ich mich darauf, erlernte Fähigkeiten und Wissen an einem neuen Projekt in die Tat umsetzen zu können und dort abermals neue Sachen zu erlernen. Ich könnte mir vorstellen, dass mir der Einstieg in ein neues Projekt sogar leichter fallen könnte.
+
+Ich bin auf jeden Fall wahnsinnig dankbar, dass ich diese Erfahrung im Studium haben durfte. Noch dazu an einem realen Projekt, welches auch Anwendung findet.
+Ich durfte dadurch einige tolle neue Bekanntschaften machen und auch die Lehrkräfte aus einer ganz anderen und für mich neuen Perspektive kennenlernen.
+
+Gelernt habe ich vor allem, wie man arbeitsteilig Software entwickelt, welche Gefahren und Fehler man unter anderem dabei machen kann und wie sich der Workflow mit zunehmenden Erkenntnissen verbessert! Gerade zum Beginn des Projektes staunte ich über den geforderten Detailgrad der anzufertigenden Dokumente. Heute kann ich das besser nachvollziehen. Gerade auch, weil mir der Einstieg in das bestehende Projekt wie gesagt mit der vorliegenden Dokumentation schwerfiel. Man kann noch nicht wirklich sagen, ob und wie das Projekt ggf. noch weiterentwickelt wird. Gerade eine gute Dokumentation wird unseren Nachfolgern aber hoffentlich gute Dienste leisten. Heute weiß ich, dass auch die Dokumentation sehr wichtig ist, was mir vor dem Projekt nicht so bewusst war.
+
+Verbesserungspotential sehe ich hingegen für mich selbst beim setzen der Ziele und dem Fokus auf deren erfolgreiche Umsetzung. Es ist nicht immer gut, viele Dinge nebenbei zu machen und sich nicht vollkommen auf das Projekt konzentrieren zu können. Man sollte sich bewusst dafür Zeit nehmen, um es so erfolgreicher werden zu lassen. Denn eine korrekte Zeiteinteilung ist mit zu vielen Sachen nebenbei (sei es andere Fächer im Studium oder im Privaten) nicht immer optimal möglich.
+
+Zum Schluss möchte ich ein paar lobende Worte an mein Team, der sehr guten Struktur des SE-Kurses und der dazugehörigen Praktika richten. Die Möglichkeit des Austauschs in den BBB-Räumen finde ich sehr gut und sollte ggf. auch ohne Coronasemester beibehalten werden (Zumindest finde ich die kurze und knappe Möglichkeit zum Fragen sehr wichtig und gut!).
+Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frondend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
+
+Ich finde auch den unterschied interessant, wie es wohl gewesen wäre, dieses Projekt ohne der herrschenden Coronapandemie zu bewältigen. Schade finde ich, dass ich durch Corona noch nie einen der Teammitglieder, die mich nun seit fast einem Jahr begleiten, wirklich in Persona sehen konnte.
+
+Zu guter Letzt würde ich behaupten, dass dieses Projekt sehr erfolgreich war und seinen Zweck mehr als erfüllt hat und dies hoffentlich in Zukunft genauso tut. Sei es in der Weiterentwicklung oder im reinen Einsatz.
+Ich bin stolz darauf, wieder den nächsten Schritt in Richtung Wissenserweiterung gemacht zu haben und Studium, Arbeit und Privates irgendwie vereinen konnte.
+
+
+Vielen lieben Dank dafür!
+
+
+
+
