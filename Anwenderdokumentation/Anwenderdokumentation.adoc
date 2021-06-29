@@ -5,7 +5,7 @@
 === Zweck
 
 Die bestehende Anwendung ist in der Lage Mitglieder des Studentenrates (Stura) der HTW Dresden zu verwalten. Dies beinhaltet das Erstellen eines neuen Mitgliederdatensatzes in der Datenbank, das Bearbeiten und Löschen über eine leicht bedienbare Weboberfläche, die von der Software bereitgestellt wird. +
-Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exeltabellen, welche vorher vom Admin für die Verwaltung genutzt worden sind und reduziert den allgemeinen Zeitaufwand zum Einpflegen neuer Mitgliederdaten.
+Jene ersetzt die unübersichtliche Arbeit mit verschiedenen Exceltabellen, welche vorher vom Admin für die Verwaltung genutzt worden sind und reduziert den allgemeinen Zeitaufwand zum Einpflegen neuer Mitgliederdaten.
 
 === Funktionsumfang
 
@@ -14,7 +14,7 @@ Neben der Aufnahme von Mitgliedern in die Datenbank ist die bearbeitete Anwendun
 Als Student der HTW Dresden hat man das Recht,  sich auf eine Funktion im Stura zu bewerben und sich damit als Kandidat für dieses Amt zur Wahl aufstellen zu lassen. +
 Um nicht den Überblick über all diese Kandidaturen zu verlieren, war es dem Stura ein Anliegen jene ebenfalls übersichtlicher verwalten zu können, welches durch die aktuelle Software getan werden kann. 
 
-== Aufbau der Benutzeroberfläche am Beispiel des Kandidaturen Tabs
+== Aufbau der Benutzeroberfläche am Beispiel des Tabs "Kandidaturen"
 
 Grundsätzlich wird zwischen zwei Gruppen unterschieden, die in der Datenbank erfasst werden: Kandidaten und Mitgliedern. Für jede Gruppe steht ein eigener Reiter [*A*] zur Verfügung, der bei Bedarf ausgewählt werden kann. +
 Unter dem jeweiligen Tab befindet sich eine Übersicht [*B*], die die eingetragenen Personen auflistet. Über ein Suchfeld [*C*] können gezielt Mitglieder oder Kandidaturen über ihren Namen rausgesucht und mit Hilfe der Checkbox [*H*] gegebenenfalls ausgewählt werden. +
@@ -60,7 +60,7 @@ image::AD-images/fehlende-informationen.PNG[Eingabedaten fehlen]
 
 ==== Kandidatur bearbeiten
 
-Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend betätigt man das *Bearbeitungs-Icon* am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
+Um eine bereits bestehende Kandidatur zu bearbeiten, muss diese, entweder mit Hilfe des Suchfeldes oder händisch, aus der Übersicht rausgesucht werden, welche alle Kandidaten listet. Anschließend klickt man auf das *Bearbeitungs-Icon* am Ende der Zeile, in der ein Teil der Daten des Kandidaten angezeigt werden. +
 
 image::AD-images/k-bearbeiten.PNG[Kandidatur bearbeiten]
 
@@ -76,7 +76,7 @@ image::AD-images/k-loeschen.PNG[Kandidatur löschen]
 
 * der Tab "Kandidaturen" muss ausgewählt worden sein
 
-Um ein Kandidat als Mitglied aufzunehmen, nachdem dieser bei einer Wahl erfolgreich gewählt worden ist, muss dieser zuerst aus der Kandidaturen-Übersicht rausgesucht werden. Anschließend kann der "*AUFNAHME*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
+Um eine Kandidatur als Mitglied aufzunehmen, nachdem diese bei einer Wahl erfolgreich gewählt worden ist, muss sie zuerst aus der Kandidaturen-Übersicht rausgesucht werden. Anschließend kann der "*AUFNEHMEN*"-Button betätigt werden, woraufhin sich ein Dialogfenster öffnet. Um den Kandidaten wirklich als Mitglied aufzunehmen, muss "*JA*" ausgewählt werden, sonst "*NEIN*". +
 
 image::AD-images/k-aufnehmen.PNG[Kandidatur aufnehmen]
 image::AD-images/k-aufnehmen-dialog.PNG[Dialogfenster]
@@ -96,7 +96,7 @@ image::AD-images/m-ausrufezeichen.PNG[Kennzeichnung neues Mitglied]
 
 Zur Bearbeitung muss der Admin das *Bearbeitungs-Icon* am Ende der Zeile anklicken, woraufhin sich die Eingabemaske öffnet, in der man Informationen ändern oder ergänzen kann. +
 
-Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Hacken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
+Teil der Maske ist auch eine Checkliste mit Anforderungen an das Mitglied, die vom Admin bearbeitet werden kann. Nachweislich erbrachte Leistungen können mit einem gesetzten Haken in der dafür vorgegebenen Checkbox kenntlich gemacht werden. 
 
 image::AD-images/m-checkliste.PNG[Checkliste]
 
