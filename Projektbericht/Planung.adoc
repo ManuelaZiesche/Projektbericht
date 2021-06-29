@@ -46,7 +46,7 @@ Die jeweiligen Rollen der Mitglieder ergaben sich nach dem ersten gemeinsamen Me
 
 Zu Beginn des vierten Semesters starteten wir geplant mit zwei Mitgliedern weniger, da die Wirtschaftsingenieure in der Regel nur den ersten Teil des Projektes begleiteten. Infolgedessen und der Tatsache, dass weitere zu besetztende Rollen hinzukamen, fand eine Umverteilung dieser statt. Zusätzlich wurden Backup-Rollen vergeben, um einen möglichen Ausfall abzusichern.
 
-//[cols="2, 6"]
+[cols="2,4,3"]
 |===
 | Rolle                 | Mitglied(er)                          | Helfer/Backup
 
