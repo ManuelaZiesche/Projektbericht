@@ -52,7 +52,8 @@ Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitun
 
 
 == Transition Phase
-=== Iteration 08: Dokumentation
+
+=== Iteration 08: Dokumentation (SAd)
 
 Zuversichtlich starteten wir in die letzte Iteration des Projektes. Die Implementation der Use Cases, die wir uns vorgenommen hatten, war soweit abgeschlossen und konnte nun weiter getestet werden.
 Des Weiteren bestand unsere Aufgabe hauptsächlich daraus die verschiedenen Dokumentationen, die wir in der vergangenen Iteration begonnen haben, zu beenden. Der Fachaustausch zum Thema Dokumentation hat uns diesbezüglich noch einige Hinweise geben können, die wir direkt umsetzten konnten.
@@ -65,7 +66,7 @@ Abgesehen von den Dokumentationen stand uns auch noch die Übergabe des Systems 
 
 == Probleme und Lösungen
 
-=== Kommunikation mit der Auftraggeberin
+=== Kommunikation mit der Auftraggeberin (SAd/MZi)
 
 Gerade während Software Engineering I war die Kommunikation mit einem der Stakeholder ein wiederkehrendes Problem. Zu Beginn des Projektes war Sophia von Asow unsere einzige Ansprechpartnerin, auf die wir stark angewiesen waren. Die Kommunikation an sich fand hauptsächlich per E-Mail statt, doch diese wurden meist deutlich später beantwortet, wodurch sich ein gewisser Zeitverzug ergab (gerade in der Analysephase, in der unsere Analysten viele Fragen hatten).
 
