@@ -1,4 +1,4 @@
-= Abnahmeprotokoll. Weiterentwicklung der Mitgliederdatenbank
+= Abnahmeprotokoll: Weiterentwicklung der Mitgliederdatenbank
 :icons: font
 :lang: de
 //:sectnums: short
