@@ -74,3 +74,10 @@ Doch dieses Problem löste sich, als uns Sophia mit Axel Schiller in Kontakt bra
 
 Des Weiterem ist Manuela Ziesche seit März 2021 selbst Mitglied im StuRa, wodurch sich einige Fragen, beispielsweise zu internen Prozessen, selbst geklärt haben.
 
+=== Virtuelle Organisation (SAd)
+Aufgrund der Corona Pandemie standen persönliche Treffen miteinander im Team außer Frage. Zwar konnte man im vergangenen Semester schon Erfahrungen im Home-Office sammeln, allerdings zumeist nur in Einzelarbeit. Bei diesem Projekt ging es jedoch unter anderem um Teamarbeit, was die Einzelarbeit auf Dauer ausschloss. Als Ersatz für ein reales Treffen nutzten wir Discord um unsere Angelegenheiten in diversen Audiokonferenzen zu besprechen. Für diese war es gerade am Anfang schwer einen gemeinsamen Termin zu finden, da noch kein eingetragener Slot im Stundenplan existierte.
+
+Für die gemeinsame Terminfindung wurde eine WhatsApp-Gruppe verwendet und vereinbarte Termine wurden auf Tello hinterlegt. Neben den Informationen zu unserem nächsten Meeting wurden auch Aufgaben und deren Status auf dem virtuellen Bord hinterlegt, was das Arbeiten übersichtlicher gestaltete und erleichterte.
+
+In Summe ergab sich daraus ein belastbares System der 
+Kommunikation, das eine solide Basis für das Projekt bildete. Voraussetzung dafür war nur eine stabile Internetverbindung, die glücklicherweise jeder hatte.
