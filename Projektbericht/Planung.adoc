@@ -78,6 +78,9 @@ Ab dem vierten Semester hatten wir das Glück durch Sophia mit dem zukünftigen 
 
 Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte  Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, dass eigens für uns angelegte Board zu verwalten.
 
+.Ausschnitt Trello Iteration 7
+image::trello.PNG[Ausschnitt Trello]
+
 ==== Kommunikation
 
 *Discord/ Microsoft Teams* +
@@ -99,7 +102,7 @@ Die Kommunikation mit der Auftraggeberin fand hauptsächlich über E-Mail statt.
 
 | git/ Github           | Verwaltung der Dateien
 | Asciidoc              | Verfassung schriftlicher Dokumentationen
-| Sphinx                | automatische generierung der codedokumentation
+| Sphinx                | automatische Generierung der Codedokumentation
 | Paint.net/ Photoshop  | Bearbeitung von Bilder
 | Diagrams.net          |Erstellung von Diagrammen
 |===
