@@ -42,13 +42,36 @@ Allgemeine Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser It
 
 Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitung des Beleges aus dem Wintersemester 20/21 um das weitere Arbeiten zu erleichtern.
 
-=== Iteration 05: Prototypen 
+=== Iteration 05: Prototypen (MZi)
+
+In die fünfte Iteration starteten wir noch mit einigen Aufgaben des Beleges aus dem Wintersemester. In der vierten Iteration wurden nicht alle beendet, welche wir uns nun vornehmen wollten. Außerdem hat uns das Meeting mit unserem Coach Felix Müller am Anfang der Iteration sehr viel  postivien Input gebracht, wodurch wir aber dann die Requirements und vorallem noch  die Architektur noch einmal überarbeiten mussten. Wir wollten uns aber schon Ziele setzen, die uns in diesem Projekt effektiv weiter voran bringen würden. Deswegen  haben wir uns dazu entschieden erst einmal an den Test Cases weiter zu arbeiten, was uns als sehr wichtig erschien. Unser Entwickler Vasco Schwarze wollte nun auch mit der Implementierung des Prototypen des ersten Use Cases anfangen, damit wir uns auch schon erstes Feedback von den Stakeholdern einholen konnten. 
+
+Das Gespräch mit Axel Schiller und Sophia von Asow zur Präsentation des derzeitigen Standes lief super. Wir haben noch einige Verbesserungsvorschläge bekommen, welche wir direkt mit aufgenommen haben, da diese keinen großen Aufwand nach sich zogen.
+Im Laufe des Gespräches haben wir auch erfahren, dass beide sehr glücklich sind bei dem Projekt dabei zu sein und Ihnen unsere bisher geleistete Arbeit gefällt.
+
+Die gesetzten Ziele haben wir alle erreicht. Dazu muss man aber sagen, dass wir diese Iteration nicht ganz so stark mit Aufgaben gefüllt haben, da wir uns hauptsächlich erneut auf die Nachbereitung des Beleges konzentriert haben. Die einzige Aufgabe, die wir noch mit in die nächste Iteration nehmen wollten, war es, die Diagramme des C4 Modells in das Architecture Notebook einzupflegen, da dieses sonst soweit fertig war.
+
+=== Iteration 06: Implementation (MZi)
+
+Mit der sechsten Iteration kamen nun auch endlich die ganzen Aufgaben, die wir zur effektiven Weiterbearbeitung des Projektes erledigen wollten. Das Ziel in dieser Zeit war es, die Use Cases 1 und 2 zu implementieren. Außerdem wollten wir anfangen uns mit den Dokumentationen zu beschäftigen, damit wir am Ende der 8. Iteration dann nicht zu viel Stress haben und entspannt alles beenden und abgeben können. 
+
+Wir hatten uns bei der Nachbearbeitung des Beleges schon eine Prioritätsliste angelegt, welche Use Cases wir zuerst entwickeln sollten. Danach lief auch die Abarbeitung dieser. Da wir die Use Cases schon am Anfang des Projektes nummeriert haben und Use Case 1 auch die höchste Priorität hatte, fingen wir mit diesem an und wollten uns nach hinten durcharbeiten. Wir wussten aber schon zu diesem Zeitpunkt, dass wir es nicht schaffen werden, alle Use Cases zu implementieren.
+
+In dieser Iteration hatten wir ein Meeting mit unserem Coach Felix Müller. Hier ging es vorrangig um die Frage, wie wir unsere Use Cases testen wollen. Er hat uns empfohlen, dass wir einfach alleine testen sollen und unsere Stakeholder dann noch Akzeptanztests durchführen sollen, welche wir vorher vorbereiten müssen. Deswegen hat Sabine einen groben Ablauf erstellt, welche Funktionen zuerst getestet werden sollen. Doch durch krankheitsbedingte Abwesenheit von Axel Schiller, dem späteren Admin des Systems, mussten wir diese Akzeptanztests in die nächste Iteration verschieben.
+
+Die Implementierung ging sehr gut voran. Unser Entwickler beendete den Kandidatentab in dieser Iteration, welcher den Use Case 1 widerspiegelte. Außerdem fing er an den Use Case 2 zu implementieren, wodurch man mit dem System einen Kandidaten per Knopfdruck als Mitglied aufnehmen konnte.
+
+Am Ende der Iteration 6 traf sich das Team noch einmal, um die Test Cases der ersten zwei Use Cases durchzutesten, damit wir erfolgreich weiter implementieren konnten und notfalls noch Änderungen möglich waren. 
 
 
-=== Iteration 06: Implementation
 
+=== Iteration 07: Tests (MZi)
 
-=== Iteration 07: Tests
+Die vorletzte Iteration des Projektes wurde von der Implementierung der restlich geplanten Use Cases geprägt. Diese wollten wir soweit abschließen, damit wir uns in der nächsten Iteration auf andere Dinge konzentrieren konnten. Außerdem  haben wir uns vorgenommen, dass wir die Dokumentationen annähernd fertigstellen möchten. Doch die Hauptaufgabe dieser Iteration war es, die Akzeptanztests mit unseren Stakeholdern durchzuführen, damit wir die Entwicklungsphase des Projektes erfolgreich abschließen und uns der Dokumentation und der Präsentation des Systems widmen können. 
+
+Durch einen erneuten krankheitsbedingten Ausfall von Axel Schiller, wurden die Akzeptanztests wieder um eine Woche nach hinten verschoben.  Die Akzeptanztests fanden dann in einem virtuellen Meeting mit den Stakeholdern statt. Wir hatten uns vorher überlegt, was in diesem Meeting getestet werden soll und dann durften die Stakeholder Axel Schiller und Sophia von Asow das System ausprobieren. Bei diesen Tests sind denen noch kleine Dinge aufgefallen, die wir verändern könnten. Diese hat unser Entwickler Vasco Schwarze direkt noch umgesetzt. Zusammenfassend waren die Tests sehr erfolgreich und für die Stakeholder zufriedenstellend. 
+
+Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Systems fertig. Jetzt ging es nur noch darum, dass wir die Dokumentationen, den Projektbericht und die Reflexionen schreiben. Dazu haben wir diese untereinander ziemlich gut aufgeteilt.
 
 
 == Transition Phase
@@ -81,3 +104,5 @@ Für die gemeinsame Terminfindung wurde eine WhatsApp-Gruppe verwendet und verei
 
 In Summe ergab sich daraus ein belastbares System der 
 Kommunikation, das eine solide Basis für das Projekt bildete. Voraussetzung dafür war nur eine stabile Internetverbindung, die glücklicherweise jeder hatte.
+
+
