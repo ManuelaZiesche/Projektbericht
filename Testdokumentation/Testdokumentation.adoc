@@ -1,26 +1,42 @@
 
 = Testdokumentation
 
+Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organisation  sowie
+dabei aufgetretene Probleme.
+
 Die folgenden Testverfahren sollen die Softwarequalität der zu entwickelnden Webanwendung überprüfen und sicherstellen.
 Außerdem sollen die festglegten Anforderungen auf Erfüllung überprüft werden.
 
 == Testkonzept:
 
-Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework).
+Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework). Es galt, nicht zu viel und nicht zu wenig zu testen. Ich denke, wir haben einen sehr guten Mittelweg diesbzgl. gefunden.
 
 *Folgende Testmethoden/-verfahren wurden eingesetzt:*
 
-* *Unittests* (manuell) auf Grund der Übersichtlichkeit anlehnend an Use Cases
-- Kleinste prüfbare Funktionen unserer Webanwendung wurden einzeln & unabhängig getestet.
-- Testcases wurden zu passenden UseCases ausgearbeitet und tabellarisch festgehalten
+* *Unittests* (manuell)
+- Kleinste prüfbare Funktionen unserer Webanwendung wurden einzeln & unabhängig auf ihren ordnungsgemäßen Betrieb getestet.
+- Testcases wurden zu passenden zu unseren UseCases ausgearbeitet und tabellarisch festgehalten und wurden manuell durchgeführt.
+
 
 * *Integrationstests* (manuell)
-Bsp: .. Speichern, bearbeiten, anlegen, Historie → Funktionalität wurde getestet!
-* *Akzeptanztest* 
+- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft
+Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
+Bsp: .. Kandidat zu Mitglied machen → Funktionalität wurde getestet!
+
+Das Ziel war, Fehlerzustände in Schnittstellen zu finden und das Zusammenspiel zwischen integrierten Komponenten zu untersuchen. Es sollte untersucht werden, wie gut diese zusammen funktionieren.
+
+
+
+* *Abnahmetest* 
 - Durch den Abnahmetest direkt durch die Themensteller, wurde das gesamte Projekt auf Erfüllung der Ziele sowie die Zufriedenheit der Umsetzung geprüft.
+Siehe Abnahmedokumentation des Abnahmeprotokolls
+
+Bei der Abwägung bzgl. automatisierter oder manueller Tests fiel die Entscheidung auf manuelle Tests, um die Fertigstellung des Projektes gegen Ende des Semesters (bei möglichen Hürden automatisierter Tests) nicht zu gefährden. Der Hauptfokus lag vor allem darauf, die Robustheit des Systems zu testen.
+
+Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests (bspw. mit Selenium) in Kombination mit Regressionstests sicherlich sehr viel besser gewesen.
 
 
-Ausführliches Testkonzept: Siehe Vorgehensweise zum Testverfahren
+
 
 == Testdokumentation
 
@@ -30,21 +46,48 @@ Die Testfälle wurden verbal beschrieben und in einem Testprotokoll festgehalten
 
 War ein Test erfolgreich so wurde als Testergebnis _“bestanden“_ in die Tabelle aufgenommen. Das Testergebnis _„nicht bestanden“_ wurde eingetragen, wenn der Test nicht erfolgreich verlief.
 
-Fehler wurden als sofortige Mitteilung an die Entwickler mitgeteilt.
-Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft.
+Fehler wurden als sofortige Mitteilung an den Entwickler mitgeteilt.
+Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft. Schwerwiegende Tests konnten wir glücklicherweise nicht verzeichnen, weshalb die Einteilung in leichte und schwere Fehler entfallen ist und die Arbeit so nie ins Stocken kam. Schwere Fehler hätten ggf. dazu geführt, dass aktuellen Arbeiten pausiert und der Fehler gefunden und behoben werden musste.
 
 Zu jedem Test wurde ein genaues Testdatum festgehalten.
 Personen, welche getestet haben: Sebastian (Rolle des Testers) in Absprache mit Vasco (Rolle des Entwicklers).
 
 == Ergebnisse der Testdurchführung:
 
-Die Testergebnisse waren bis auf sehr wenige Tests erfolgreich.
+Die 29 Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreich und verliefen ohne Fehler.
+
+//Am Ende des Projektes verliefen alle Tests positiv.
+
+
 
 *Beispiele für Negative Testergebnisse:*
 
 - Negative Testergebnisse gab es beim Datepicker (falschen Wochentag zu einem Datum auf Grund falsch gesetzter Ortszeit)
 
-- Namen konnten mit Zahlen kombiniert werden.
+- Namen konnten mit Zahlen kombiniert werden. Bsp: Stefan1
+
+Im Nachhinein waren wir über die Entscheidung der manuellen Tests sehr froh, da sich auf Grund von Umstrukturierungen im Team (von ehemals zwei Testern zu einem) die Zeit gegen Ende des Projektsemesters sehr knapp wurde und wie gesagt die Robustheit im Vordergrund stand.
+
+
+Nachfolgend sind alle Tests mit der Testdokumentation aufgelistet:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,14 +96,6 @@ Die Testergebnisse waren bis auf sehr wenige Tests erfolgreich.
 ////
 Ab hier test_case_Kandidaten_Verwalten.adoc
 ////
-
-
-
-
-
-
-
-
 
 = Test Cases zu Use Case 01 - Kandidaten verwalten
 
@@ -75,7 +110,7 @@ Ab hier test_case_Kandidaten_Verwalten.adoc
 |===
 |Test-Datensätze{set:cellbgcolor:FF0000}
 |Unittests{set:cellbgcolor:#f4f4e9}
-|Integrationstest{set:cellbgcolor:#eaf1f5}
+|Integrationstests{set:cellbgcolor:#eaf1f5}
 |Testdokumentation{set:cellbgcolor:#e6f2d5}
 |===
 
@@ -354,11 +389,6 @@ Speicherbutton betätigen
 
 
 
-
-
-
-
-
 .*Testdokumentation zu Use Case 01 - Kandidaten verwalten*
 [%header, cols="1,2,3,4,5,6", ]
 |===
@@ -490,6 +520,21 @@ Analyse:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+////
+Noch TestCases zu Use Case 01
+////
 
 
 
@@ -660,6 +705,17 @@ Analyse:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ////
 test_case_Mitglieder_aufnehmen.adoc
 ////
@@ -667,7 +723,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 = Test Cases zu Use-Case 02 - Mitglieder aufnehmen
 
-*Beschreibung:* Der Admin möchte bereits vorhandenen Kandidaten zu einem Mitglied machen
+*Ziel:* Der Admin möchte bereits vorhandenen Kandidaten zu einem Mitglied machen
 
 *Vorbedingungen:*
 
@@ -806,7 +862,9 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 = Test Cases zu Use Case 03 - Mitglieder informationen einpflegen
 
-== Allgemeine Informationen
+*Allgemeine Informationen*
+
+*Ziel:* Der Admin möchte zusätzliche Informationen einpflegen
 
 *Vorbedingungen:*
 
@@ -893,6 +951,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 .*Testdokumentation zu Use Case 03 - "Mitglieder informationen einpflegen"*
+
 [%header, cols="1,2,3,4,5,6", ]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
