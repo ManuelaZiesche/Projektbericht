@@ -5,7 +5,7 @@ Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organ
 dabei aufgetretene Probleme.
 
 Die folgenden Testverfahren sollen die Softwarequalität der zu entwickelnden Webanwendung überprüfen und sicherstellen.
-Außerdem sollen die festglegten Anforderungen auf Erfüllung überprüft werden.
+Außerdem sollen die festgelegten Anforderungen auf Erfüllung überprüft werden.
 
 == Testkonzept:
 
@@ -317,7 +317,7 @@ Speicherbutton betätigen
 |Wie oben beschrieben + Eingabemaske ist bereits geöffnet + Datensatz 1 wurde bereits eingegeben
 |E-Mail-Feld
 |Mauseingabe
-|neue zusätztliche E-Mail hinzufügen (2. E-Mail-Feld bleibt leer!)
+|neue zusätzliche E-Mail hinzufügen (2. E-Mail-Feld bleibt leer!)
 |2. E-Mail-Feld wird rot markiert
 
 
@@ -373,7 +373,7 @@ Speicherbutton betätigen
 |Wie oben beschrieben + Eingabemaske ist bereits geöffnet
 |Funktion´s-Feld
 |Vorgegebene Funktionen der Funktions-Pflichtfelder
-|Testdatensatz 1 eingeben + neue zusätztliche Funktion hinzufügen (Felder bleiben leer!)
+|Testdatensatz 1 eingeben + neue zusätzliche Funktion hinzufügen (Felder bleiben leer!)
 |Organisationseinheitsfeld der 2. Funktion wird rot markiert
 
 
@@ -781,7 +781,7 @@ test_case_Mitglieder_aufnehmen.adoc
 |Wie  oben beschrieben
 |AUFNAHME-Button (links vom Stift)
 |Mausklick
-|*Plus*-Button des Kandidats, welche als Mitglied übernommen werden soll (Datensatz 1), wird geklickt
+|*Plus*-Button der Kandidatur, welche als Mitglied übernommen werden soll (Datensatz 1), wird geklickt
 |Popup mit "*JA*/*NEIN*-Bestätigungsdialog" ploppt auf
 
 
