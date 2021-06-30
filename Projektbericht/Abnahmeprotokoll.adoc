@@ -11,7 +11,7 @@
 == Projektangaben
 Thema: *I4 - Weiterentwicklung der Mitgliederdatenbank*
 
-Zeitraum: 30.112020 - 04.07.2021
+Zeitraum: 30.11.2020 - 04.07.2021
 
 GitHub Repository:
 
@@ -22,7 +22,7 @@ Datum: 02.07.2021
 
 Zeit: 11 Uhr
 
-Abnahmeumgebung:
+Abnahmeumgebung: Entwicklungsumgebung (Team führt vor)
 
 === Lieferumfang
 
