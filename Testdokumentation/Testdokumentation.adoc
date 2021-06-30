@@ -349,8 +349,6 @@ Speicherbutton betätigen
 |Testdatensatz 1
 |Testdatensatz 1 eingeben + Speichern drucken
 |Button "2"  erscheint unter der Kandidatenliste, der auf 2. Kandidatenseite verlinkt
-
-
 |===
 
 
@@ -359,11 +357,6 @@ Speicherbutton betätigen
 
 
 
-
-
-
-
-*Wann sollte getestet werden?:* Am Ende einer jeden Iteration oder nach Implement. neuer Features
 
 
 .*Testdokumentation zu Use Case 01 - Kandidaten verwalten*
@@ -494,6 +487,12 @@ Analyse:
 |ja
 |-
 |===
+
+
+
+
+
+
 
 
 == Weitere Informationen bearbeiten/löschen
@@ -679,7 +678,7 @@ test_case_Mitglieder_aufnehmen.adoc
 .*Testdaten*
 [%header, cols="1,2,3,4,5", ]
 |===
-|Nr.
+|Nr.{set:cellbgcolor:FF0000}
 |Name
 |Vorname
 |Spitzname
@@ -786,152 +785,6 @@ test_case_Mitglieder_aufnehmen.adoc
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////
-test_case_Mitglieder_kontaktieren.adoc
-////
-
-
-= Test Cases zu Use-Case 04: Mitglieder per E-Mail kontaktieren
-
-== Allgemeine Informationen
-
-*Vorbedingungen:*
-
-- Mitglied (Datensatz 1),  befindet sich (mit E-Mail!) bereits in der Datenbank
-- Das Mitgliedertab ist geöffnet und die Liste der Mitglieder ist sichtbar
-
-
-.*Testdaten*
-[%header, cols="1,2,3,4,5", ]
-|===
-|Nr.
-|Name
-|Vorname
-|Spitzname
-|Wahldatum
-
-|2
-|Papyrus
-|Pater
-|Pater Pan
-|01.09.2021
-
-|1
-|Gleidus
-|Matt
-|Matti
-|01.09.2021
-
-|===
-
-.*Testdaten fortgesetzt*
-[%header, cols="1,2,3,4,5,6", ]
-|===
-|Nr.
-|Beschlussnummer
-|Organisationseinheit
-|Bereich
-|Funktion
-|E-Mail-Adresse
-
-|1
-|2021-07-03
-|Referat Soziales
-|Freizeit
-|Leitung
-|matti@gmail.com
-
-
-|2
-|2021-07-04
-|Referat Soziales
-|Freizeit
-|Leitung
-|[leer]
-|===
-
-
-
-
-.*Unittests*
-[%header, cols="1,2,3,4,5,6"]
-|===
-|T.-Nr.{set:cellbgcolor:#f4f4e9}
-|Vorbedingungen
-|Testobjekt
-|Eingabe(daten)
-|Handlungen zur Durchführung des Tests
-|Erwartetes Ergebnis
-
-
-|1
-|Wie  oben beschrieben
-|Funktion des Links ("Mail-to"-E-Mail-Button)
-|Mausklick
-|Klick auf E-Mail-Button das Mitglieds "Gleidus, Max" (Siehe Datensatz 1)
-|E-Mail-Client mit eingetragener E-Mail-Adresse bei Empfänger (Siehe Datensatz 1) öffnet sich
-
-
-|2
-|Mitglied (Datensatz 2),  befindet sich (ohne E-Mail!) bereits in der Datenbank
-|Korrekte Darstellung der Mitgliedsliste
-|Mausklick (Testdatensatz 2)
-|-
-|Ein E-Mail-Button in der Zeile des Mitglieds ist [.underline]#nicht# zu sehen
-|===
-
-
-.*Testdokumentation zu Use-Case 04: "Mitglieder per E-Mail kontaktieren"*
-[%header, cols="1,2,3,4,5,6", ]
-|===
-|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
-|Anzahl (Num­me­rie­rung)
-|Datum
-|Verantwortlicher +
-(Wer hat getestet?)
-|Erfolgreich?
-|Kommentar (Was ist aufgefallen?)
-
-|1
-|1
-|22.06.21
-|Sebastian
-|ja
-|-
-
-|2
-|1
-|23.06.21
-|Sebastian
-|nein (Fehler nur in der Testumgebung)
-|-
-
-
-|2
-|2
-|24.06.21
-|Sebastian
-|ja
-|-
-
-|===
 
 
 
@@ -1117,6 +970,159 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+test_case_Mitglieder_kontaktieren.adoc
+////
+
+
+= Test Cases zu Use-Case 04: Mitglieder per E-Mail kontaktieren
+
+== Allgemeine Informationen
+
+*Vorbedingungen:*
+
+- Mitglied (Datensatz 1),  befindet sich (mit E-Mail!) bereits in der Datenbank
+- Das Mitgliedertab ist geöffnet und die Liste der Mitglieder ist sichtbar
+
+
+.*Testdaten*
+[%header, cols="1,2,3,4,5", ]
+|===
+|Nr.{set:cellbgcolor:FF0000}
+|Name
+|Vorname
+|Spitzname
+|Wahldatum
+
+|2
+|Papyrus
+|Pater
+|Pater Pan
+|01.09.2021
+
+|1
+|Gleidus
+|Matt
+|Matti
+|01.09.2021
+
+|===
+
+.*Testdaten fortgesetzt*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Nr.
+|Beschlussnummer
+|Organisationseinheit
+|Bereich
+|Funktion
+|E-Mail-Adresse
+
+|1
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|matti@gmail.com
+
+
+|2
+|2021-07-04
+|Referat Soziales
+|Freizeit
+|Leitung
+|[leer]
+|===
+
+
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+
+|1
+|Wie  oben beschrieben
+|Funktion des Links ("Mail-to"-E-Mail-Button)
+|Mausklick
+|Klick auf E-Mail-Button das Mitglieds "Gleidus, Max" (Siehe Datensatz 1)
+|E-Mail-Client mit eingetragener E-Mail-Adresse bei Empfänger (Siehe Datensatz 1) öffnet sich
+
+
+|2
+|Mitglied (Datensatz 2),  befindet sich (ohne E-Mail!) bereits in der Datenbank
+|Korrekte Darstellung der Mitgliedsliste
+|Mausklick (Testdatensatz 2)
+|-
+|Ein E-Mail-Button in der Zeile des Mitglieds ist [.underline]#nicht# zu sehen
+|===
+
+
+.*Testdokumentation zu Use-Case 04: "Mitglieder per E-Mail kontaktieren"*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1
+|1
+|22.06.21
+|Sebastian
+|ja
+|-
+
+|2
+|1
+|23.06.21
+|Sebastian
+|nein (Fehler nur in der Testumgebung)
+|-
+
+
+|2
+|2
+|24.06.21
+|Sebastian
+|ja
+|-
+
+|===
 
 
 
