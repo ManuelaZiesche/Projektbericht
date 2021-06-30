@@ -1,0 +1,41 @@
+= Use-Cases
+
+== Allgemeine Informationen
+
+|===
+| *Akteur* | *Ziel*
+|Admin des Studentenrats | Einpflegen der Mitglieder und Abarbeitung der Check-Listen
+|Mitglieder StuRa  | Übersichtliche Einsehbarkeit von Informationen von anderen Mitgliedern
+
+|===
+
+== Identifizierte Use Cases
+
+[cols="1,2,1,5"]
+|===
+| *Nr* | *Bezeichnung* | *Priorität* | *Kurzbeschreibung*
+| 01 | Kandidaten verwalten | hoch | Kandidaturen sollen angelegt, bearbeitet oder entfernt werden können.
+| 02 | Mitglieder aufnehmen | hoch | Die kandidierende Person wurde gewählt, ist nun Mitglied und soll unter dieser Bezeichnung im System zu finden sein.
+| 03 | Mitgliederinformationen einpflegen | hoch | Mitgliederdaten sollen ergänzt werden können.
+| 04 | Mitglieder per E-Mail kontaktieren | mittel | Mitglieder sollen andere Mitglieder per Mail kontaktieren können.
+| 06 | Workload erfassen | gering | Das Maß der Aktivität der Mitglieder soll vom System erfasst werden können.
+| 07 | Aufwandsentschädigung berechnen| gering | Anhand seiner Aktivität soll die Berechnung der Aufwandsentschädigung für das Mitglied erfolgen.
+| 05 | Stimmzettel generieren| sehr gering | Generierung von Stimmzetteln (als druckbares Dokument) mit allen Kandidaturen, die sich zu einer Wahl aufstellen lassen.
+|===
+
+[#diagramm_use_case-model]
+[plantuml, "{diagramsdir}/diagramm_use_case-model", svg]
+
+include::use_case_model.puml[]
+
+<<<
+include::use_case_Kandidaten_verwalten.adoc[]
+
+<<<
+include::use_case_Mitglieder_aufnehmen.adoc[]
+
+<<<
+include::use_case_Einpflegung_weiterer_Informationen.adoc[]
+
+<<<
+include::use_case_Mitglieder_per_E-Mail_kontaktieren.adoc[]

@@ -1,0 +1,36 @@
+== Use-Case 03: Mitgliederinformationen einpflegen 
+===	Kurzbeschreibung
+Administrator kann weitere Informationen für neu angelegte Mitglieder einpflegen.
+
+=== Kurzbeschreibung der Akteure
+
+==== Admin
+Ist für die Aufnahme und Bearbeitung der zusätzlichen Informationen zuständig
+
+=== Vorbedingungen
+
+* Die Internetseite ist geöffnet
+* Der Admin muss angemeldet sein  
+* Die unterschriebenen Dokumente und Einwilligung bzw. der Widerspruch wurden von den neuen Mitgliedern dem Admin zugesendet. 
+
+=== Standardablauf (Basic Flow)
+
+. Der Use Case beginnt, wenn der Admin den Tab "Mitglieder" auswählt
+. Der Admin wählt ein Mitglied, dass bearbeitet werden muss aus
+. Eine Checkliste gibt Auskunft über noch offene Aufgaben, die der Admin bearbeiten muss
+.. unterschriebene Dokumente hochladen (Verpflichtung auf das Datengeheimnis, Kenntnisnahme der Ordnungen, Stammdatenblatt) 
+.. er gibt an, ob die Telefonnummer des neuen Mitgliedes im Notfall an andere Mitglieder weitergegeben werden darf
+. Zusätzlich hat er die Möglichkeit das Protokoll der jeweiligen Sitzung zu verlinken
+
+=== Alternative Abläufe
+==== Alternativer Ablauf 1
+
+. wenn der Admin eine zu große Datei hochlädt, kommt eine Fehlermeldung 
+
+===	Nachbedingungen
+. aktualisierte Informationen wurden hinterlegt
+
+=== Besondere Anforderungen
+
+* einfache Bedienbarkeit ermöglichen
+* Hochladen der Informationen muss in dazu angemessener Zeit erfolgen

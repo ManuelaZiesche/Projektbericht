@@ -1,0 +1,26 @@
+== Use-Case 02:  Mitglieder aufnehmen
+
+===	Kurzbeschreibung
+Die kandidierende Person wird als Mitglied gewählt und im System als solches übernommen. 
+
+===	Kurzbeschreibung der Akteure
+==== Admin
+Ist für die Mitgliederaufnahme und die Bearbeitung der Check-Listen zuständig
+
+=== Vorbedingungen
+
+* Die Internetseite ist geöffnet
+* Der Admin muss angemeldet sein  
+* Die kandidierende Person wurde laut den Wahlen gewählt
+* Sie hat der Übernahme als Mitglied zugestimmt und hat alle erforderlichen Dokumente unterschrieben dem Admin zukommen lassen
+* Check-Listen-Template muss für jede Organisationseinheit vorhanden sein 
+
+=== Standardablauf (Basic Flow)
+
+. Der Use Case beginnt, wenn der Admin den Tab "Kandidaturen" auswählt
+. Der Admin wählt die Möglichkeit aus, die kandidierende Person als Mitglied aufzunehmen
+. Der Datensatz der Kandidatur wird aus der Übersicht entfernt und taucht unter dem Tab "Mitglieder" auf, in der er bearbeitet werden kann
+
+===	Nachbedingungen
+
+* Die Kandidatur wurde zum Mitglied umgewandelt und kann unter dem Tab "Mitglieder" bearbeitet werden

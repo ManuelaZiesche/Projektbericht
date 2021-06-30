@@ -1,0 +1,46 @@
+== Use-Case 01: Kandidaten verwalten
+===	Kurzbeschreibung
+Das System ermöglicht es Kandidaturen anzulegen, zu bearbeiten oder zu entfernen.  
+
+===	Kurzbeschreibung der Akteure
+==== Admin
+Ist für die Verwaltung zuständig
+
+=== Vorbedingungen
+
+* Die Internetseite ist geöffnet
+* Der Admin muss angemeldet sein  
+
+=== Standardablauf (Basic Flow)
+
+. Der Use Case beginnt, wenn der Admin den Tab "Kandidaturen" auswählt
+. Der Admin entscheidet sich dazu eine neue Kandidatur anzulegen und teilt dies dem System mit
+. Daraufhin kann der Admin eine neue Kandidatur anlegen, indem er die Daten der kandidierenden Person dem System übergibt
+. Der Use Case ist abgeschlossen, sobald die Eingaben abgespeichert wurden.
+
+=== Alternative Abläufe
+
+==== Alternativer Ablauf 1
+ 
+. Der Admin möchte eine Kandidatur bearbeiten. 
+
+. Der Admin wählt die Möglichleit der Bearbeitung der zu bearbeitenden Kandidatur aus
+. In der aufgerufenen Maske können die Änderungen vorgenommen werden.
+. Die Änderungen werden gespeichert.
+
+==== Alternativer Ablauf 2
+
+. Der Admin hat nicht alle geforderten Daten angegeben
+. Der Vorgang der Abspeicherung schlägt fehl
+. Dem Admin wird eine entsprechende Fehlermeldung ausgegeben
+
+==== Alternativer Ablauf 3
+
+. Der Admin hat die Intension eine Kandidatur zu löschen
+. Für die jeweilige Kandidatur wählt er diese Option aus, woraufhin sich der Löschvorgang einleitet
+
+===	Nachbedingungen
+Nach der Einpflegung einer neuen Kandidatur, erscheint ein Teil dieser Daten in der Übersicht aller gelisteten Kandidaturen
+
+=== Hinweise
+Ablauf soll sich an Mitglieder Tab orientieren
