@@ -16,10 +16,10 @@ Use Cases mit einer geringen bis sehr geringen Priorität konnten teilweise aus 
 include::reflexion_manuela.adoc[]
 <<<
 include::reflexion_sebastian.adoc[]
-//<<<
-//include::reflexion_benjamin.adoc[]
-//<<<
-//include::reflexion_bayu.adoc[]
+<<<
+include::reflexion_benjamin.adoc[]
+<<<
+include::reflexion_Saputra.adoc[]
 <<<
 include::reflexion_vasco.adoc[]
 <<<
