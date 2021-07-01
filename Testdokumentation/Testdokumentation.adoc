@@ -564,7 +564,7 @@ Noch TestCases zu Use Case 01
 |Wie  oben beschrieben
 |Löschen eines Kandidaten
 |Mausklick
-|Häckchen bei gewünschtem Kandidaten setzen
+|Häkchen bei gewünschtem Kandidaten setzen
 + ENTFERNEN-Button klicken
 |Löschbestätigung erscheint + Markierter Eintrag ist nach dem löschen nicht mehr in der Liste vorhanden
 
@@ -574,7 +574,7 @@ Noch TestCases zu Use Case 01
 |3 Kandidaten mit Datensatz 1 befinden sich bereits in der Liste
 |Löschen mehrerer Kandidaten
 |Mausklick
-|Häckchen bei allen 3 gewünschten Kandidaten setzen
+|Häkchen bei allen 3 gewünschten Kandidaten setzen
 + ENTFERNEN-Button klicken + Löschbestätigung bestätigen
 |Löschbestätigung erscheint + Markierte Einträge sind nach dem löschen nicht mehr in der Liste vorhanden
 
@@ -934,7 +934,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 |Ausrufezeichen-Funktion (Checkliste unvollständig)
 |Mausklick
 |Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken +
-+ das erste Häckchen (_Wahl angenommen_) markieren +
++ das erste Häkchen (_Wahl angenommen_) markieren +
 + auf Speichern klicken
 |Rotes Ausrufezeichen erscheint links neben dem Namen in der Zeile des Mitglieds
 

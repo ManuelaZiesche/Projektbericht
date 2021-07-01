@@ -1,4 +1,4 @@
-= Sebastian Matthäus
+= Sebastian Matthäus (SMa)
 
 Zuallererst muss ich zugeben, dass ich vor der 1. SE-Vorlesung keine wirkliche Vorstellung davon hatte, was mich bzgl. Software Engineering in den 2 Semestern erwarten würde. Ich hatte nur das Bild im Kopf, das mehrere Personen vor einem Whiteboard, in einem Büro sitzen, den schwarzen Stift schwingen und wöchentliche Meetings abhalten.
 
