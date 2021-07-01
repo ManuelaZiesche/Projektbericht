@@ -1,56 +1,60 @@
 = Entwurfsdokumentation
 
-Dieses Dokument beschreibt wesentliche  Elemente der Softwarearchitektur, sowie andere übergreifende Aspekte des Systems für die Mitgliederdatenbank des StuRa. Hier werden im Folgenden auf die Ziele, Annahmen, die Architektonische Bedeutung, unsere Entscheidungen bzw. Einschränkungen und weitere Dinge eingegangen und Dokumentiert.
+Dieses Dokument beschreibt wesentliche  Elemente der Softwarearchitektur, sowie andere übergreifende Aspekte des Systems für die Mitgliederdatenbank des StuRa. Hier wird im Folgenden auf die Ziele, Annahmen, die architektonische Bedeutung, unsere Entscheidungen bzw. Einschränkungen und weitere Dinge eingegangen und dokumentiert.
 
 Mit Hilfe von verschiedenen Modellen und Entwürfen für die Architektur, soll die spätere Weiterentwicklung und Anpassung einfacher gemacht werden.
 
 
 == Architektonische Ziele und Philosophie
 
-Das System ist eine bestehende Webanwendung zur Verwaltung der Kandidaten und Mitglieder des Stura der HTW Dresden durch einen Admin. Offizielle Mitglieder erhalten über einen Login Zugang zur Anwendung und können verschiedene Informationen einsehen, aus diesem Grund muss eine parallele Nutzung von mindestens 10 Personen gewährleistet werden. Des Weiteren ist nicht bekannt auf welchem Endgerät die Nutzung der Anwendung erfolgen wird, weshalb auf die Kompatibilität des Inhaltes mit deren Ansicht auf diversen Bildschirmgrößen geachtet werden muss. +
+Das System ist eine Webanwendung zur Verwaltung der Kandidaten und Mitglieder des Stura der HTW Dresden durch einen Admin. Offizielle Mitglieder erhalten über einen Login Zugang zur Anwendung und können verschiedene Informationen einsehen, aus diesem Grund muss eine parallele Nutzung von 5 Personen gewährleistet werden (lesend). Des Weiteren ist nicht bekannt auf welchem Endgerät die Nutzung der Anwendung erfolgen wird, weshalb auf die Kompatibilität des Inhaltes mit deren Ansicht auf diversen Bildschirmgrößen geachtet werden muss. +
 
 Eine gute Bedienbarkeit wird durch eine übersichtliche und intuitive Benutzeroberfläche erzielt, welche zur Akzeptanz des Gesamtsystems durch die Mitglieder und des Admin beiträgt. +
 
-Die Anwendung ist eine weiterentwickelte Version des Projektes der Gruppe, von der wir das System übernommen haben. Andere Gruppen, aus zukünftigen Semestern, werden vermutlich ebenfalls an der Optimierung der sogennannten Mitgliederdatenbank arbeiten, sodass Aspekte, die unsere Gruppe im Rahmen des Projektes nicht umsetzten könnten, trotzdem umgesetzt werden können. Dazu zählen beispielsweise die Integrierung des Workloads der Mitglieder oder die Erstellung eines Organigramms aus den Mitgliedern der Datenbank.
+Das System soll auf einem Linux-Webserver eingerichtet werden, der ausreichende Ressourcen zur Verfügung stellt.
+
+Die Anwendung ist eine weiterentwickelte Version des Projektes der Gruppe, von der wir das System übernommen haben. Andere Gruppen, aus zukünftigen Semestern, werden vermutlich ebenfalls an der Optimierung dieser Mitgliederdatenbank arbeiten, sodass das System einfach erweiterbar sein soll.
 
 == Annahmen und Abhängigkeiten
 
 .*Annahmen*
 
-* jeder Nutzer hat eine stabile Internetverbindung und nutzt einen aktuellen Browser (Firefox oder Chrome)
-* Der Server auf dem die Webseite laufen soll, bietet ausreichen Ressourcen
+* Jeder Nutzer hat eine stabile Internetverbindung und nutzt einen aktuellen Browser (Firefox oder Chrome).
+* Der Server auf dem die Webseite laufen soll, bietet ausreichende Ressourcen:
 ** Arbeitsspeicher: Verbund aus 3 Servern mit jeweils 72 GB RAM
 ** Massenspeicher: ausreichend groß
 ** Betriebssystem: Linux
-* die bisher verwendete Datenbankmodelle und Frameworks können weiter verwendet werden
-* die Mitgliederdatenbank wird in Zukunft funktional erweitert
+* Die bisher verwendeten Datenbankmodelle und Frameworks können weiter verwendet werden.
+* Die Mitgliederdatenbank wird in Zukunft funktional erweitert.
+* Das Django-Framework gibt bereits eine Aufbau-Architektur vor.
 
 .*Abhängigkeiten*
-* wir sind vom Laborbereich abhängig, der den Server mit seinen Ressourcen stellt
+* Wir sind vom Laborbereich abhängig, der den Server mit seinen Ressourcen stellt.
 
-== Entscheidungen, Einschränkungen und Begründungen
-
-. Wir nutzen Python als Programmiersprache, da die bestehenden Teile der Anwendung in dieser Sprache programmiert wurden und wir einen Mehraufwand im Sinne einer Umstrukturierung vermeiden wollten. +
-Außerdem ist sie objektorientiert und besitzt eine verhältnismäßig leichte Syntax.
-. Ebenso wie unsere Vorgänger nutzen wir Django als Framework. Es ist ebenfalls in Python verfasst und folgt einem Model-View-Presenter-Schema, aus dem eine leichte Erweiterbarkeit resultiert.
-. SQLite wird als Programmierbibliothek aufgegriffen, da es standartmäßig von Django unterstützt wird und von der Syntax sehr dem SQL-Standard ähnelt, mit dem einige Gruppenmitglieder schon intensiveren Kontakt hatten. +
-Abgesehen davon ist SQLite sowohl mit verschiedenen Betriebssystemen von Smartphones, sowie mit unterschiedlichsten Browsern kompatibel und unterstützt so das Erreichen von mehr Nutzern, die sich durch ihre verschiedenen Voraussetzungen auszeichnen.
-. Im Gegensatz zur Vorgängergruppe entscheiden wir uns dagegen das Framework Selenium im Zusammenhang mit den Tests zu verwenden, da hierbei der Einarbeitungsaufwand unverhältnismäßig groß wäre, da kein Mitglied unseres Teams damit bis jetzt in Kontakt gekommen ist. Die Tests werden stattdessen manuell erstellt.
 
 == Architektur-relevante Anforderungen
 [cols="1,4,4"]
 |===
 | *Anforderung* | *Systemkomponente* | *Architekturmechanismen*
 
-| UC03 | Webanwendung | Erlernbarkeit
 | F1 | Webanwendung | Zugriffsschutz
 | F2 | Datenbank | Persistenz
-| U1, U2 | Interface | Erlernbarkeit
 | R1 | Webanwendung +
 Datenbank | Archivierung
 | S1 | Webanwendung | Dokumentation
 
 |===
+
+
+== Entscheidungen, Einschränkungen und Begründungen
+
+. Wir nutzen *Python als Programmiersprache*, da die bestehenden Teile der Anwendung in dieser Sprache programmiert wurden und wir einen Mehraufwand im Sinne einer Umstrukturierung vermeiden wollten. +
+Außerdem ist sie objektorientiert und besitzt eine verhältnismäßig leichte Syntax.
+. Ebenso wie unsere Vorgänger nutzen wir *Django als Framework*. Es ist ebenfalls in Python verfasst und folgt einem Model-View-Template-Schema, aus dem eine leichte Erweiterbarkeit resultiert.
+. *SQLite wird als Datenbanksystem* aufgegriffen, da es standartmäßig von Django unterstützt wird und von der Syntax sehr dem SQL-Standard ähnelt, mit dem einige Gruppenmitglieder schon intensiveren Kontakt hatten. +
+Abgesehen davon ist SQLite mit verschiedenen Betriebssystemen kompatibel und unterstützt so das Erreichen von mehr Nutzern, die sich durch ihre verschiedenen Voraussetzungen auszeichnen.
+. Ebenso verwenden wir *Django-Simple-History und simplejson* weiter, da diese bereits von der Vorgängergruppe verwendet wurden und die bestehende Funktionalität diese nutzt.
+. Im Gegensatz zur Vorgängergruppe entscheiden wir uns dagegen, das Framework Selenium im Zusammenhang mit den Tests zu verwenden, da hierbei der Einarbeitungsaufwand unverhältnismäßig groß wäre, da kein Mitglied unseres Teams damit bis jetzt in Kontakt gekommen ist. Die Tests werden stattdessen manuell durchgeführt.
 
 == Architekturmechanismen
 
@@ -66,29 +70,24 @@ Datenbank | Archivierung
 ** Eigenschaften/ Attribute: verständlich
 ** Funktion: Framework Django wird verwendet. Dokumentationen werden angefertigt
 
-.*Erlernbarkeit*
-** Zustand: Implementation
-** Zweck: Eine intuitive Nutzung soll erzielt werden
-** Eigenschaften/ Attribute: einfach unkompliziert
-** Funktion: Nutzerfreundliches Interface wird beibehalten
 
 .*Persistenz*
 ** Zustand: Implementation
-** Zweck: Daten müssen zur Verfügung stehen für den Admin und die Mitglieder des Stura
+** Zweck: Daten müssen verfügbar bleiben für den Admin und die Mitglieder des Stura
 ** Eigenschaften/ Attribute: SQLite-Datenbank
 ** Funktion: Alle zu speichernden Daten müssen Platz in der Datenbank finden
 
 .*Zugriffsschutz*
-** Zustand: Implementation (Vorgängersystem)
+** Zustand: Implementation
 ** Zweck: Login
 ** Eigenschaften/ Attribute: Nicht jeder Nutzer ist dazu berechtigt alle daten einzusehen
 ** Funktion: Unterscheidung beim Login nach Mitglied Stura und Admin
 
 === Datenspeicherung
 
-Die Speicherung der Daten erfolg über die SQLite-Datenbank. Jeder Datensatz ist identifizierbar über einen Primärschlüssel in Form einer ID, die jedoch nicht durch die Webanwendung dem Admin oder den Mitgliedern präsentiert wird. 
+Die Speicherung der Daten erfolg über die SQLite-Datenbank. Jeder Datensatz ist identifizierbar über einen Primärschlüssel in Form einer ID.
 
-=== Webschnitstelle
+=== Webschnittstelle
 
 Die von Django bereitgestellte Schnittstelle wird verwendet um Daten über die Webseite zu organisieren und zu verwalten.
 Die Weboberfläche wurde mittels HTML/CSS erstellt.
@@ -97,19 +96,22 @@ Die Weboberfläche wurde mittels HTML/CSS erstellt.
 
 Bereitstellung der Daten für Organisations- und Informationszwecke auf der Webseite
 
-== Systemarchitektur (BMü)
+== Systemarchitektur
 
 :!figure-caption:
 
 === Architekturmuster
 
-.Model-View-Presenter (MVP)
-* ergibt sich aus Django Framework
-* *Model:* betreibt die Ansicht und ist für die Logik der Ansicht zuständig
-* *View* (Ansicht)*:* für Ein- und Ausgaben verantwortlich
-* *Presenter:* Verbindung zwischen Model und View
+.Model-View-Template (MVP)
+* wird von Django Framework bereitgestellt
+* *Model:* ist für Zugriff auf die Datenbank zuständig, liest und schreibt Daten
+* *View* (Ansicht)*:* für Verarbeitung der Daten verantwortlich
+* *Template:* Leere HTML-Seite, die durch View mit Daten gefüllt wird
 
 image::ED-images/Model_View_Template_in_Django.png[Model View]
+
+{empty} +
+{empty} +
 
 === Logische Sicht
 
@@ -118,14 +120,26 @@ image::ED-images/Model_View_Template_in_Django.png[Model View]
 .Level 1
 image::ED-images/C4_Lvl1.png[C4 Level 1]
 
+{empty} +
+{empty} +
+
 .Level 2
 image::ED-images/C4_Lvl2.png[C4 Level 2]
+
+{empty} +
+{empty} +
 
 .Level 3
 image::ED-images/C4_Lvl3.png[C4 Level 3]
 
+{empty} +
+{empty} +
+
 .Legende
 image::ED-images/Legende_C4.png[C4 Legende]
+
+{empty} +
+{empty} +
 
 ==== Klassendiagramm
 
@@ -134,12 +148,18 @@ image::ED-images/Klassendiagramm.png[Klassendiagramm]
 
 image::ED-images/Legende_Klassendiagramm.png[Klassendiagramm Legende]
 
+{empty} +
+{empty} +
+
 ==== Paketdiagramm
 
 .Paketdiagramm mit Klassen
 image::ED-images/Paketdiagramm_(mit_Klassen).png[Paketdiagramm]
 
 image::ED-images/Legende_Paketdiagramm.png[Paketdiagramm Legende]
+
+{empty} +
+{empty} +
 
 === Ablaufsicht
 
@@ -148,10 +168,16 @@ image::ED-images/Legende_Paketdiagramm.png[Paketdiagramm Legende]
 .UC01: Kandidat hinzufügen
 image::ED-images/Sequenzdiagramm_Kandidat_hinzufügen_UC01.png[Sequenzdiagramm UC01]
 
+{empty} +
+{empty} +
+
 .UC02: Kandidat aufnehmen
 image::ED-images/Sequenzdiagramm_Kandidat_zu_Mitglied_UC02.png[Sequenzdiagramm UC02]
 
 image::ED-images/Legende_Sequenzdiagramm.png[Sequenzdiagramm Legende]
+
+{empty} +
+{empty} +
 
 === Szenarien
 
@@ -159,6 +185,9 @@ image::ED-images/Legende_Sequenzdiagramm.png[Sequenzdiagramm Legende]
 
 .UC01: Kandidat hinzufügen
 image::ED-images/Aktivitätsdiagramm_Kandidat_hinzufügen_UC01.png[Aktivitätsdiagramm UC01]
+
+{empty} +
+{empty} +
 
 .UC02: Kandidat aufnehmen
 image::ED-images/Aktivitätsdiagramm_Kandidat_zu_Mitglied_UC02.png[Aktivitätsdiagramm UC02]
