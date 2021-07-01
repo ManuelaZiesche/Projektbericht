@@ -1,0 +1,42 @@
+= Glossar
+
+== Einführung
+In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fachdomäne) der  Weiterentwicklung der Mitgliederdatenbank des StuRa definiert. Zur besseren Übersichtlichkeit sind Begriffe, Abkürzungen und Datendefinitionen gesondert aufgeführt.
+
+== Begriffe
+[%header, cols="2,4,2"]
+|===
+|Begriff|	Definition und Erläuterung|	Synonyme
+|Beschlussnummer|wird jedem Antrag im StuRa zugeordnet |--
+|Studentenrat | Studentische Vertretung an der HTW Dresden | StuRa
+|Nutzer:in| hat Zugriff auf das StuRa System | --
+|Mitglied | Mitglied des StuRa | --
+|Kandidatur| Person, die sich zu Wahl gestellt hat um Mitglied im StuRa zu werden | Kandidat:in
+|Admin | Zuständig für die administrative Aufgaben der Webseite | Systemverwalter
+|Check-Liste| Liste, die Aufgaben enthält, die der Admin erledigen muss | To-do-Liste, Erledigungs-Liste
+|Aufwandsentschädigung  | Bezahlung für die Abarbeitung der Aufgaben | --
+|Workload | Maß der Aktivität des Mitgliedes | Fortschritt
+|Organisationseinheit |Der StuRa ist in mehrere Organisationseinheiten aufgeteilt, welche dann noch in Bereiche und einzelne Funktionen unterteilt sind| Abteile des StuRa 
+|Dokumente der Kandidaten | Verpflichtung auf das Datengeheimnis, Kenntnisnahme der Ordnungen, Stammdaten | --
+| Aufgaben des Admins | Kandidaten einpflegen, Kandidaten als Mitglieder aufnehmen, Aufwandsentschädigung berechnen, Mitgliederdaten bearbeiten/ergänzen | 
+|===
+
+
+== Abkürzungen und Akronyme
+[%header, cols="2,5,2"]
+|===
+|Abkürzung|	Bedeutung|	Erläuterung
+
+| AE | Aufwandsentschädigung | siehe oben
+| StuRa | Studentenrat |
+| HTW | Hochschule für Technik und Wirtschaft Dresden |
+|===
+
+== Datenstrukturen 
+[%header]
+|===
+| Bezeichnung | Definition | Format | Gültigkeitsregeln | Aliase
+| Kandidatendaten | Vorname, Name, E-Mail, Beschlussnummer, Wahldatum |  |  | Daten des Kandidaten/ der Kandidatur
+| Mitgliederdaten | Vorname, Name, E-Mail, Anschrift, Telefonnummer, Funktion, Eintrittsdatum | | | Daten des Mitgliedes
+| Anschrift | Straße, Hausnummer, Postleitzahl, Ort, Land | | | Adresse
+|===

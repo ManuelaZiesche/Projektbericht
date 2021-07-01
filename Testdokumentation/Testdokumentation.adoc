@@ -1,0 +1,1203 @@
+
+= Testdokumentation
+
+Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organisation  sowie
+dabei aufgetretene Probleme.
+
+Die folgenden Testverfahren sollen die Softwarequalität der zu entwickelnden Webanwendung überprüfen und sicherstellen.
+Außerdem sollen die festgelegten Anforderungen auf Erfüllung überprüft werden.
+
+== Testkonzept:
+
+Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework). Es galt, nicht zu viel und nicht zu wenig zu testen. Ich denke, wir haben einen sehr guten Mittelweg diesbzgl. gefunden.
+
+*Folgende Testmethoden/-verfahren wurden eingesetzt:*
+
+* *Unittests* (manuell)
+- Kleinste prüfbare Funktionen unserer Webanwendung wurden einzeln & unabhängig auf ihren ordnungsgemäßen Betrieb getestet.
+- Testcases wurden zu passenden zu unseren UseCases ausgearbeitet und tabellarisch festgehalten und wurden manuell durchgeführt.
+
+
+* *Integrationstests* (manuell)
+- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft
+Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
+Bsp: .. Kandidat zu Mitglied machen → Funktionalität wurde getestet!
+
+Das Ziel war, Fehlerzustände in Schnittstellen zu finden und das Zusammenspiel zwischen integrierten Komponenten zu untersuchen. Es sollte untersucht werden, wie gut diese zusammen funktionieren.
+
+
+
+* *Abnahmetest* 
+- Durch den Abnahmetest direkt durch die Themensteller, wurde das gesamte Projekt auf Erfüllung der Ziele sowie die Zufriedenheit der Umsetzung geprüft.
+Siehe Abnahmedokumentation des Abnahmeprotokolls
+
+Bei der Abwägung bzgl. automatisierter oder manueller Tests fiel die Entscheidung auf manuelle Tests, um die Fertigstellung des Projektes gegen Ende des Semesters (bei möglichen Hürden automatisierter Tests) nicht zu gefährden. Der Hauptfokus lag vor allem darauf, die Robustheit des Systems zu testen.
+
+Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests (bspw. mit Selenium) in Kombination mit Regressionstests sicherlich sehr viel besser gewesen.
+
+
+
+
+== Testdokumentation
+
+*Testfallbeschreibung*
+
+Die Testfälle wurden verbal beschrieben und in einem Testprotokoll festgehalten. Zu jedem Testfall gibt es im Testprotokoll eine Tabellenzeile mit *Testfallnummer*, *Vorbedingungen*, Definition des *Testobjektes*, *Eingabedaten*, *Handlungen zur Durchführung des Tests* sowie das zu *erwartende Ergebnis*.
+
+War ein Test erfolgreich so wurde als Testergebnis _“bestanden“_ in die Tabelle aufgenommen. Das Testergebnis _„nicht bestanden“_ wurde eingetragen, wenn der Test nicht erfolgreich verlief.
+
+Fehler wurden als sofortige Mitteilung an den Entwickler mitgeteilt.
+Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft. Schwerwiegende Tests konnten wir glücklicherweise nicht verzeichnen, weshalb die Einteilung in leichte und schwere Fehler entfallen ist und die Arbeit so nie ins Stocken kam. Schwere Fehler hätten ggf. dazu geführt, dass aktuellen Arbeiten pausiert und der Fehler gefunden und behoben werden musste.
+
+Zu jedem Test wurde ein genaues Testdatum festgehalten.
+Personen, welche getestet haben: Sebastian (Rolle des Testers) in Absprache mit Vasco (Rolle des Entwicklers).
+
+== Ergebnisse der Testdurchführung:
+
+Die 29 Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreich und verliefen ohne Fehler.
+
+//Am Ende des Projektes verliefen alle Tests positiv.
+
+
+
+*Beispiele für Negative Testergebnisse:*
+
+- Negative Testergebnisse gab es beim Datepicker (falschen Wochentag zu einem Datum auf Grund falsch gesetzter Ortszeit)
+
+- Namen konnten mit Zahlen kombiniert werden. Bsp: Stefan1
+
+Im Nachhinein waren wir über die Entscheidung der manuellen Tests sehr froh, da sich auf Grund von Umstrukturierungen im Team (von ehemals zwei Testern zu einem) die Zeit gegen Ende des Projektsemesters sehr knapp wurde und wie gesagt die Robustheit im Vordergrund stand.
+
+
+Nachfolgend sind alle Tests mit der Testdokumentation aufgelistet:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+Ab hier test_case_Kandidaten_Verwalten.adoc
+////
+
+= Test Cases zu Use Case 01 - Kandidaten verwalten
+
+
+== Allgemeine Informationen
+
+
+
+
+*Farben:*
+[%header, width="60%", cols="1,2,3,4"]
+|===
+|Test-Datensätze{set:cellbgcolor:FF0000}
+|Unittests{set:cellbgcolor:#f4f4e9}
+|Integrationstests{set:cellbgcolor:#eaf1f5}
+|Testdokumentation{set:cellbgcolor:#e6f2d5}
+|===
+
+
+
+
+
+== Kandidat hinzufügen
+
+*Ziel:* Ein neuer Kandidat wird hinzugefügt
+
+*Beschreibung:* Der Admin möchte einen neuen Kandidaten in die Datenbank einpflegen
+
+*Vorbedingungen:*
+
+- Der Admin ist mit Administratorrechten eingeloggt.
+- Verbindung zur Datenbank ist vorhanden
+- Kandidat(en) sind in DB vorhanden
+
+
+.*Testdaten*
+[%header, cols="1,2,3,4,5", ]
+|===
+|Nr.{set:cellbgcolor:FF0000}
+|Name
+|Vorname
+|Spitzname
+|Wahldatum
+
+|1
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+
+|2
+|Stern
+|Stefan
+|Sterni
+|[leer]
+
+|3
+|Stern
+|Stefan1
+|Sterni
+|01.08.2021
+
+|4
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+
+|5
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+
+|6
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+
+|7
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+
+|===
+
+.*Testdaten fortgesetzt*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Nr.
+|Beschlussnummer
+|Organisationseinheit
+|Bereich
+|Funktion
+|E-Mail-Adresse
+
+|1
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|sterni@gmail.com
+
+|2
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|sterni@gmail.com
+
+|3
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|sterni@gmail.com
+
+|4
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|abc@.de
+
+|5
+|2021-07-03
+|Referat Soziales
+|[leer]
+|[leer]
+|sterni@gmail.com
+
+|6
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|matthäus@web.de
+
+|7
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|[leer]
+
+|===
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6", ]
+
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+
+|1
+|Wie  oben beschrieben
+|Button `+Hinzufügen+`
+|Mauseingabe
+|Button `+'Hinzufügen'+` klicken
+|Die Eingabemaske (Kandidat-Hinzufügen) ist geöffnet und bereit zur Dateneingabe.
+
+|2
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Gesamtes Eingabeformular
+|Testdatensatz 1
+|Testdatensatz 1 eingeben + Speicherbutton betätigen
+|Weiterleitung zu Kandidatenliste (Kein Fehler wird angezeigt)
+
+
+|3
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Datenvalidierung der Pflichtfelder
+|Testdatensatz 2
+|Testdatensatz 2 eingeben
++
+Speicherbutton betätigen
+|Wahldatumsfeld wird rot markiert
+
+|4
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Datenvalidierung der Pflichtfelder
+|Testdatensatz 3
+|Testdatensatz 3 eingeben
++
+Speicherbutton betätigen
+|Vornamens-Feld wird rot markiert
+
+
+
+|5
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Validierung der E-Mail-Adresse
+|Testdatensatz 4
+|Testdatensatz 4 eingeben
++
+Speicherbutton betätigen
+|E-Mail-Adressen-Pflichtfeld wird rot markiert
+
+
+|6
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|E-Mail-Adressen-Feld
+|Testdatensatz 6
+|Testdatensatz 6 eingeben
++
+Speicherbutton betätigen
+|E-Mail-Adressen-Pflichtfeld wird rot markiert
+
+
+|7
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet + Datensatz 1 wurde bereits eingegeben
+|E-Mail-Feld
+|Mauseingabe
+|neue zusätzliche E-Mail hinzufügen (2. E-Mail-Feld bleibt leer!)
+|2. E-Mail-Feld wird rot markiert
+
+
+|8
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Wahldatum-Feld
+|Datumswahl mit Maus
+|Klicken auf das Wahldatumsfeld +
++ Auswahl des 15.7.2021 mit Maus +
++ Klick auf OK
+|Popup schließt sich + 15.07.2021 ist im Wahldatumsfeld eingetragen
+
+
+
+|9
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet + Popup mit Kalender des Wahldatum-Feld ist zu sehen
++
+15.07.2021 steht bereits im Wahldatumsfeld
+|Button „Löschen“ des Popups
+|Mauseingabe
+|„Löschen“-Button das Popup klicken
+|Popup schließt sich + Wahldatumsfeld ist leer
+
+|10
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet + Popup mit Kalender des Wahldatum-Feld ist zu sehen
+|Button „Abbrechen“ des Popups
+|Mauseingabe
+|„Abbrechen“-Button das Popup klicken
+|Popup schließt sich + Eingabemaske ist zu sehen
+
+
+|11
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet + Popup mit Kalender des Wahldatum-Feld ist zu sehen
+|Leere Fläche neben dem Popups
+|Mauseingabe
+|In die leere Fläche neben dem Popups klicken
+|Popup schließt sich + Eingabemaske ist zu sehen
+
+
+
+
+|12
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Funktion-Pflichtfelder
+|Vorgegebene Funktionen der Funktions-Pflichtfelder
+|Eintragen des Testdatensatz 5 + auf Speichern klicken
+|Fehlendes Bereitsfeld wird rot markiert
+
+
+
+
+|13
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Funktion´s-Feld
+|Vorgegebene Funktionen der Funktions-Pflichtfelder
+|Testdatensatz 1 eingeben + neue zusätzliche Funktion hinzufügen (Felder bleiben leer!)
+|Organisationseinheitsfeld der 2. Funktion wird rot markiert
+
+
+
+|14
+|Wie oben beschrieben + 15 Einträge befinden sich in der Liste
+|Pagination
+|Testdatensatz 1
+|Testdatensatz 1 eingeben + Speichern drucken
+|Button "2"  erscheint unter der Kandidatenliste, der auf 2. Kandidatenseite verlinkt
+|===
+
+
+
+
+.*Testdokumentation zu Use Case 01 - Kandidaten verwalten*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1  
+|1
+|29.05.2021
+|Sebastian, Vasco
+|ja
+|-
+
+
+|2
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|3
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|4
+|1
+|18.06.2021
+|Sebastian
+|nein
+|Fehler: Namen können mit Zahlen kombiniert werden. Ursachenanalyse -> (Entwicklung)
+
+|4
+|2
+|24.06.2021
+|Sebastian
+|ja
+|-
+
+|5
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|6
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|7
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|8
+|1
+|18.06.2021
+|Sebastian
+|nein
+|Kalender gibt falschen Wochentag zu einem Datum aus +
+Analyse:
+(US-Kalender → MESZ)
+
+
+
+|8
+|2
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|9
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|10
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|11
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|12
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|13
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|14
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+Noch TestCases zu Use Case 01
+////
+
+
+
+
+
+== Weitere Informationen bearbeiten/löschen
+*Beschreibung:* Der Admin möchte die Kandidatendaten einen bereits vorhandenen Kandidaten bearbeiten oder löschen
+
+*Vorbedingungen:*
+
+- Kandidat (Testdatensatz 1) ist vorhanden
+- Das Kandidatentab ist geöffnet und die Liste der Kandidaten ist sichtbar
+
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+|15
+|Wie  oben beschrieben
+|Löschen eines Kandidaten
+|Mausklick
+|Häckchen bei gewünschtem Kandidaten setzen
++ ENTFERNEN-Button klicken
+|Löschbestätigung erscheint + Markierter Eintrag ist nach dem löschen nicht mehr in der Liste vorhanden
+
+
+
+|16
+|3 Kandidaten mit Datensatz 1 befinden sich bereits in der Liste
+|Löschen mehrerer Kandidaten
+|Mausklick
+|Häckchen bei allen 3 gewünschten Kandidaten setzen
++ ENTFERNEN-Button klicken + Löschbestätigung bestätigen
+|Löschbestätigung erscheint + Markierte Einträge sind nach dem löschen nicht mehr in der Liste vorhanden
+
+
+
+
+|17
+|Wie  oben beschrieben + Popup mit Löschbestätigung ist zu sehen
+|"Nein"-Button
+|Mausklick
+|Löschbestätigung mit "nein" ablehnen
+|Popup verschwindet + Kandidat steht weiterhin in der Liste
+|===
+
+
+
+
+.*Testdokumentation zu - "Weitere Informationen bearbeiten/löschen"*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|15
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|16
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+
+|17
+|1
+|18.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+== Integrationstests
+*Beschreibung:* Der Admin möchte bereits vorhandenen Kandidaten durchsuchen
+
+*Vorbedingungen:*
+
+- Kandidat (Testdatensatz 1) ist vorhanden
+- Das Kandidatentab ist geöffnet und die Liste der Kandidaten ist sichtbar
+
+.*Integrationstests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#eaf1f5}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+|18
+|Wie oben beschrieben
+|Stift-Button
+|Mausklick
+|auf Stift neben Kandidaten klicken
+|Eingabemaske öffnet sich mit den Kandidatendaten
+
+|19
+|Wie oben beschrieben + Eingabemaske ist bereits geöffnet
+|Gesamtes Eingabeformular
+|Testdatensatz 1
+|Testdatensatz 1 eingeben + Speicherbutton betätigen
+|Keine Fehler wird angezeigt + Weiterleitung zu Kandidatenliste + Angelegter Kandidat wird in Liste angezeigt
+
+|20
+|Wie  oben beschrieben
+|Suchfeld über der Kandidatenliste
+|Der zu suchende Ausdruck: "Stern"
+|"Stern" in das Suchfeld eingeben und suche mit *Enter* bestätigen
+|Kandidat (Datensatz 1) wird in der Liste angezeigt
+|===
+
+
+
+
+
+.*Testdokumentation (Integrationstests) zu Use Case 01 - Kandidaten verwalten*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|18
+|1
+|17.06.2021
+|Sebastian
+|ja
+|-
+
+|19
+|1
+|17.06.2021
+|Sebastian
+|ja
+|-
+
+|20
+|1
+|17.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+test_case_Mitglieder_aufnehmen.adoc
+////
+
+
+= Test Cases zu Use-Case 02 - Mitglieder aufnehmen
+
+*Ziel:* Der Admin möchte bereits vorhandenen Kandidaten zu einem Mitglied machen
+
+*Vorbedingungen:*
+
+- Kandidat (Datensatz 1), welcher als Mitglied übernommen werden soll, befindet sich bereits in der Datenbank
+- Das Kandidatentab ist geöffnet und die Liste der Kandidaten ist sichtbar
+
+
+.*Testdaten*
+[%header, cols="1,2,3,4,5", ]
+|===
+|Nr.{set:cellbgcolor:FF0000}
+|Name
+|Vorname
+|Spitzname
+|Wahldatum
+
+|1
+|Stern
+|Stefan
+|Sterni
+|01.08.2021
+|===
+
+.*Testdaten fortgesetzt*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Nr.
+|Beschlussnummer
+|Organisationseinheit
+|Bereich
+|Funktion
+|E-Mail-Adresse
+
+|1
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|sterni@gmail.com
+|===
+
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+|1
+|Wie  oben beschrieben
+|AUFNAHME-Button (links vom Stift)
+|Mausklick
+|*Plus*-Button der Kandidatur, welche als Mitglied übernommen werden soll (Datensatz 1), wird geklickt
+|Popup mit "*JA*/*NEIN*-Bestätigungsdialog" ploppt auf
+
+
+|2
+|Wie  oben beschrieben + *JA*/*NEIN*-Bestätigungsdialog bereits zu sehen
+|*NEIN*-Button
+|Mausklick
+|Klick auf *NEIN*-Button
+|Kandidat nach wie vor in der Kandidaturenliste zu sehen + Popup schließt sich
+|===
+
+
+.*Testdokumentation - "Mitglieder aufnehmen"*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1
+|1
+|17.06.2021
+|Sebastian
+|ja
+|-
+
+|2
+|1
+|17.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+.*Integrationstests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#eaf1f5}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+|1. 
+|Wie  oben beschrieben + *JA*/*NEIN*-Bestätigungsdialog bereits zu sehen
+|*JA*-Button
+|Mausklick
+|Klick auf *JA*-Button + Wechsel in das Mitgliedertab
+|Anzeige "Kandidatur wurde erfolgreich aufgenommen" ist über Kandidaturenliste zu sehen + Kandidat nicht mehr in der Kandidaturenliste  + Kandidat jetzt als Mitglied in der Mitgliedsliste zu sehen (Datensatz 1)
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+Ab hier
+test_cases_Mitgliederinformationen_einpflegen.adoc
+////
+
+= Test Cases zu Use Case 03 - Mitglieder informationen einpflegen
+
+*Allgemeine Informationen*
+
+*Ziel:* Der Admin möchte zusätzliche Informationen einpflegen
+
+*Vorbedingungen:*
+
+- Mitglied (Datensatz 1),  befindet sich bereits in der Datenbank
+- Das Mitgliedertab ist geöffnet und die Liste der Mitglieder ist sichtbar
+
+
+.*Testdaten*
+[%header, cols="1,2,3,4,5", ]
+|===
+|Nr.
+|Name
+|Vorname
+|Spitzname
+|Wahldatum
+
+|1
+|Gleidus
+|Matt
+|Matti
+|01.09.2021
+|===
+
+.*Testdaten fortgesetzt*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Nr.
+|Beschlussnummer
+|Organisationseinheit
+|Bereich
+|Funktion
+|E-Mail-Adresse
+
+|1
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|matti@gmail.com
+|===
+
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+
+|1
+|Wie  oben beschrieben
+|Ausrufezeichen-Funktion (Checkliste vollständig abgearbeitet)
+|Mausklick
+|Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken +
++ alle Häkchen der Checkliste auswählen +
++ auf Speichern klicken
+|Es ist [.underline]#kein# rotes Ausrufezeichen in der Zeile des Mitglieds (Siehe Datensatz 1) zu sehen
+
+
+|2
+|Wie  oben beschrieben
+|Ausrufezeichen-Funktion (Checkliste unvollständig)
+|Mausklick
+|Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken +
++ das erste Häckchen (_Wahl angenommen_) markieren +
++ auf Speichern klicken
+|Rotes Ausrufezeichen erscheint links neben dem Namen in der Zeile des Mitglieds
+
+
+|3
+|Wie  oben beschrieben + In der Checkliste sind bereits die ersten 2 Häkchen (_Wahl angenommen_, _Kenntnisname der Ordnung_) gesetzt
+|Speicherfunktion des Zustandes der Checkliste
+|Mausklick
+|Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken
+|In der Maske sind alle Felder ausgefüllt (Siehe Datensatz 1) +
++ Häkchen (_Wahl angenommen_, _Kenntnisname der Ordnung_) der Checkliste werden markiert dargestellt
+|===
+
+
+
+.*Testdokumentation zu Use Case 03 - "Mitglieder informationen einpflegen"*
+
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1
+|1
+|20.06.2021
+|Sebastian
+|ja
+|-
+
+|2
+|1
+|20.06.2021
+|Sebastian
+|ja
+|-
+
+|3
+|1
+|20.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+
+.*Integrationstests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#eaf1f5}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+|1
+|Wie  oben beschrieben
+|Ausrufezeichen-Funktion (Checkliste vollständig abgearbeitet)
+|Mausklick
+|Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken +
++ alle Häkchen der Checkliste auswählen +
++ auf Speichern klicken
+|Es ist [.underline]#kein# Ausrufezeichen in der Zeile des Mitglieds (Siehe Datensatz 1) zu sehen
+|===
+
+.*Testdokumentation Integrationstests zu Use Case 03 - "Mitglieder informationen einpflegen"*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1
+|1
+|-20.06.2021
+|Sebastian
+|ja
+|-
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+test_case_Mitglieder_kontaktieren.adoc
+////
+
+
+= Test Cases zu Use-Case 04: Mitglieder per E-Mail kontaktieren
+
+== Allgemeine Informationen
+
+*Vorbedingungen:*
+
+- Mitglied (Datensatz 1),  befindet sich (mit E-Mail!) bereits in der Datenbank
+- Das Mitgliedertab ist geöffnet und die Liste der Mitglieder ist sichtbar
+
+
+.*Testdaten*
+[%header, cols="1,2,3,4,5", ]
+|===
+|Nr.{set:cellbgcolor:FF0000}
+|Name
+|Vorname
+|Spitzname
+|Wahldatum
+
+|2
+|Papyrus
+|Pater
+|Pater Pan
+|01.09.2021
+
+|1
+|Gleidus
+|Matt
+|Matti
+|01.09.2021
+
+|===
+
+.*Testdaten fortgesetzt*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Nr.
+|Beschlussnummer
+|Organisationseinheit
+|Bereich
+|Funktion
+|E-Mail-Adresse
+
+|1
+|2021-07-03
+|Referat Soziales
+|Freizeit
+|Leitung
+|matti@gmail.com
+
+
+|2
+|2021-07-04
+|Referat Soziales
+|Freizeit
+|Leitung
+|[leer]
+|===
+
+
+
+
+.*Unittests*
+[%header, cols="1,2,3,4,5,6"]
+|===
+|T.-Nr.{set:cellbgcolor:#f4f4e9}
+|Vorbedingungen
+|Testobjekt
+|Eingabe(daten)
+|Handlungen zur Durchführung des Tests
+|Erwartetes Ergebnis
+
+
+|1
+|Wie  oben beschrieben
+|Funktion des Links ("Mail-to"-E-Mail-Button)
+|Mausklick
+|Klick auf E-Mail-Button das Mitglieds "Gleidus, Max" (Siehe Datensatz 1)
+|E-Mail-Client mit eingetragener E-Mail-Adresse bei Empfänger (Siehe Datensatz 1) öffnet sich
+
+
+|2
+|Mitglied (Datensatz 2),  befindet sich (ohne E-Mail!) bereits in der Datenbank
+|Korrekte Darstellung der Mitgliedsliste
+|Mausklick (Testdatensatz 2)
+|-
+|Ein E-Mail-Button in der Zeile des Mitglieds ist [.underline]#nicht# zu sehen
+|===
+
+
+.*Testdokumentation zu Use-Case 04: "Mitglieder per E-Mail kontaktieren"*
+[%header, cols="1,2,3,4,5,6", ]
+|===
+|Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
+|Anzahl (Num­me­rie­rung)
+|Datum
+|Verantwortlicher +
+(Wer hat getestet?)
+|Erfolgreich?
+|Kommentar (Was ist aufgefallen?)
+
+|1
+|1
+|22.06.21
+|Sebastian
+|ja
+|-
+
+|2
+|1
+|23.06.21
+|Sebastian
+|nein (Fehler nur in der Testumgebung)
+|-
+
+
+|2
+|2
+|24.06.21
+|Sebastian
+|ja
+|-
+
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
