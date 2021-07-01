@@ -1,4 +1,4 @@
-= Anwenderdokumentation (SAd)
+= Anwenderdokumentation
 
 == Einführung
 
