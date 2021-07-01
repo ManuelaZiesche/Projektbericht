@@ -117,7 +117,8 @@ Für die gemeinsame Terminfindung wurde eine WhatsApp-Gruppe verwendet und verei
 In Summe ergab sich daraus ein belastbares System der 
 Kommunikation, das eine solide Basis für das Projekt bildete. Voraussetzung dafür war nur eine stabile Internetverbindung, die glücklicherweise jeder hatte.
 
-=== Bla
+=== Lösungsansätze (MZi)
+Um Risiken oder Problemen, die direkt im Projektverlauf anfallen könnten, haben wir zu Beginn des Projektes schon notiert und abgeschätzt. Diese Schätzung habe ich als Projektmanagerin jede Iteration fortgeführt. Wie durch die Farbgebung unschwer zu erkennen ist, ist die Wahrscheinlichkeit, dass diese Probleme im Laufe der Iterationen auftreten können, immer geringer geworden. 
 
 image::Risikoliste_Ende.png[]
 
