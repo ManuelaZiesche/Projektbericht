@@ -19,7 +19,7 @@ Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI 
 
 
 * *Integrationstests* (manuell)
-- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft
+- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft. +
 Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
 Bsp: .. Kandidat zu Mitglied machen → Funktionalität wurde getestet!
 
@@ -779,7 +779,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 |1
 |Wie  oben beschrieben
-|AUFNAHME-Button (links vom Stift)
+|AUFNEHMEN-Button (links vom Stift)
 |Mausklick
 |*Plus*-Button der Kandidatur, welche als Mitglied übernommen werden soll (Datensatz 1), wird geklickt
 |Popup mit "*JA*/*NEIN*-Bestätigungsdialog" ploppt auf
