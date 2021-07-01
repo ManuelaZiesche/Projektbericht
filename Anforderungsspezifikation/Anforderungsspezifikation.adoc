@@ -1,5 +1,9 @@
 = Anforderungsspezifikation
 
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:source-highlighter: highlightjs
+
 <<<
 include::Vision.adoc[]
 <<<
@@ -8,3 +12,5 @@ include::Use_Casees.adoc[]
 include::Requirements.adoc[]
 <<<
 include::Glossar.adoc[]
+<<<
+include::Domänenmodell.adoc[]

@@ -1,5 +1,6 @@
 = Ergebnisse (SAd)
 // rund 6 Seiten
+
 == Projektergebnisse
 
 Mithilfe unserer fertiggestellten Software ist es nun möglich Kandidaturen zu verwalten. Das schließt Funktionen wie beispielsweise das Anlegen einer neuen Kandidatur, das Bearbeiten und das Löschen ein. Abgesehen davon, können Kandidaten, welche bei einer Wahl gewählt worden sind, problemlos mit nur zwei Mausklicks als Mitglieder aufgenommen werden. +
@@ -14,13 +15,18 @@ Use Cases mit einer geringen bis sehr geringen Priorität konnten teilweise aus 
 
 <<<
 include::reflexion_manuela.adoc[]
+
 <<<
 include::reflexion_sebastian.adoc[]
-//<<<
-//include::reflexion_benjamin.adoc[]
-//<<<
-//include::reflexion_bayu.adoc[]
+
+<<<
+include::reflexion_benjamin.adoc[]
+
+<<<
+include::reflexion_Saputra.adoc[]
+
 <<<
 include::reflexion_vasco.adoc[]
+
 <<<
 include::reflexion_sabine.adoc[]

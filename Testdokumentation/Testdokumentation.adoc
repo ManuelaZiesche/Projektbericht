@@ -19,7 +19,7 @@ Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI 
 
 
 * *Integrationstests* (manuell)
-- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft
+- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft. +
 Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
 Bsp: .. Kandidat zu Mitglied machen → Funktionalität wurde getestet!
 
@@ -564,7 +564,7 @@ Noch TestCases zu Use Case 01
 |Wie  oben beschrieben
 |Löschen eines Kandidaten
 |Mausklick
-|Häckchen bei gewünschtem Kandidaten setzen
+|Häkchen bei gewünschtem Kandidaten setzen
 + ENTFERNEN-Button klicken
 |Löschbestätigung erscheint + Markierter Eintrag ist nach dem löschen nicht mehr in der Liste vorhanden
 
@@ -574,7 +574,7 @@ Noch TestCases zu Use Case 01
 |3 Kandidaten mit Datensatz 1 befinden sich bereits in der Liste
 |Löschen mehrerer Kandidaten
 |Mausklick
-|Häckchen bei allen 3 gewünschten Kandidaten setzen
+|Häkchen bei allen 3 gewünschten Kandidaten setzen
 + ENTFERNEN-Button klicken + Löschbestätigung bestätigen
 |Löschbestätigung erscheint + Markierte Einträge sind nach dem löschen nicht mehr in der Liste vorhanden
 
@@ -779,7 +779,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 |1
 |Wie  oben beschrieben
-|AUFNAHME-Button (links vom Stift)
+|AUFNEHMEN-Button (links vom Stift)
 |Mausklick
 |*Plus*-Button der Kandidatur, welche als Mitglied übernommen werden soll (Datensatz 1), wird geklickt
 |Popup mit "*JA*/*NEIN*-Bestätigungsdialog" ploppt auf
@@ -934,7 +934,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 |Ausrufezeichen-Funktion (Checkliste unvollständig)
 |Mausklick
 |Auf den Stift (bearbeiten) in der Zeile des Mitglieds klicken +
-+ das erste Häckchen (_Wahl angenommen_) markieren +
++ das erste Häkchen (_Wahl angenommen_) markieren +
 + auf Speichern klicken
 |Rotes Ausrufezeichen erscheint links neben dem Namen in der Zeile des Mitglieds
 

@@ -1,6 +1,6 @@
-= Benjamin Müller
+= Benjamin Müller (BMü)
 
-Anders als noch in Software Engineering 1, habe ich mittlerweile einige Erfahrungen in die-sem Bereich sammeln können. Da ich nun genauer wusste was auf uns zukommen wird, war der Einstieg auch wesentlich einfacher. In den ersten Teammeetings wurde schon der grobe Fahrplan für unser Projekt in diesem Semester festgelegt, sowie eine Fehleranalyse des vor-herigen Semesters durchgeführt und die Verteilung der Aufgaben besprochen.
+Anders als noch in Software Engineering 1, habe ich mittlerweile einige Erfahrungen in diesem Bereich sammeln können. Da ich nun genauer wusste was auf uns zukommen wird, war der Einstieg auch wesentlich einfacher. In den ersten Teammeetings wurde schon der grobe Fahrplan für unser Projekt in diesem Semester festgelegt, sowie eine Fehleranalyse des vorherigen Semesters durchgeführt und die Verteilung der Aufgaben besprochen.
 
 ==== Weiterführen des Projekts
 
