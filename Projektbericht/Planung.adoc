@@ -115,4 +115,4 @@ Zu Beginn jeder Iteration, welche drei Wochen lang waren, haben wir unsere Ziele
 
 Ergaben sich Fragen, die nur von der Auftraggeberin Sophia von Asow oder von Axel Schiller beantwortet werden konnten, wurden diese gesammelt und dann im nächsten gemeinsamen Meeting vorgetragen. Gerade bei Gesprächen mit den oben genannten Stackholdern wurde Protokoll geführt, um die wichtigsten Informationen festzuhalten und anschließend verarbeiten zu können.
 
-Am Ende jeder Iteration wurde der Fortschritt des Projektes diskutiert und mit Hilfe des Essence-Nvigators erfasst. 
+Am Ende jeder Iteration wurde der Fortschritt des Projektes diskutiert und mit Hilfe des Essence-Navigators erfasst. 
