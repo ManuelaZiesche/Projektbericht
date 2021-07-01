@@ -73,9 +73,9 @@ Allgemein sollen die Abläufe der Mitgliederdatenbank soweit optimiert werden, d
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 | HTW | Hochschule | stellt Studenten für StuRa, zahlt AE an die jeweiligen Studenten
-| Mitglieder der StuRa|Repräsentanten der Studenten| Nutzer des Produkts
+| Mitglieder des StuRa|Repräsentanten der Studierenden| Nutzer des Produkts
 | Systembetreuer, Admin | Systemadministrator | Sind für die Funktionalität, Wartung und Aktualität der Mitgliederdatenbank verantwortlich
-| Herr Professor Anke | der Dozent | Betreut das Projekt und das Team I4, Ansprechpartner für das Team I4
+| Herr Professor Anke | Dozent | Betreut das Projekt und das Team I4, Ansprechpartner für das Team I4
 | Team I4 | Gruppe von Studierenden, die das Projekt übernehmen | Versuchen die Wünsche der Themensteller umzusetzen (das Projekt bearbeiten)
 | Laborbereich | Laborbereich der Hochschule | Diese stellen den Server, worauf die Datenbank laufen soll
 | Themensteller| unsere Aufgabensteller | Deren Ziel ist es, eine gut funktionierende und qualitativ hochwertige Datenbank zu erhalten. 
@@ -87,10 +87,10 @@ hinsichtlich der Einhaltung des Telemediengesetzes
 === Benutzerumgebung
 
 . Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind, ändert sich mit der Zeit (voraussichtlich) nicht.
-. Die Bearbeitung der Administrationsaufgaben (siehe Glossar) dauert unter 3 Min. ????
+. Die Bearbeitung der Administrationsaufgaben (siehe Glossar) dauert unter 3 Min.
 . Es muss gewährleistet werden, dass 10 Benutzer gleichzeitig mit dem Programm arbeiten können. 
 . Besondere Umgebungsbedingungen: 
-* Die Weiterentwicklung der Mitgliederdatenbank muss weiterhin eine responsive Webseite gewährleisten, damit die Beidienung auch unterwegs mit dem Handy funktioniert.  
+* Die Weiterentwicklung der Mitgliederdatenbank muss weiterhin eine responsive Webseite gewährleisten, damit die Bedienung auch unterwegs mit dem Handy funktioniert.  
 * Die Webseite muss zu den Kernarbeitszeiten online sein. 
 . Diese Systemplattformen werden zukünftig weiterhin eingesetzt: Windows, Linux, iOS, Android. 
 . Thunderbird muss zur E-Mail Nutzung integriert werden.
@@ -102,22 +102,23 @@ hinsichtlich der Einhaltung des Telemediengesetzes
 [%header, cols="4,1,4,1"]
 |===
 |Bedarf|	Priorität|	Features|	Geplantes Release
-|einfache Verwaltung der Kandidaten | Hoch | eigener "Kandidaten" Tab, in dem die Daten des Kandidaten (Name, Vorname, Wahldatum, E-Mail, Beschlussnummer) angelegt und bearbeitet werden können. Kandidaten können auch gelöscht werden. Zusätzlich können relevante Informationen gepflegt werden. | xx
-|Aufgaben können übersichtlich abgearbeitet werden | Hoch |für Admin des StuRa werden einzelne Aufgaben automatisch nach Mitgliedsaufnahme angelegt, welche abgehakt werden können. Zudem gibt es bei Kandidatenerstellung eine kleine Checkliste bevor Kandidat Mitglied werden kann.  | xx
-|vertrauliche  Informationen können nur von Admins eingesehen werden  | Hoch |"Checklisten" und "Kandidaten" Tabs dürfen nur von Admins und nicht von Mitgliedern gesehen werden; Telefonnummer von anderen Mitgliedern dürfen auch nur Admins angezeigt werden | xx
-|einfaches Mittel zur (Gruppen)-Kommunikation |Mittel |Mailverteiler oder Direktmail mittels Einbindung von Thunderbird| xx
-|Automatische Stimmzettelgenerierung | Mittel | Stimmzettel eventuell ausdrucken |  xx
-|Automatisierung der Mitgliederaufnahme nach der Wahl | Mittel | Übertragung des Kandidaten zum Mitglied | xx
-|Workload soll hinzugefügt werden| Niedrig | -- | xx
-|Aufwandsentschädigungszahlung vereinfachen| Niedrig | --| xx
-|Organigramm aktualisieren | Niedrig | das  existierende Organigramm übersichtlicher gestalten | xx
+|einfache Verwaltung der Kandidaten | Hoch | eigener "Kandidaten" Tab, in dem die Daten des Kandidaten (Name, Vorname, Wahldatum, E-Mail, Beschlussnummer) angelegt und bearbeitet werden können. Kandidaten können auch gelöscht werden. Zusätzlich können relevante Informationen gepflegt werden. | KW21
+|Aufgaben können übersichtlich abgearbeitet werden | Hoch |für Admin des StuRa werden einzelne Aufgaben automatisch nach Mitgliedsaufnahme angelegt, welche abgehakt werden können. | KW22
+|vertrauliche  Informationen können nur von Admins eingesehen werden  | Hoch | "Kandidaten" Tab darf nur von Admins und nicht von Mitgliedern gesehen werden; Telefonnummer von anderen Mitgliedern dürfen auch nur Admins angezeigt werden | KW22
+|einfaches Mittel zur (Gruppen)-Kommunikation |Mittel |Mailverteiler oder Direktmail mittels Einbindung von Thunderbird| KW23
+|Automatisierung der Mitgliederaufnahme nach der Wahl | Mittel | Übertragung des Kandidaten zum Mitglied | KW22
+|Automatische Stimmzettelgenerierung | Mittel | Stimmzettel eventuell ausdrucken |  --
+|Workload soll hinzugefügt werden| Niedrig | -- | --
+|Aufwandsentschädigungszahlung vereinfachen| Niedrig | --| --
+|Organigramm aktualisieren | Niedrig | das  existierende Organigramm übersichtlicher gestalten | --
 |===
 
-[%header, cols="4,1,1"]
+[%header, cols="4,1,"]
 |===
-|Anforderung|	Priorität|	Geplantes Release
-|Einfache Bedienbarkeit | Mittel | --
-|System kann nur online genutzt werden (nicht offline) |Mittel|--
+|Anforderung|	Priorität
 |System muss auf allen gängigen Browsern sowie auf mobilen
-Endgeräten lauffähig sein| Hoch | --
+Endgeräten lauffähig sein| Hoch 
+|Einfache Bedienbarkeit | Mittel 
+|System kann nur online genutzt werden (nicht offline) |Mittel
+
 |===
