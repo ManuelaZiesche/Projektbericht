@@ -42,6 +42,8 @@ Allgemeine Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser It
 
 Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitung des Beleges aus dem Wintersemester 20/21 um das weitere Arbeiten zu erleichtern.
 
+image::../docs/project_management/essence_navigator_images/Essence_Navigator_Iteration04.png[]
+
 === Iteration 05: Prototypen (MZi)
 
 In die fünfte Iteration starteten wir noch mit einigen Aufgaben des Beleges aus dem Wintersemester. In der vierten Iteration wurden nicht alle beendet, welche wir uns nun vornehmen wollten. Außerdem hat uns das Meeting mit unserem Coach Felix Müller am Anfang der Iteration sehr viel  postivien Input gebracht, wodurch wir aber dann die Requirements und vorallem noch  die Architektur noch einmal überarbeiten mussten. Wir wollten uns aber schon Ziele setzen, die uns in diesem Projekt effektiv weiter voran bringen würden. Deswegen  haben wir uns dazu entschieden erst einmal an den Test Cases weiter zu arbeiten, was uns als sehr wichtig erschien. Unser Entwickler Vasco Schwarze wollte nun auch mit der Implementierung des Prototypen des ersten Use Cases anfangen, damit wir uns auch schon erstes Feedback von den Stakeholdern einholen konnten. 
@@ -50,6 +52,8 @@ Das Gespräch mit Axel Schiller und Sophia von Asow zur Präsentation des derzei
 Im Laufe des Gespräches haben wir auch erfahren, dass beide sehr glücklich sind bei dem Projekt dabei zu sein und Ihnen unsere bisher geleistete Arbeit gefällt.
 
 Die gesetzten Ziele haben wir alle erreicht. Dazu muss man aber sagen, dass wir diese Iteration nicht ganz so stark mit Aufgaben gefüllt haben, da wir uns hauptsächlich erneut auf die Nachbereitung des Beleges konzentriert haben. Die einzige Aufgabe, die wir noch mit in die nächste Iteration nehmen wollten, war es, die Diagramme des C4 Modells in das Architecture Notebook einzupflegen, da dieses sonst soweit fertig war.
+
+image::../docs/project_management/essence_navigator_images/Essence_Navigator_Iteration05.png[]
 
 === Iteration 06: Implementation (MZi)
 
@@ -63,7 +67,7 @@ Die Implementierung ging sehr gut voran. Unser Entwickler beendete den Kandidate
 
 Am Ende der Iteration 6 traf sich das Team noch einmal, um die Test Cases der ersten zwei Use Cases durchzutesten, damit wir erfolgreich weiter implementieren konnten und notfalls noch Änderungen möglich waren. 
 
-
+image::../docs/project_management/essence_navigator_images/Essence_Navigator_Iteration06.png[]
 
 === Iteration 07: Tests (MZi)
 
@@ -73,6 +77,7 @@ Durch einen erneuten krankheitsbedingten Ausfall von Axel Schiller, wurden die A
 
 Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Systems fertig. Jetzt ging es nur noch darum, dass wir die Dokumentationen, den Projektbericht und die Reflexionen schreiben. Dazu haben wir diese untereinander ziemlich gut aufgeteilt.
 
+image::../docs/project_management/essence_navigator_images/Essence_Navigator_Iteration07.png[]
 
 == Transition Phase
 
@@ -86,6 +91,13 @@ Die erstellte Anwendungsdokumentation konnte nach Abschluss der Implementation d
 Die Entwicklungsdokumentation setzt sich aus der Entwurfsdokumentation und der Codedokumentation zusammen. Letztere wurde mit Sphinx automatisch generiert und wird im HTML-Format beigelegt werden.
 
 Abgesehen von den Dokumentationen stand uns auch noch die Übergabe des Systems an die Auftraggeber bevor. Als Vorbereitung darauf sollte das bereitgestellte Abnahmeprotokoll erstellt werden, welches unter anderem die umgesetzten Anforderungen und Use Cases festhalten soll. Daraufhin haben wir uns vor Augen geführt, wie viel wir, von den gestellten Anforderungen an das System, wir umsetzten konnten. Bemessen an der Anzahl der Use Cases hatten wir vier von sieben erfolgreich implementiert und darauf sind wir sehr stolz. Abgesehen davon unterschied sich der Umfang der jeweiligen Szenarien, doch letztendlich kann festgehalten werden, dass sich die wichtigsten, bereit zur Nutzung, im System befinden.
+
+image::../docs/project_management/essence_navigator_images/Essence_Navigator_Iteration08.png[]
+
+== Wesentlichen Entscheidungen
+=== Iterationslängen
+Wir haben uns am Anfang des gesamten Projektes dafür entschieden, dasswir statt 2-wochenlange Iterationen lieber 3-wochenlange Iterationen bevorzugen, da 
+
 
 == Probleme und Lösungen
 
