@@ -1,4 +1,7 @@
+:toc:
+:toc-title: Inhaltsverzeichnis 
 = Anwenderdokumentation
+
 
 == Einführung
 
@@ -139,3 +142,6 @@ image::AD-images/mail-direkt.png[Mail-Icon]
 * rot unterstrichene Felder sind ein Zeichen dafür, dass noch nicht alle benötigten Eingaben getätigt worden sind
 
 
+== Weiterführende Dokumentation
+In diesem Dokument wurden nur die aktualisierten Features (Stand 2021) behandelt. Die Anwendungsdokumentation zum Verwalten von Organisationseinheiten, Unterbereichen und Funktionen, sowie Checklisten und Anlegen von Nutzern und Admins ist zu finden unter: +
+https://mribrgr.github.io/StuRa-Mitgliederdatenbank/index.html#document-masterUserDoc
