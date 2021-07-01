@@ -21,7 +21,7 @@ Verbesserungspotential sehe ich hingegen für mich selbst beim setzen der Ziele 
 
 Zum Schluss möchte ich ein paar lobende Worte an mein Team, der sehr guten Struktur des SE-Kurses und der dazugehörigen Praktika richten. Die Möglichkeit des Austauschs in den BBB-Räumen finde ich sehr gut und sollte ggf. auch ohne Coronasemester beibehalten werden (Zumindest finde ich die unkomplizierte Möglichkeit zum Fragen stellen sehr wichtig und gut!).
 Besonders gut fand ich auch die Gastvorträge, insbesondere die von Herrn Lösch. Da ich sehr viel mit den OP-Mikroskopen von Zeiss zu tun habe, in denen wahnsinnig viel Software steckt, interessanten mich seine Erzählungen ganz besonders.
-Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frondend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
+Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frontend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
 
 Ich finde auch den unterschied interessant, wie es wohl gewesen wäre, dieses Projekt ohne der herrschenden Coronapandemie zu bewältigen. Schade finde ich, dass ich durch Corona noch nie einen der Teammitglieder, die mich nun seit fast einem Jahr begleiten, wirklich in Persona sehen konnte.
 
@@ -29,7 +29,7 @@ Zu guter Letzt würde ich behaupten, dass dieses Projekt sehr erfolgreich war un
 Ich bin stolz darauf, wieder den nächsten Schritt in Richtung Wissenserweiterung gemacht zu haben und Studium, Arbeit und Privates irgendwie vereinen konnte.
 
 
-Vielen Dank dafür!
+Vielen Dank!
 
 
 
