@@ -10,7 +10,7 @@
 
 Die Inception Phase startete im Wintersemester 2020 mit unserer kleinen, aber informativen Kennlernrunde, die wir im ersten Meeting durchführten. Nachdem wir uns von unseren zukünftigen Teamkollegen ein Bild gemacht haben, wurden die im Unified Process beschriebenen Rollen nach Wunsch aufgeteilt.
 
-Im weiteren Verlauf der Phase haben wir uns zunächst mit dem bestehenden Software System beschäftigt, welches unserem Projekt als Grundlage dienen sollte. Dazu nahmen wir Kontakt mit der Vorgängergruppe auf und erhielten die Zugangsdaten, mit deren Hilfe wir uns selbst ein Überblick über bestehende Funktionalitäten schaffen konnten. Wir erhielten außerdem Einblick in die angefertigten Dokumentationen, sowie eine kurze Einführung in den Quellcode von einem ursprünglichen Entwickler.
+Im weiteren Verlauf der Phase haben wir uns zunächst mit dem bestehenden Software System beschäftigt, welches unserem Projekt als Grundlage dienen sollte. Dazu nahmen wir Kontakt mit der Vorgängergruppe auf und erhielten die Zugangsdaten, mit deren Hilfe wir uns selbst einen Überblick über bestehende Funktionalitäten schaffen konnten. Wir erhielten außerdem Einblick in die angefertigten Dokumentationen, sowie eine kurze Einführung in den Quellcode von einem ursprünglichen Entwickler.
 
 Als nächstes vereinbarten wir ein Meeting mit der Auftraggeberin Sophia von Asow. Dies erwies sich als etwas schwierig, da diese leider eine Woche lang nicht auf unsere E-Mail reagierte. +
 Neben den in der Aufgabenstellung festgelegten Einschränkungen erfuhren wir in der nächsten Konferenz mit ihr mehr über wichtige Anforderungen, die sie als Vertretung für den Student:innenrat an das System stellte. Jene wurden sowohl textuell in einem Gesprächsprotokoll, als auch in der Vison festgehalten und sollten die Basis des neuen Systemabschnittes bilden.
@@ -20,9 +20,9 @@ Neben den in der Aufgabenstellung festgelegten Einschränkungen erfuhren wir in 
 
 Ziel dieser Iteration war es, aus den gestellten Anforderungen Use Cases zu formulieren, welche uns eine Aussicht auf zu implementierende Funktionen gaben.
 
-Parallel wurde das System lokal anhand der Einrichtungshinweise in der Dokumentation in Betrieb genommen und der Quellcode analysiert. Zwar hatte keines der Teammitglieder Erfahrungen im Umgang mit der Programmiersprache Python gesammelt, doch wir haben uns dennoch dazu entschieden das System in dieser Sprache zu erweitern. Aufgrund der Menge an Quelltext schien es uns aufwendiger die bestehende Anwendung in einer uns bekannten Programmiersprache zu realisieren, als jene zu erlernen, in der es programmiert wurde.
+Parallel wurde das System lokal anhand der Einrichtungshinweise in der Dokumentation in Betrieb genommen und der Quellcode analysiert. Zwar hatte keines der Teammitglieder Erfahrungen im Umgang mit der Programmiersprache Python gesammelt, doch wir haben uns dennoch dazu entschieden, das System in dieser Sprache zu erweitern. Aufgrund der Menge an Quelltext schien es uns aufwendiger die bestehende Anwendung in einer uns bekannten Programmiersprache zu realisieren, als jene zu erlernen, in der es programmiert wurde.
 
-Außerdem wurde begonnen das Architektur Notebook zu erstellen.
+Außerdem wurde begonnen das Architecture Notebook zu erstellen.
 
 === Iteration 03: Architektur (SAd)
 
