@@ -11,22 +11,22 @@ Die oben beschriebenen Funktionalitäten beziehen sich alle auf umgesetzte Use C
 
 Use Cases mit einer geringen bis sehr geringen Priorität konnten teilweise aus Zeitgründen oder Komplexitätsgründen nicht umgesetzt werden. Gewünscht war unter anderem, dass der Workload der einzelnen Mitglieder erfasst und sich daraus automatisch die Aufwandsentschädigung berechnet. Doch nach einem langen Meeting mit einem der Admins wurde uns das umfangreiche Ausmaß dieser Aufgabe dargelegt und unter Anbetracht der notwendigen Zeit, die wir zur Implementation der anderen Use Cases benötigten, haben wir davon abgesehen diesen speziellen Use Case weiter auszuarbeiten und umzusetzen. Die Generierung von druckbaren Stimmzetteln, welche verschiedene Kandidaturen für eine Wahl listen sollten, konnte leider aus zeitlichen Gründen ebenfalls nicht verwirklicht werden.
 
-== Reflexion pro Teammitglied
+== Reflexionen
 
 <<<
-include::reflexion_manuela.adoc[leveloffset=+1]
+include::reflexion_manuela.adoc[leveloffset=+2]
 
 <<<
-include::reflexion_sebastian.adoc[leveloffset=+1]
+include::reflexion_sebastian.adoc[leveloffset=+2]
 
 <<<
-include::reflexion_benjamin.adoc[leveloffset=+1]
+include::reflexion_benjamin.adoc[leveloffset=+2]
 
 <<<
-include::reflexion_Saputra.adoc[leveloffset=+1]
+include::reflexion_Saputra.adoc[leveloffset=+2]
 
 <<<
-include::reflexion_vasco.adoc[leveloffset=+1]
+include::reflexion_vasco.adoc[leveloffset=+2]
 
 <<<
-include::reflexion_sabine.adoc[leveloffset=+1]
+include::reflexion_sabine.adoc[leveloffset=+2]
