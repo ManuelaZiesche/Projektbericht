@@ -69,7 +69,7 @@ Abnahmeumgebung: Entwicklungsumgebung (Team führt vor)
 
 == Unterschriften
 
-Hiermit wird die Abnahme vollständig / mit Mängeln bestätigt.
+Hiermit wird die Abnahme [.underline]#vollständig# / mit Mängeln bestätigt.
 
 Bemerkungen:
 
