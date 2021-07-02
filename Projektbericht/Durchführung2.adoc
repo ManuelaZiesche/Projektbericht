@@ -87,7 +87,9 @@ Das Teammitglied, welches sich sonst zu gering in die Teamarbeit eingebracht hat
 
 Durch einen erneuten krankheitsbedingten Ausfall von Axel Schiller, wurden die Akzeptanztests wieder um eine Woche nach hinten verschoben.  Die Akzeptanztests fanden dann in einem virtuellen Meeting mit den Stakeholdern statt. Wir hatten uns vorher überlegt, was in diesem Meeting getestet werden soll und dann durften die Stakeholder Axel Schiller und Sophia von Asow das System ausprobieren. Bei diesen Tests sind denen noch kleine Dinge aufgefallen, die wir verändern könnten. Diese hat unser Entwickler Vasco Schwarze direkt noch umgesetzt. Zusammenfassend waren die Tests sehr erfolgreich und für die Stakeholder zufriedenstellend. 
 
-Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Systems fertig. Jetzt ging es nur noch darum, dass wir die Dokumentationen, den Projektbericht und die Reflexionen schreiben. Dazu haben wir diese untereinander ziemlich gut aufgeteilt.
+Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Systems fertig. Jetzt ging es nur noch darum, dass wir die Dokumentationen, den Projektbericht und die Reflexionen schreiben. Dazu haben wir diese untereinander ziemlich gut aufgeteilt. 
+
+Außerdem beendete unser Architekt Benjamin in dieser Iteration alle Diagramme, welche in der letzten Zeit nur noch verfeinert wurden. Im Diagramm ist zu sehen, welche Use Cases wir bearbeitet haben und welche wir aufgrund fehlender Zeit nicht bearbeiten konnten. Wir haben uns ziemlich zeitig schon eine Priorisierung einfallen lassen, wonach wir die Use Cases implementieren wollen. Dadurch haben wir nur die mit hoher Priorisierung entwickelt und die, welche eine niedrigere haben, nicht mehr implementiert. 
 
 Am Ende dieser Iteration war es nicht nur wichtig, dass das Team die erldigten und geplanten Aufgaben vergleicht. Wir wollten von unseren Stakeholdern eine positive Rückmeldung bei den Akzeptanztests erhalten. Da das Feedback positiv ausgefallen ist und wir unsere Ziele alle erreicht haben, entschieden wir uns erneut für einen grünen Projektstatus. 
 
@@ -111,10 +113,12 @@ Nach Meetings mit unseren Auftraggebern haben wir ziemlich selbstständig gearbe
 
 image::Essence-Navigator/Essence_Navigator_Iteration08.png[]
 
+
 == Wesentlichen Entscheidungen
 === Iterationslängen
 
-Wir haben uns am Anfang des gesamten Projektes dafür entschieden, dass wir statt 2-Wochen-Iterationen lieber 3-Wochen-Iterationen bevorzugen, da wir 
+Wir haben uns am Anfang des Projektes dafür entschieden, dass wir Iterationslängen von 3 Wochen machen möchten. Die Gründe dafür sind ziemlich simpel: Wir müssen pro Iteration zwar mehr planen, haben aber im Großen und Ganzen weniger organisatorische Arbeit, da wir weniger Iterationen planen, abschließen und bewerten mussten. 
+
 
 
 == Probleme und Lösungen
