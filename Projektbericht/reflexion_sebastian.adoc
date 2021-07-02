@@ -23,7 +23,7 @@ Zum Schluss möchte ich ein paar lobende Worte an mein Team, der sehr guten Stru
 Besonders gut fand ich auch die Gastvorträge, insbesondere die von Herrn Lösch. Da ich sehr viel mit den OP-Mikroskopen von Zeiss zu tun habe, in denen wahnsinnig viel Software steckt, interessanten mich seine Erzählungen ganz besonders.
 Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frontend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
 
-Ich finde auch den unterschied interessant, wie es wohl gewesen wäre, dieses Projekt ohne der herrschenden Coronapandemie zu bewältigen. Schade finde ich, dass ich durch Corona noch nie einen der Teammitglieder, die mich nun seit fast einem Jahr begleiten, wirklich in Persona sehen konnte.
+Ich finde auch den Unterschied interessant, wie es wohl gewesen wäre, dieses Projekt ohne der herrschenden Coronapandemie zu bewältigen. Schade finde ich, dass ich durch Corona noch nie einen der Teammitglieder, die mich nun seit fast einem Jahr begleiten, wirklich in Persona sehen konnte.
 
 Zu guter Letzt würde ich behaupten, dass dieses Projekt sehr erfolgreich war und seinen Zweck mehr als erfüllt hat und dies hoffentlich in Zukunft genauso tut. Sei es in der Weiterentwicklung oder im reinen Einsatz.
 Ich bin stolz darauf, wieder den nächsten Schritt in Richtung Wissenserweiterung gemacht zu haben und Studium, Arbeit und Privates irgendwie vereinen konnte.
