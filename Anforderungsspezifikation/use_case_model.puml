@@ -5,13 +5,13 @@ actor Admin
 
 
 rectangle "Webseite des STURA" {
-  "Kandidaten verwalten" as (uc01) #A9E2F3
-  "Mitglieder aufnehmen" as (uc02) #A9E2F3
-  "Mitgliederinformationen einpflegen" as (uc03) #A9E2F3
-  "Mitglieder per E-Mail kontaktieren" as (uc04) #A9E2F3
-  "Stimmzettel generieren" as (uc05) #A9E2F3
-  "Workload erfassen" as (uc06) #A9E2F3
-  "Aufwandsentschädigung berechnen" as (uc07) #A9E2F3
+  "UC 01: Kandidaten verwalten" as (uc01) #A9E2F3
+  "UC 02: Mitglieder aufnehmen" as (uc02) #A9E2F3
+  "UC 03: Mitgliederinformationen einpflegen" as (uc03) #A9E2F3
+  "UC 04: Mitglieder per E-Mail kontaktieren" as (uc04) #A9E2F3
+  "UC 05: Stimmzettel generieren" as (uc05) #A9E2F3
+  "UC 06: Workload erfassen" as (uc06) #A9E2F3
+  "UC 07: Aufwandsentschädigung berechnen" as (uc07) #A9E2F3
 }
 
 
