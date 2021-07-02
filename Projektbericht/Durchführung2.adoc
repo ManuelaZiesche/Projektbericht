@@ -91,6 +91,8 @@ Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Syst
 
 Außerdem beendete unser Architekt Benjamin in dieser Iteration alle Diagramme, welche in der letzten Zeit nur noch verfeinert wurden. Im Diagramm ist zu sehen, welche Use Cases wir bearbeitet haben und welche wir aufgrund fehlender Zeit nicht bearbeiten konnten. Wir haben uns ziemlich zeitig schon eine Priorisierung einfallen lassen, wonach wir die Use Cases implementieren wollen. Dadurch haben wir nur die mit hoher Priorisierung entwickelt und die, welche eine niedrigere haben, nicht mehr implementiert. 
 
+image::../Entwicklerdokumentation/ED-images/Paketdiagramm_(mit_Klassen)_Farbe.png[]
+
 Am Ende dieser Iteration war es nicht nur wichtig, dass das Team die erldigten und geplanten Aufgaben vergleicht. Wir wollten von unseren Stakeholdern eine positive Rückmeldung bei den Akzeptanztests erhalten. Da das Feedback positiv ausgefallen ist und wir unsere Ziele alle erreicht haben, entschieden wir uns erneut für einen grünen Projektstatus. 
 
 image::Essence-Navigator/Essence_Navigator_Iteration07.png[]
