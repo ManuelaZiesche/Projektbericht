@@ -12,7 +12,7 @@
 
 == Aufgabenstellung und Auftraggeber (AG)
 
-Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der sogenannten Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRas als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
+Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der sogenannten Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRa als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
 
 == Ausgangssituation
 
@@ -21,10 +21,9 @@ Grundlage unseres Projektes bildete die einsatzbereite Anwendung des Vorgängert
 Durch ein Mitglied der Vorgängergruppe erhielten wir die Zugangsdaten für die bestehende Anwendung, sowie Einsicht in all die verschiedenen Dokumentationen, die im Zuge des vergangenen Projektes angefertigt worden sind. In einem weiteren Meeting wurde uns, von einem der ursprünglichen Entwickler, eine sehr informative Einführung in den umfangreichen Quellcode gegeben.
 
 == Projektorganisation
-
 === Team
 
-Anfänglich bestand unser Team aus acht Studierenden: fünf kamen aus dem Studiengang Wirtschaftsinformatik, zwei aus dem Wirtschaftsingeneurewesen und eine aus der Allgemeinen Informatik. Fast alle Mitglieder nahmen während des ersten Meetings an der kleinen Vorstellungsrunde teil, die von der Projektmanagerin Manuela Ziesche initiiert worden war. So konnte sich jeder ein Bild von seinen neuen Teamkolleg:innen machen, mit denen man die kommenden zwei Semester das Projekt bearbeiten würde.
+Anfänglich bestand unser Team aus acht Studierenden: fünf kamen aus dem Studiengang Wirtschaftsinformatik, zwei aus dem Wirtschaftsingeneurewesen und eine aus der Allgemeinen Informatik. Alle Mitglieder nahmen während des ersten Meetings an der kleinen Vorstellungsrunde teil, die von der Projektmanagerin Manuela Ziesche initiiert worden war. So konnte sich jeder ein Bild von seinen neuen Teamkolleg:innen machen, mit denen man die kommenden zwei Semester das Projekt bearbeiten würde.
 
 === Rollenverteilung
 ==== 3. Semester
@@ -73,10 +72,9 @@ Nach dem ersten Meeting mit der Auftraggeberin, welches kurz nach Start des Proj
 Ab dem vierten Semester hatten wir das Glück durch Sophia mit dem zukünftigen Admin unserer Anwendung, Axel Schiller, in Kontakt zu kommen. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners zu übernehmen, wodurch verschiedene Fragen schneller beantwortet werden konnten. 
 
 === Verwendete Tools
-
 ==== Planung
 
-Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte  Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, dass eigens für uns angelegte Board zu verwalten.
+Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, dass eigens für uns angelegte Board zu verwalten.
 
 .Ausschnitt Trello Iteration 7
 image::trello.PNG[Ausschnitt Trello]
