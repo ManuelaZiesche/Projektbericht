@@ -26,7 +26,7 @@ Ist für die Mitgliederaufnahme und die Bearbeitung der Check-Listen zuständig
 NOTE: Das folgende Wireframe zeigt einen ersten Entwurf der Benutzeroberfläche, die die Anforderungen, die bis zu diesem Zeitpunkt gestellt worden sind, umsetzt. Eine Abweichung zum aktuellen Use Case ist somit möglich.
 
 .Wireframe Kandidatur zu Mitglied aufnehmen
-image::WF/Kandidat_hinzufügen_01.jpeg[WF UC 02]
+image::WF/Mitglied_aufnehmen.jpeg[WF UC 02]
 
 ===	Nachbedingungen
 

@@ -22,7 +22,7 @@ Ist für die Verwaltung zuständig
 NOTE: Das folgende Wireframe zeigt einen ersten Entwurf der Benutzeroberfläche, die die Anforderungen, die bis zu diesem Zeitpunkt gestellt worden sind, umsetzt. Eine Abweichung zum aktuellen Use Case ist somit möglich.
 
 .Wireframe Kandidatur hinzufügen
-image::WF/Kandidat_erstellen_01.jpeg[WF UC 01]
+image::WF/Kandidatur_erstellen.jpeg[WF UC 01]
 
 === Alternative Abläufe
 
