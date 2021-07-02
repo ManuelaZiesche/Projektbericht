@@ -1,5 +1,7 @@
 = Use-Cases
 
+:plantumlsdir: plantuml
+
 == Allgemeine Informationen
 
 |===
@@ -24,9 +26,9 @@
 |===
 
 [#diagramm_use_case-model]
-[plantuml, "{diagramsdir}/diagramm_use_case-model", svg]
+[plantuml, "plantuml/diagramm_use_case-model", svg]
 
-include::use_case_model.puml[]
+include::plantuml/use_case_model.puml[]
 
 <<<
 include::use_case_Kandidaten_verwalten.adoc[]

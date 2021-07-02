@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' contentScriptType='application/ecmascript' contentStyleType='text/css' height='611px' preserveAspectRatio='none' style='width:390px;height:611px;' version='1.1' viewBox='0 0 390 611' width='390px' zoomAndPan='magnify'>
+  <defs>
+    <filter height='300%' id='f18ssb7wp0fw65' width='300%' x='-1' y='-1'>
+      <feGaussianBlur result='blurOut' stdDeviation='2.0'/>
+      <feColorMatrix in='blurOut' result='blurOut2' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0'/>
+      <feOffset dx='4.0' dy='4.0' in='blurOut2' result='blurOut3'/>
+      <feBlend in='SourceGraphic' in2='blurOut3' mode='normal'/>
+    </filter>
+  </defs>
+  <g>
+    <!--MD5=[2bf1ae3667aa9ff86586560325942e61]
+cluster Webseite des STURA-->
+    <rect fill='#FFFFFF' filter='url(#f18ssb7wp0fw65)' height='576' style='stroke: #000000; stroke-width: 1.5;' width='281' x='98' y='24'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='146' x='165.5' y='40.5332'>
+      Webseite des STURA
+    </text>
+    <ellipse cx='238.5066' cy='170.2013' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='84.0066' ry='19.2013' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='136' x='170.5066' y='175.506'>
+      Kandidaten verwalten
+    </text>
+    <ellipse cx='238.5066' cy='243.2013' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='84.0066' ry='19.2013' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='136' x='170.5066' y='248.506'>
+      Mitglieder aufnehmen
+    </text>
+    <ellipse cx='238.591' cy='323.9182' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='120.091' ry='26.4182' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='217' x='130.091' y='329.2229'>
+      Mitgliederinformationen einpflegen
+    </text>
+    <ellipse cx='238.3167' cy='557.8633' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='117.3167' ry='25.8633' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='211' x='132.8167' y='563.168'>
+      Mitglieder per E-Mail kontaktieren
+    </text>
+    <ellipse cx='238.3923' cy='405.8785' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='87.3923' ry='19.8785' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='144' x='166.3923' y='411.1832'>
+      Stimmzettel generieren
+    </text>
+    <ellipse cx='238.5156' cy='478.8031' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='77.0156' ry='17.8031' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='119' x='179.0156' y='484.1078'>
+      Workload erfassen
+    </text>
+    <ellipse cx='238.2727' cy='87.7545' fill='#A9E2F3' filter='url(#f18ssb7wp0fw65)' rx='124.2727' ry='27.2545' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='226' x='125.2727' y='93.0592'>
+      Aufwandsentschädigung berechnen
+    </text>
+    <!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin-->
+    <ellipse cx='30' cy='292' fill='#FEFECE' filter='url(#f18ssb7wp0fw65)' rx='8' ry='8' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <path d='M30,300 L30,327 M17,308 L43,308 M30,327 L17,342 M30,327 L43,342 ' fill='none' filter='url(#f18ssb7wp0fw65)' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='39' x='10.5' y='362.0332'>
+      Admin
+    </text>
+    <!--MD5=[e1d1b5dfd11a1d4f98408bdad09c015c]
+entity Mitglied-->
+    <ellipse cx='30' cy='526' fill='#FEFECE' filter='url(#f18ssb7wp0fw65)' rx='8' ry='8' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <path d='M30,534 L30,561 M17,542 L43,542 M30,561 L17,576 M30,561 L43,576 ' fill='none' filter='url(#f18ssb7wp0fw65)' style='stroke: #A80036; stroke-width: 1.5;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='48' x='6' y='596.0332'>
+      Mitglied
+    </text>
+    <!--MD5=[fab327fdd4ab81f0a0ca32da739a4235]
+link Admin to uc01-->
+    <path d='M41.98,282.47 C50.85,256.81 65.92,225.21 90,206 C109.58,190.39 134.94,181.4 159.09,176.28 ' fill='none' id='Admin-uc01' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[72d7e0eedcca15b18461e59a3a41504a]
+link Admin to uc02-->
+    <path d='M49.68,307.04 C60.71,297.84 75.34,286.96 90,280 C114.92,268.17 144.08,259.83 169.85,254.1 ' fill='none' id='Admin-uc02' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[466467f6c0ec650cc64abeeeed6191aa]
+link Admin to uc03-->
+    <path d='M49.69,324 C66.07,324 91.4,324 118.21,324 ' fill='none' id='Admin-uc03' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[75ce7d8172c02e585c5e2395ec4da95f]
+link Admin to uc04-->
+    <path d='M32.89,365.73 C37.07,408.62 50.09,474.53 90,514 C103.78,527.62 121.58,537.06 140.02,543.59 ' fill='none' id='Admin-uc04' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[948b0e8b1efa3f865993c83ce0338777]
+link Mitglied to uc04-->
+    <path d='M54.29,558 C71.16,558 95.38,558 120.71,558 ' fill='none' id='Mitglied-uc04' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[75cc76dbb0508562fa20afa60f9e7bd6]
+link Admin to uc05-->
+    <path d='M49.7,340.92 C60.73,350.11 75.36,360.99 90,368 C114.45,379.7 142.96,388.13 168.37,394.02 ' fill='none' id='Admin-uc05' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[a46fbd27d0fad12ac711f307ac8dc294]
+link Admin to uc06-->
+    <path d='M41.79,365.59 C50.62,391.52 65.7,423.55 90,443 C110.99,459.8 138.67,468.93 164.38,473.83 ' fill='none' id='Admin-uc06' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[45010ee619378b7883ab06b20cf06da9]
+link Admin to uc07-->
+    <path d='M32.88,282.11 C37.05,239.04 50.05,172.81 90,133 C103.09,119.96 119.83,110.68 137.32,104.08 ' fill='none' id='Admin-uc07' style='stroke: #A80036; stroke-width: 1.0;'/>
+    <!--MD5=[3bc66d2e67d6723a7fe4ce9f914b80cd]
+@startuml diagramm_use_case-model
+left to right direction
+
+actor Admin
+
+
+rectangle "Webseite des STURA" {
+  "Kandidaten verwalten" as (uc01) #A9E2F3
+  "Mitglieder aufnehmen" as (uc02) #A9E2F3
+  "Mitgliederinformationen einpflegen" as (uc03) #A9E2F3
+  "Mitglieder per E-Mail kontaktieren" as (uc04) #A9E2F3
+  "Stimmzettel generieren" as (uc05) #A9E2F3
+  "Workload erfassen" as (uc06) #A9E2F3
+  "Aufwandsentschädigung berechnen" as (uc07) #A9E2F3
+}
+
+
+Admin - - (uc01)
+Admin - - (uc02)
+Admin - - (uc03)
+Admin - - (uc04)
+Mitglied - - (uc04)
+Admin - - (uc05)
+Admin - - (uc06)
+Admin - - (uc07)
+
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 14:38:32 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_291-b10
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: de
+Country: DE
+-->
+  </g>
+</svg>
