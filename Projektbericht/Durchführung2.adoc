@@ -13,7 +13,7 @@ Die Inception Phase startete im Wintersemester 2020 mit unserer kleinen, aber in
 Im weiteren Verlauf der Phase haben wir uns zunächst mit dem bestehenden Software System beschäftigt, welches unserem Projekt als Grundlage dienen sollte. Dazu nahmen wir Kontakt mit der Vorgängergruppe auf und erhielten die Zugangsdaten, mit deren Hilfe wir uns selbst ein Überblick über bestehende Funktionalitäten schaffen konnten. Wir erhielten außerdem Einblick in die angefertigten Dokumentationen, sowie eine kurze einführung in den Quellcode von einem ursprünglichen Entwickler.
 
 Als nächstes vereinbarten wir ein Meeting mit der Auftraggeberin Sophia von Asow. Dies erwies sich als etwas schwierig, da diese leider eine Woche lang nicht auf unsere E-Mail reagierte. +
-Neben den in der Aufgabenstellung festgelegten Einschränkungen erfuhren wir in der nächsten konferenz mit ihr mehr über wichtige Anforderungen, die sie als Vertretung für den Student:innenrat an das System stellte. Jene wurden textuell sowohl in einem Gesprächsprotokoll, als auch in der Vison festgehalten und sollten die Basis des neuen Systemabschnittes bilden.
+Neben den in der Aufgabenstellung festgelegten Einschränkungen erfuhren wir in der nächsten Konferenz mit ihr mehr über wichtige Anforderungen, die sie als Vertretung für den Student:innenrat an das System stellte. Jene wurden sowohl textuell in einem Gesprächsprotokoll, als auch in der Vison festgehalten und sollten die Basis des neuen Systemabschnittes bilden.
 
 == Elaboration Phase
 === Iteration 02: Use-Cases und Architektur (SAd)
