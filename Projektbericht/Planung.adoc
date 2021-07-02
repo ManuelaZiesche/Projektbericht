@@ -12,7 +12,7 @@
 
 == Aufgabenstellung und Auftraggeber (AG)
 
-Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der sogenannten Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRa als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
+Im Rahmen der Module Software Engineering I/II wurde auf Wunsch des Studentenrates (StuRa) der HTW Dresden ein Software-System entwickelt, welches für Verwaltungszwecke genutzt werden sollte. Die Aufgabe von unserem Team war es, diese bestehende, webbasierte Anwendung aus dem Studienjahr 2019/2020 gemäß den Anforderungen unserer Auftraggeberin, Sophia von Asow, weiter zu optimieren. Mit Hilfe der Mitgliederdatenbank sollte man nach Abschluss unseres Projektes dazu in der Lage sein, sowohl die Daten von Mitgliedern des StuRa als auch deren potenziellen Anwärtern (Kandidaten) leichter zu verwalten. Hierfür musste die Datenbank selbst und die Benutzeroberfläche angepasst werden. Bei Fragen konnten wir uns an unsere Auftraggeberin wenden, sowie an Axel Schiller, den zukünftigen Admin unserer Anwendung.
 
 == Ausgangssituation
 
@@ -62,8 +62,8 @@ Des Weiteren wurden wichtige Gespräche, die im Rahmen des Projektes stattfanden
 
 === Kommunikation im Team
 
-Im dritten, sowie im vierten Semester machten virtuellen Meetings den Hauptbestandteil unserer Kommunikation im Team aus. Ein Mal in der Woche wurde sich online verabredet um Erarbeitetes zu diskutieren und um Probleme vorzutragen. Gerade am Anfang waren diese Konferenzen sehr stockend und von längeren stillen Pausen durchzogen, da es für alle das erste größere Projekt war und man noch nicht so ganz wusste, wie man miteinander umgehen sollte. +
-Doch dies änderte sich mit der Zeit. Neben den essenziell wichtigen Dingen für das Projekt, tauschte man sich am Ende der Meetings auch über andere Module oder private Angelegenheiten aus. Daraus entwickelte sich in Summe eine sehr angenehmes Arbeitsklima, in dem ein offener und ehrlicher Umgang stattfinden konnte. +
+Im dritten, sowie im vierten Semester machten virtuelle Meetings den Hauptbestandteil unserer Kommunikation im Team aus. Ein Mal in der Woche wurde sich online verabredet um Erarbeitetes zu diskutieren und um Probleme vorzutragen. Gerade am Anfang waren diese Konferenzen sehr stockend und von längeren stillen Pausen durchzogen, da es für alle das erste größere Projekt war und man noch nicht so ganz wusste, wie man miteinander umgehen sollte. +
+Doch dies änderte sich mit der Zeit. Neben den essenziell wichtigen Dingen für das Projekt, tauschte man sich am Ende der Meetings auch über andere Module oder private Angelegenheiten aus. Daraus entwickelte sich in Summe ein sehr angenehmes Arbeitsklima, in dem ein offener und ehrlicher Umgang stattfinden konnte. +
 Das vierte Semester brachte, neben neuen Herausforderungen, auch einen im Stundenplan eingetragenen Slot für das Modul Software Engineering II mit sich, den wir zum gemeinsamen Arbeiten nutzten. Zusätzlich wurden montags Meetings abgehalten, in der gemeinsam die bevorstehende Woche geplant wurde und sich jeder seine Aufgaben vor Augen führte.
 
 === Kommunikation mit dem Auftraggeber
@@ -74,10 +74,10 @@ Ab dem vierten Semester hatten wir das Glück durch Sophia mit dem zukünftigen 
 === Verwendete Tools
 ==== Planung
 
-Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, dass eigens für uns angelegte Board zu verwalten.
+Neben den unten aufgeführten Tools für die Kommunikation nutzen wir den Aufgaben-Verwaltungs-Onlinedienst Trello, welcher es uns ermöglichte Aufgaben und Termine für alle Mitglieder übersichtlich darzustellen. Leander Vasco Schwarze hat sich bereit erklärt, das eigens für uns angelegte Board zu verwalten.
 
 .Ausschnitt Trello Iteration 7
-image::trello.PNG[Ausschnitt Trello]
+image::trello.PNG[Ausschnitt Trello, caption=]
 
 ==== Kommunikation
 
@@ -98,9 +98,9 @@ Die Kommunikation mit der Auftraggeberin fand hauptsächlich über E-Mail statt.
 |===
 | Tool                  | Verwendungszweck
 
-| git/ Github           | Verwaltung der Dateien
+| Git/Github           | Verwaltung der Dateien
 | Asciidoc              | Verfassung schriftlicher Dokumentationen
-| Sphinx                | automatische Generierung der Codedokumentation
+| Doxygen               | automatische Generierung der Codedokumentation
 | Paint.net/ Photoshop  | Bearbeitung von Bilder
 | Diagrams.net          |Erstellung von Diagrammen
 |===
@@ -111,6 +111,6 @@ Der Ablauf des Projekts richtete sich hauptsächlich nach dem Open Unified Proce
 
 Zu Beginn jeder Iteration, welche drei Wochen lang waren, haben wir unsere Ziele besprochen. Während der wöchentlichen Meetings innerhalb der einzelnen Iterationen konnte jedes Mitglied seinen Fortschritt vorzeigen oder offen um Hilfe bitten. Dabei wurden Probleme, welche von einzelnen Rollen gemeldet wurden, in aktiver Zusammenarbeit noch während der selben Konferenz gelöst.
 
-Ergaben sich Fragen, die nur von der Auftraggeberin Sophia von Asow oder von Axel Schiller beantwortet werden konnten, wurden diese gesammelt und dann im nächsten gemeinsamen Meeting vorgetragen. Gerade bei Gesprächen mit den oben genannten Stackholdern wurde Protokoll geführt, um die wichtigsten Informationen festzuhalten und anschließend verarbeiten zu können.
+Ergaben sich Fragen, die nur von der Auftraggeberin Sophia von Asow oder von Axel Schiller beantwortet werden konnten, wurden diese gesammelt und dann im nächsten gemeinsamen Meeting vorgetragen. Gerade bei Gesprächen mit den oben genannten Stakeholdern wurde Protokoll geführt, um die wichtigsten Informationen festzuhalten und anschließend verarbeiten zu können.
 
 Am Ende jeder Iteration wurde der Fortschritt des Projektes diskutiert und mit Hilfe des Essence-Navigators erfasst. 
