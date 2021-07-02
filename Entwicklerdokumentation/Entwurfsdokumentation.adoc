@@ -1,3 +1,6 @@
+:toc:
+:toc-title: Inhaltsverzeichnis 
+
 = Entwurfsdokumentation
 
 Dieses Dokument beschreibt wesentliche  Elemente der Softwarearchitektur, sowie andere übergreifende Aspekte des Systems für die Mitgliederdatenbank des StuRa. Hier wird im Folgenden auf die Ziele, Annahmen, die architektonische Bedeutung, unsere Entscheidungen bzw. Einschränkungen und weitere Dinge eingegangen und dokumentiert.
