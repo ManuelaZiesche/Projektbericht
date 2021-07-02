@@ -42,7 +42,7 @@ image::WF/Kandidatur_erstellen.jpg[WF UC 01]
 
 ==== Alternativer Ablauf 3
 
-. Der Admin hat die Intension eine Kandidatur zu löschen
+. Der Admin hat die Intention eine Kandidatur zu löschen
 . Für die jeweilige Kandidatur wählt er diese Option aus, woraufhin sich der Löschvorgang einleitet
 
 ===	Nachbedingungen

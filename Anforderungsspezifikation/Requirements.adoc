@@ -1,6 +1,8 @@
 = System-Wide Requirements
 
+
 == Einführung
+
 In diesem Dokument werden die systemweiten Anforderungen für das Projekt I4 Weiterentwicklung der Mitgliederdatenbank des StuRa spezifiziert. Die Gliederung erfolgt nach der FURPS+ Anforderungsklassifikation:
 
 * Systemweite funktionale Anforderungen (F),
@@ -11,11 +13,11 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt I4 Wei
 Ausarbeitung eines Datenschutzkonzeptes, welches die Anforderungen jederzeit erfüllt:
 
 F1: Die personenbezogenen Daten sollen vor unberechtigtem Zugriff geschützt sein. +
-F2: Persistenz der Daten. Die eingegebenen Werte sollen validiert werden, der Werteberich geprüft werden. 
+F2: Die Daten sollen persistent sein. +
+F3: Die eingegebenen Werte sollen validiert bzw. der Werteberich geprüft werden. 
 
 == Qualitätsanforderungen für das Gesamtsystem
 === Benutzbarkeit (Usability)
-Standards für die Benutzerfreundlichkeit, Lokalisierung (landesspezifische Anpassungen von Sprache, Datumsformaten, Währungen usw.)
 
 U1: Das Mitglied/ Der Admin sollte die Bedienung innerhalb eines Tages erlernen. +
 U2: Ausführen einer Hauptfunktionalität darf nicht mehr als 10 Klicks beanspruchen. 
@@ -36,3 +38,4 @@ S1: Das System soll einfach erweiterbar und wartbar sein.
 
 === Rechtliche Anforderungen
 * Nutzung von freien Lizenzen (Open Source)
+

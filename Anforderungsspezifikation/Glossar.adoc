@@ -9,7 +9,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 |Begriff|	Definition und Erläuterung|	Synonyme
 |Beschlussnummer|wird jedem Antrag im StuRa zugeordnet |--
 |Studentenrat | Studentische Vertretung an der HTW Dresden | StuRa
-|Nutzer:in| hat Zugriff auf das StuRa System | --
+|Nutzer:in| hat Zugriff auf das StuRa System | User
 |Mitglied | Mitglied des StuRa | --
 |Kandidatur| Person, die sich zu Wahl gestellt hat um Mitglied im StuRa zu werden | Kandidat:in
 |Admin | Zuständig für die administrative Aufgaben der Webseite | Systemverwalter
