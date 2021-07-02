@@ -19,8 +19,7 @@ Ist für die Aufnahme und Bearbeitung der zusätzlichen Informationen zuständig
 . Der Admin wählt ein Mitglied, dass bearbeitet werden muss aus
 . Eine Checkliste gibt Auskunft über noch offene Aufgaben, die der Admin bearbeiten muss
 .. unterschriebene Dokumente hochladen (Verpflichtung auf das Datengeheimnis, Kenntnisnahme der Ordnungen, Stammdatenblatt) 
-.. er gibt an, ob die Telefonnummer des neuen Mitgliedes im Notfall an andere Mitglieder weitergegeben werden darf
-. Zusätzlich hat er die Möglichkeit das Protokoll der jeweiligen Sitzung zu verlinken
+. Er gibt an, ob die Telefonnummer des neuen Mitgliedes im Notfall an andere Mitglieder weitergegeben werden darf
 
 === Alternative Abläufe
 ==== Alternativer Ablauf 1

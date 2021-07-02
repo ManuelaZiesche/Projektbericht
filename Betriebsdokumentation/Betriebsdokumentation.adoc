@@ -191,7 +191,7 @@ rm ${BACKUPDIR}/db-backup-kw${OLDWEEK}.txt
 | Schritt | Befehl | Kommentar
 
 | 1 | `cd /backup` | Verzeichnis aufrufen, in der das Backup gespeichert wurde
-| 2 | `sqlite3 foo.sqlite3 < db-backup-kwXX.txt` | XX durch die jeweilige Kalenderwoche des backups ersetzten, aus der die neue Datenbank "foo" generiert werden soll
+| 2 | `sqlite3 foo.sqlite3 < db-backup-kwXX.txt` | XX durch die jeweilige Kalenderwoche des Backups ersetzten, aus der die neue Datenbank "foo" generiert werden soll
 | 3 | `mv /backup/foo.sqlite3 /baz/` | Die Datenbank "foo" kann nun in einen beliebigen Ordner verschoben werden
 |===
 

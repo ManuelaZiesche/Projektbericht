@@ -36,7 +36,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 [%header]
 |===
 | Bezeichnung | Definition | Format | Gültigkeitsregeln | Aliase
-| Kandidatendaten | Vorname, Name, E-Mail, Beschlussnummer, Wahldatum |  |  | Daten des Kandidaten/ der Kandidatur
-| Mitgliederdaten | Vorname, Name, E-Mail, Anschrift, Telefonnummer, Funktion, Eintrittsdatum | | | Daten des Mitgliedes
-| Anschrift | Straße, Hausnummer, Postleitzahl, Ort, Land | | | Adresse
+| Kandidatendaten | Vorname, Name, Spitzname, E-Mail, Beschlussnummer, Wahldatum | string, date | Wahldatum darf nicht in der Vergangenheit liegen | Daten des Kandidaten/ der Kandidatur
+| Mitgliederdaten | Vorname, Name, Spitzname, E-Mail, Anschrift, Telefonnummer, Funktion, Eintrittsdatum | string, date| | Daten des Mitgliedes
+| Anschrift | Straße, Hausnummer, Postleitzahl, Ort, Land | string | | Adresse
 |===

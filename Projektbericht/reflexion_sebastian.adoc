@@ -17,10 +17,11 @@ Ich durfte dadurch einige tolle neue Bekanntschaften machen und auch die Lehrkr�
 
 Gelernt habe ich vor allem, wie man arbeitsteilig Software entwickelt, welche Gefahren und Fehler man unter anderem dabei machen kann und wie sich der Workflow mit zunehmenden Erkenntnissen verbessert! Gerade zum Beginn des Projektes staunte ich über den geforderten Detailgrad der anzufertigenden Dokumente. Heute kann ich das besser nachvollziehen. Gerade auch, weil mir der Einstieg in das bestehende Projekt wie gesagt mit der vorliegenden Dokumentation schwerfiel. Man kann noch nicht wirklich sagen, ob und wie das Projekt ggf. noch weiterentwickelt wird. Gerade eine gute Dokumentation wird unseren Nachfolgern aber hoffentlich gute Dienste leisten. Heute weiß ich, dass auch die Dokumentation sehr wichtig ist, was mir vor dem Projekt nicht so bewusst war.
 
-Verbesserungspotential sehe ich hingegen für mich selbst beim setzen der Ziele und dem Fokus auf deren erfolgreiche Umsetzung. Es ist nicht immer gut, viele Dinge nebenbei zu machen und sich nicht vollkommen auf das Projekt konzentrieren zu können. Man sollte sich bewusst dafür Zeit nehmen, um es so erfolgreicher werden zu lassen. Denn eine korrekte Zeiteinteilung ist mit zu vielen Sachen nebenbei (sei es andere Fächer im Studium oder im Privaten) nicht immer optimal möglich.
+Verbesserungspotential sehe ich hingegen für mich selbst beim setzen der Ziele und dem Fokus auf deren erfolgreiche Umsetzung. Es ist nicht immer gut, viele Dinge nebenbei zu machen und sich nicht vollkommen auf das Projekt konzentrieren zu können. Man sollte sich bewusst dafür Zeit nehmen, um es so erfolgreicher werden zu lassen. Denn eine korrekte Zeiteinteilung ist mit zu vielen Sachen nebenbei (sei es andere Fächer im Studium oder im Privatem) nicht immer optimal möglich.
 
-Zum Schluss möchte ich ein paar lobende Worte an mein Team, der sehr guten Struktur des SE-Kurses und der dazugehörigen Praktika richten. Die Möglichkeit des Austauschs in den BBB-Räumen finde ich sehr gut und sollte ggf. auch ohne Coronasemester beibehalten werden (Zumindest finde ich die kurze und knappe Möglichkeit zum Fragen sehr wichtig und gut!).
-Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frondend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
+Zum Schluss möchte ich ein paar lobende Worte an mein Team, der sehr guten Struktur des SE-Kurses und der dazugehörigen Praktika richten. Die Möglichkeit des Austauschs in den BBB-Räumen finde ich sehr gut und sollte ggf. auch ohne Coronasemester beibehalten werden (Zumindest finde ich die unkomplizierte Möglichkeit zum Fragen stellen sehr wichtig und gut!).
+Besonders gut fand ich auch die Gastvorträge, insbesondere die von Herrn Lösch. Da ich sehr viel mit den OP-Mikroskopen von Zeiss zu tun habe, in denen wahnsinnig viel Software steckt, interessanten mich seine Erzählungen ganz besonders.
+Außerdem könnte ich mir ein fachübergreifendes Projekt auch gut vorstellen. Beispielsweise entwickelt man in Prog II mit Java ein Backend und „verbindet“ es mit dem Frontend, welches im Fach Internet-Technologien entsteht. So würden Fächer weniger losgelöst wirken und man könnte Zusammenhänge vielleicht noch besser und schneller verstehen.
 
 Ich finde auch den unterschied interessant, wie es wohl gewesen wäre, dieses Projekt ohne der herrschenden Coronapandemie zu bewältigen. Schade finde ich, dass ich durch Corona noch nie einen der Teammitglieder, die mich nun seit fast einem Jahr begleiten, wirklich in Persona sehen konnte.
 
@@ -28,7 +29,7 @@ Zu guter Letzt würde ich behaupten, dass dieses Projekt sehr erfolgreich war un
 Ich bin stolz darauf, wieder den nächsten Schritt in Richtung Wissenserweiterung gemacht zu haben und Studium, Arbeit und Privates irgendwie vereinen konnte.
 
 
-Vielen Dank dafür!
+Vielen Dank!
 
 
 
