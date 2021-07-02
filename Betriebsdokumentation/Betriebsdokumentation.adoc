@@ -1,8 +1,13 @@
+:doctype: book
 :toc:
-:toc-title: Inhaltsverzeichnis 
+:toclevels: 2
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+:icons: font
 
 = Betriebsdokumentation
 
+toc::[]
 :!table-caption:
 
 == Systemeinrichtung

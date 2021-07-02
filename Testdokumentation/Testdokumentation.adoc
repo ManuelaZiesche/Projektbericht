@@ -1,8 +1,13 @@
+:doctype: book
 :toc:
-:toc-title: Inhaltsverzeichnis 
+:toclevels: 2
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+:icons: font
 
 = Testdokumentation
 
+//toc::[]
 
 Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organisation  sowie
 dabei aufgetretene Probleme.

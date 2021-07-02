@@ -1,18 +1,21 @@
-:toc: 
+:doctype: book
+:toc:
+:toclevels: 2
 :toc-title: Inhaltsverzeichnis
-:source-highlighter: highlightjs
+:sectnums:
+:icons: font
 
 = Anforderungsspezifikation
 
+toc::[]
 
-
 <<<
-include::Vision.adoc[]
+include::Vision.adoc[leveloffset=+1]
 <<<
-include::Use_Cases.adoc[]
+include::Use_Cases.adoc[leveloffset=+1]
 <<<
-include::Requirements.adoc[]
+include::Requirements.adoc[leveloffset=+1]
 <<<
-include::Glossar.adoc[]
+include::Glossar.adoc[leveloffset=+1]
 <<<
-include::Domänenmodell.adoc[]
+include::Domänenmodell.adoc[leveloffset=+1]
