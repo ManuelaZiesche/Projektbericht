@@ -1,0 +1,96 @@
+:doctype: book
+:toc:
+:toclevels: 3
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+:icons: font
+
+= Testdokumentation
+
+toc::[]
+
+Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organisation  sowie
+dabei aufgetretene Probleme.
+
+Die folgenden Testverfahren sollen die Softwarequalität der zu entwickelnden Webanwendung überprüfen und sicherstellen.
+Außerdem sollen die festgelegten Anforderungen auf Erfüllung überprüft werden.
+
+== Testkonzept
+
+Die wichtigsten Komponenten, welche getestet wurden, sind die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework). Es galt, nicht zu viel und nicht zu wenig zu testen.
+
+*Folgende Testmethoden/-verfahren wurden eingesetzt:*
+
+* *Unittests* (manuell)
+- Kleinste prüfbare Funktionen unserer Webanwendung wurden einzeln & unabhängig auf ihren ordnungsgemäßen Betrieb getestet.
+- Testcases wurden passend zu unseren Use Cases ausgearbeitet und tabellarisch festgehalten und wurden manuell durchgeführt.
+
+
+* *Integrationstests* (manuell)
+- Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft. +
+Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
+Bsp.: Kandidat zu Mitglied machen → Funktionalität wurde getestet!
+
+Das Ziel war, Fehlerzustände in Schnittstellen zu finden und das Zusammenspiel zwischen integrierten Komponenten zu untersuchen. Es sollte untersucht werden, wie gut diese zusammen funktionieren.
+
+
+
+* *Akzeptanztest* 
+- Durch den Akzeptanztest direkt durch die Themensteller, wurde das gesamte Projekt auf Erfüllung der Ziele sowie die Zufriedenheit der Themensteller bei der Umsetzung geprüft.
+Siehe <<Akzeptanztest, Protokoll des Akzeptanztest>>.
+
+Bei der Abwägung bzgl. automatisierter oder manueller Tests fiel die Entscheidung auf manuelle Tests, um die Fertigstellung des Projektes gegen Ende des Semesters (bei möglichen Hürden automatisierter Tests) nicht zu gefährden. Der Einarbeitungsaufwand in die Durchführung von automatisierten Tests wäre wahrscheinlich zu hoch gewesen. Außerdem ist es bei unserer relativ geringen Anzahl an Tests noch gut möglich, diese manuell durchzuführen. Weiterhin wurde uns von unserem Coach zu einem späteren Zeitpunkt dazu geraten, die Tests lieber manuell auszuführen. Der Hauptfokus lag vor allem darauf, die Robustheit des Systems gegenüber ungültigen Daten zu testen.
+
+Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests (bspw. mit Selenium) in Kombination mit Regressionstests sicherlich besser gewesen.
+
+
+
+
+== Testdokumentation
+
+*Testfallbeschreibung*
+
+Die Testfälle wurden tabellarisch beschrieben. Zu jedem Testfall gibt es in der Tabelle eine Zeile mit *Testfallnummer*, *Vorbedingungen*, Definition des *Testobjektes*, *Eingabedaten*, *Handlungen zur Durchführung des Tests* sowie das zu *erwartende Ergebnis*.
+
+War ein Test erfolgreich so wurde als Testergebnis _“bestanden“_ in das Testprotokoll aufgenommen. Das Testergebnis _„nicht bestanden“_ wurde eingetragen, wenn der Test nicht erfolgreich verlief.
+
+Entdeckte Fehler wurden sofort an den Entwickler mitgeteilt.
+Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft. Schwerwiegende Fehler konnten wir glücklicherweise nicht verzeichnen, weshalb die Einteilung in leichte und schwere Fehler entfallen ist und die Arbeit so nie ins Stocken kam. Schwere Fehler hätten ggf. dazu geführt, dass aktuelle Arbeiten pausiert und der Fehler gefunden und behoben werden müsste.
+
+Zu jedem Test wurde ein genaues Testdatum festgehalten.
+Personen, welche getestet haben: Sebastian (Rolle des Testers) in Absprache mit Vasco (Rolle des Entwicklers).
+
+== Ergebnisse der Testdurchführung
+
+Die Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreich und verliefen ohne Fehler.
+
+//Am Ende des Projektes verliefen alle Tests positiv.
+
+
+
+*Beispiele für Negative Testergebnisse:*
+
+- Negative Testergebnisse gab es beim Datepicker (falschen Wochentag zu einem Datum auf Grund falsch gesetzter Ortszeit)
+
+- Namen konnten mit Zahlen kombiniert werden. Bsp: Stefan1
+
+Im Nachhinein waren wir über die Entscheidung der manuellen Tests sehr froh, da sich auf Grund von Umstrukturierungen im Team (von ehemals zwei Testern zu einem) die Zeit gegen Ende des Projektsemesters sehr knapp wurde und die Robustheit im Vordergrund stand.
+
+
+Nachfolgend sind alle Tests mit der Testdokumentation aufgelistet:
+
+
+<<<
+include::Test_UC_01.adoc[leveloffset=+2]
+
+<<<
+include::Test_UC_02.adoc[leveloffset=+2]
+
+<<<
+include::Test_UC_03.adoc[leveloffset=+2]
+
+<<<
+include::Test_UC_04.adoc[leveloffset=+2]
+
+<<<
+include::Akzeptanztest.adoc[leveloffset=+2]
