@@ -35,13 +35,13 @@ Die Anwendung ist eine weiterentwickelte Version des Projektes der Gruppe, von d
 == Architektur-relevante Anforderungen
 [cols="1,4,4"]
 |===
-| *Anforderung* | *Systemkomponente* | *Architekturmechanismen*
+| *Anforderung* | *Systemkomponente* | *Auswirkung auf die Architektur*
 
+| UC01 | Webanwendung | Erweiterung der Anwendung um eine Kandidatenverwaltung
 | F1 | Webanwendung | Zugriffsschutz
 | F2 | Datenbank | Persistenz
 | R1 | Webanwendung +
 Datenbank | Archivierung
-| S1 | Webanwendung | Dokumentation
 
 |===
 
@@ -55,33 +55,26 @@ Außerdem ist sie objektorientiert und besitzt eine verhältnismäßig leichte S
 Abgesehen davon ist SQLite mit verschiedenen Betriebssystemen kompatibel und unterstützt so das Erreichen von mehr Nutzern, die sich durch ihre verschiedenen Voraussetzungen auszeichnen.
 . Ebenso verwenden wir *Django-Simple-History und simplejson* weiter, da diese bereits von der Vorgängergruppe verwendet wurden und die bestehende Funktionalität diese nutzt.
 . Im Gegensatz zur Vorgängergruppe entscheiden wir uns dagegen, das Framework Selenium im Zusammenhang mit den Tests zu verwenden, da hierbei der Einarbeitungsaufwand unverhältnismäßig groß wäre, da kein Mitglied unseres Teams damit bis jetzt in Kontakt gekommen ist. Die Tests werden stattdessen manuell durchgeführt.
+. Die Erweiterung der Anwendung um eine Kandidaturenverwaltung findet statt über Hinzufügen einer neuen "App", also eines neuen Pakets in der Anwendung. Damit wird die Wartbarkeit vereinfacht, denn verschiedene Funktionalitäten sind von einander getrennt.
+
 
 == Architekturmechanismen
 
 .*Archivierung*
-** Zustand: Analysis
 ** Zweck: Daten dürfen bei Systemausfällen nicht verloren gehen
-** Eigenschaften/ Attribute: Pro Woche soll ein Backup erstellt werden. Es sollen nie mehr als 3 Backups vorhanden sein
-** Funktion: Backup der Datenbank wird auf dem Server angelegt
-
-.*Dokumentation*
-** Zustand: Implementation
-** Zweck: Die Anwendung soll erweiterbar sein/bleiben
-** Eigenschaften/ Attribute: verständlich
-** Funktion: Framework Django wird verwendet. Dokumentationen werden angefertigt
+** Eigenschaften: Daten werden regelmäßig gesichert und sind nach Systemfehlern oder -ausfall wiederherstellbar
+** Funktion: Backup der Datenbank wird auf dem Server angelegt, pro Woche wird ein Backup erstellt. Es werden nie mehr als 3 Backups vorhanden sein.
 
 
 .*Persistenz*
-** Zustand: Implementation
-** Zweck: Daten müssen verfügbar bleiben für den Admin und die Mitglieder des Stura
-** Eigenschaften/ Attribute: SQLite-Datenbank
-** Funktion: Alle zu speichernden Daten müssen Platz in der Datenbank finden
+** Zweck: Daten müssen dauerhaft verfügbar bleiben für den Admin und die Mitglieder des Stura
+** Eigenschaften: Speicherung der Daten in einer Datenbank
+** Funktion: Die Datensätze werden noch während der Ausführung der Anwendung in einer Datenbank gespeichert und sind von dort auch wieder abrufbar.
 
 .*Zugriffsschutz*
-** Zustand: Implementation
-** Zweck: Login
-** Eigenschaften/ Attribute: Nicht jeder Nutzer ist dazu berechtigt alle daten einzusehen
-** Funktion: Unterscheidung beim Login nach Mitglied Stura und Admin
+** Zweck: Schutz der personenbezogenen Daten vor unberechtigtem Zugriff
+** Eigenschaften: Nicht jeder Nutzer ist dazu berechtigt, alle Daten einzusehen. Bestimmte Nutzer haben bestimmte Rechte, um verschiedene Informationen einsehen zu können.
+** Funktion: Anmeldung der Nutzer mit Logindaten, anhand derer ermittelt werden kann, welche Rechte der Nutzer hat. (Unterscheidung nach Mitglied Stura und Admin)
 
 === Datenspeicherung
 
@@ -91,10 +84,6 @@ Die Speicherung der Daten erfolg über die SQLite-Datenbank. Jeder Datensatz ist
 
 Die von Django bereitgestellte Schnittstelle wird verwendet um Daten über die Webseite zu organisieren und zu verwalten.
 Die Weboberfläche wurde mittels HTML/CSS erstellt.
-
-=== Informationsvermittlung
-
-Bereitstellung der Daten für Organisations- und Informationszwecke auf der Webseite
 
 == Systemarchitektur
 
