@@ -42,20 +42,20 @@ Dazu zählte unter anderem der Zustand des Architecture Notebook und die Ausform
 
 Allgemeine Fragen, die sich in diesem Zusammenhang ergaben, konnten ab dieser Iteration außerordentlich gut geklärt werden, da die Projektmanagerin Manuela Ziesche nun selbst Mitglied im StuRa war. Des Weiteren kamen wir durch unsere Auftraggeberin in Kontakt mit Axel Schiller, dem zukünftigen Admin der gesamten Anwendung. Dieser erklärte sich bereit ebenfalls die Rolle eines Ansprechpartners einzunehmen, was die Klärung von Fragen enorm verbesserte. Die Aufgaben, die unser System übernehmen soll, werden zur Zeit mit Hilfe von Exellisten ausgeübt, welche manuell von Axel bearbeitet werden. Aus dieser Position heraus konnte er uns wertvolle Umsetzungsvorschläge und sehr gutes Feedback zu unseren entwickelten Wireframes geben, die wir ihm und Sophia präsentiert haben.
 
-Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitung des Beleges aus dem Wintersemester 20/21 um das weitere Arbeiten zu erleichtern. Diese Iteration haben wir am Ende als Team zusammen bewertet. Unsere Kriterien dafür waren, dass wir unsere Aufgaben und Ziele durchsprechen und uns notieren, was wir erledigt oder erreicht haben. Da wir in dieser Iteration leider noch nicht angefangen haben, den Prototypen zu entwickeln und außerdem nicht so weit mit den Test Cases fortgeschritten waren, haben wir uns selber den gelben Projektstatus verpasst. Das wollten wir in der nächsten Iteration ändern und da wieder die Farbe 'grün' stehen haben. 
+Zusammengefasst nutzen wir diese Iteration hauptsächlich für die Überarbeitung des Beleges aus dem Wintersemester 20/21 um das weitere Arbeiten zu erleichtern. Diese Iteration haben wir am Ende als Team zusammen bewertet. Unsere Kriterien dafür waren, dass wir unsere Aufgaben und Ziele durchsprechen und uns notieren, was wir erledigt oder erreicht haben. Da wir in dieser Iteration leider noch nicht angefangen haben, den Prototypen zu entwickeln und außerdem nicht so weit mit den Test Cases fortgeschritten waren, haben wir uns selber den gelben Projektstatus gegeben. Das wollten wir in der nächsten Iteration ändern und uns da wieder den Status 'grün' geben. 
 
-
+Am Ende jeder Iteration bei dem Assesment der jeweiligen Zeit, beschäftigten wir uns mit dem Essence Navigator. An diesen eingefügten Bildern sieht man deutlich, dass wir kleine, stetige Schritte in jeder Iteration gingen.
 
 image::Essence-Navigator/Essence_Navigator_Iteration04.png[]
 
 === Iteration 05: Prototypen (MZi)
 
-In die fünfte Iteration starteten wir noch mit einigen Aufgaben des Beleges aus dem Wintersemester. In der vierten Iteration wurden nicht alle beendet, welche wir uns nun vorgenommen hatten. Außerdem hat uns das Meeting mit unserem Coach Felix Müller am Anfang der Iteration sehr viel postivien Input gebracht, wodurch wir aber dann die Requirements und vorallem die Architektur noch einmal überarbeiten mussten. Wir wollten uns aber schon Ziele setzen, die uns in diesem Projekt effektiv weiter voranbringen würden. Deswegen  haben wir uns dazu entschieden erst einmal an den Test Cases weiter zu arbeiten, was uns als sehr wichtig erschien. Unser Entwickler Vasco Schwarze wollte nun auch mit der Implementierung des Prototypen des ersten Use Cases anfangen, damit wir uns auch schon erstes Feedback von den Stakeholdern einholen konnten. 
+In die fünfte Iteration starteten wir noch mit einigen Aufgaben des Beleges aus dem Wintersemester. In der vierten Iteration wurden nicht alle beendet, welche wir uns nun vorgenommen hatten. Außerdem hat uns das Meeting mit unserem Coach Felix Müller am Anfang der Iteration sehr viel positiven Input gebracht, wodurch wir aber dann die Requirements und vorallem die Architektur noch einmal überarbeiten mussten. Wir wollten uns aber schon Ziele setzen, die uns in diesem Projekt effektiv weiter voranbringen würden. Deswegen haben wir uns dazu entschieden erst einmal an den Test Cases weiter zu arbeiten, was uns sehr wichtig erschien. Unser Entwickler Vasco Schwarze wollte nun auch mit der Implementierung des Prototypen des ersten Use Case anfangen, damit wir uns auch schon erstes Feedback von den Stakeholdern einholen konnten. 
 
 Das Gespräch mit Axel Schiller und Sophia von Asow zur Präsentation des derzeitigen Standes lief super. Wir haben noch einige Verbesserungsvorschläge bekommen, welche wir direkt mit aufgenommen haben, da diese keinen großen Aufwand nach sich zogen.
 Im Laufe des Gespräches haben wir auch erfahren, dass beide sehr glücklich sind bei dem Projekt dabei zu sein und Ihnen unsere bisher geleistete Arbeit gefällt.
 
-Die gesetzten Ziele haben wir alle erreicht. Dazu muss man aber sagen, dass wir diese Iteration nicht ganz so stark mit Aufgaben gefüllt haben, da wir uns hauptsächlich erneut auf die Nachbereitung des Beleges konzentriert haben. Die einzige Aufgabe, die wir noch mit in die nächste Iteration nehmen wollten, war es, die Diagramme des C4 Modells in das Architecture Notebook einzupflegen, da dieses sonst soweit fertig war. Am Ende der Iteration haben wir uns nun wieder alle getroffen und über unsere Erfolge oder Misserfolge gesprochen.  Wir waren uns einig, dass wir unserem Projekt wieder einen grünen Status geben können, da wir alle in der Iteration notwendigen Aufgaben sorgfältig erledigt haben. Damit haben wir auch ein Ziel erreicht, was wir uns vorgenommen hatten, welches ein grüner Projektstatus war. 
+Die gesetzten Ziele haben wir alle erreicht. Dazu muss man aber sagen, dass wir diese Iteration nicht ganz so stark mit Aufgaben gefüllt haben, da wir uns hauptsächlich erneut auf die Nachbereitung des Beleges konzentriert haben. Die einzige Aufgabe, die wir noch mit in die nächste Iteration nehmen wollten, war es, die Diagramme des C4 Modells in das Architecture Notebook einzupflegen, da dieses sonst soweit fertig war. Am Ende der Iteration haben wir uns nun wieder alle über Discord getroffen und über unsere Erfolge oder Misserfolge gesprochen.  Wir waren uns einig, dass wir unserem Projekt einen grünen Status geben können, da wir alle in der Iteration notwendigen Aufgaben sorgfältig erledigt haben. Damit haben wir auch ein Ziel erreicht, was wir uns vorgenommen hatten, welches ein grüner Projektstatus war. 
 
 image::Essence-Navigator/Essence_Navigator_Iteration05.png[]
 
@@ -67,25 +67,24 @@ Wir hatten uns bei der Nachbearbeitung des Beleges schon eine Prioritätsliste a
 
 In dieser Iteration hatten wir ein Meeting mit unserem Coach Felix Müller. Hier ging es vorrangig um die Frage, wie wir unsere Use Cases testen wollen. Er hat uns empfohlen, dass wir einfach alleine testen sollen und unsere Stakeholder dann noch Akzeptanztests durchführen sollen, welche wir vorher vorbereiten müssen. Deswegen hat Sabine einen groben Ablauf erstellt, welche Funktionen zuerst getestet werden sollen. Doch durch krankheitsbedingte Abwesenheit von Axel Schiller, dem späteren Admin des Systems, mussten wir diese Akzeptanztests in die nächste Iteration verschieben.
 
-In dem Meeting mit Felix hatten wir auch erstmalig angesprochen, dass sich ein Teammitglied nicht so sinnvoll in das Projekt einbringt wie notwendig wäre. Er gab uns Ideen, wie wir damit umgehen sollten und was wir im schlimmsten Falle tun sollten. Wir klärten diese Vorgehensweise untereinander im Team, ohne den jeweiligen Betroffenen und gaben ihm zwei Wochen Zeit, um Aufgaben zu übernehmen. 
+In dem Meeting mit Felix hatten wir auch erstmalig angesprochen, dass sich ein Teammitglied nicht so sinnvoll in das Projekt einbringt wie notwendig wäre. Er gab uns Ideen, wie wir damit umgehen und was wir im schlimmsten Falle tun sollten. Wir klärten diese Vorgehensweise untereinander im Team, ohne den jeweiligen Betroffenen und gaben ihm zwei Wochen Zeit, um Aufgaben zu übernehmen und sich sinnvoll ins Team einzubringen. 
 
 Die Implementierung ging sehr gut voran. Unser Entwickler beendete den Kandidatentab in dieser Iteration, welcher den Use Case 1 widerspiegelte. Außerdem fing er an den Use Case 2 zu implementieren, wodurch man mit dem System einen Kandidaten per Knopfdruck als Mitglied aufnehmen konnte.
 
-Bei den Dokumentationen tat sich am Ende der Iteration auch etwas. Sabine Adam fing mit der Anwenderdokumentation an und Manuela Ziesche widmetete sich dem Projektbericht. Wir schrieben noch nicht allzu viel, jedoch fingen wir an, uns mit den Dokumenationen zu beschäftigen und erste Ideen zu sammeln.
+Bei den Dokumentationen tat sich am Ende der Iteration auch etwas. Sabine Adam fing mit der Anwenderdokumentation an und Manuela Ziesche widmetete sich dem Projektbericht. Wir schrieben noch nicht allzu viel, jedoch fingen wir an, uns mit den Dokumentationen zu beschäftigen und erste Ideen zu sammeln.
 
-Am Ende der Iteration 6 traf sich das Team noch einmal, um die Test Cases der ersten zwei Use Cases durchzutesten, damit wir erfolgreich weiter implementieren konnten und notfalls noch Änderungen vornehmen konnten. Am letzten Tag der laufenden Phase fanden sich erneut alle Teammitglieder ein, um die beendete Iteration zu bewerten und erfolgreich abzuschließen. Dazu verglichen wir die geplanten Aufgaben und die Erledigten. 
+Am Ende der Iteration 6 traf sich das Team noch einmal, um die Test Cases der ersten zwei Use Cases durchzutesten, damit wir erfolgreich weiter implementieren konnten und notfalls noch Änderungen vornehmen konnten. Am letzten Tag der laufenden Phase fanden sich erneut alle Teammitglieder ein, um die beendete Iteration zu bewerten und erfolgreich abzuschließen. Dazu verglichen wir die geplanten Aufgaben und die Erledigten. Durch die sehr gute Aufgabenerfüllung der Teammitglieder war es uns nun erneut möglich, einen grünen Projektstatus zu erteilen.
 
 
 image::Essence-Navigator/Essence_Navigator_Iteration06.png[]
 
 === Iteration 07: Tests (MZi)
 
-In der vorletzten Iteration starteten wir ind die Transition Phase und außerdem noch in die Implementierung der restlich geplanten Use 
 Die vorletzte Iteration des Projektes wurde von der Implementierung der restlich geplanten Use Cases geprägt. Diese wollten wir soweit abschließen, damit wir uns in der nächsten Iteration auf andere Dinge konzentrieren konnten. Außerdem  haben wir uns vorgenommen, dass wir die Dokumentationen annähernd fertigstellen möchten. Doch die Hauptaufgabe dieser Iteration war es, die Akzeptanztests mit unseren Stakeholdern durchzuführen, damit wir die Entwicklungsphase des Projektes erfolgreich abschließen und uns der Dokumentation und der Präsentation des Systems widmen können. 
 
 Das Teammitglied, welches sich sonst zu gering in die Teamarbeit eingebracht hat, wollte seine Notizen zu den Test Cases pushen. Dabei stellten wir jedoch fest, dass er lediglich die Test Cases aus dem Team des letzten Jahres kopiert hatte. Daraufhin musste sich Sebastian alleine darum kümmern.
 
-Durch einen erneuten krankheitsbedingten Ausfall von Axel Schiller, wurden die Akzeptanztests wieder um eine Woche nach hinten verschoben.  Die Akzeptanztests fanden dann in einem virtuellen Meeting mit den Stakeholdern statt. Wir hatten uns vorher überlegt, was in diesem Meeting getestet werden soll und dann durften die Stakeholder Axel Schiller und Sophia von Asow das System ausprobieren. Bei diesen Tests sind denen noch kleine Dinge aufgefallen, die wir verändern könnten. Diese hat unser Entwickler Vasco Schwarze direkt noch umgesetzt. Zusammenfassend waren die Tests sehr erfolgreich und für die Stakeholder zufriedenstellend. 
+Durch einen erneuten krankheitsbedingten Ausfall von Axel Schiller, wurden die Akzeptanztests wieder um eine Woche nach hinten verschoben. Die Akzeptanztests fanden dann in einem virtuellen Meeting mit den Stakeholdern statt. Wir hatten uns vorher überlegt, was in diesem Meeting getestet werden soll und dann durften die Stakeholder Axel Schiller und Sophia von Asow das System ausprobieren. Bei diesen Tests sind denen noch kleine Dinge aufgefallen, die wir verändern könnten. Diese hat unser Entwickler Vasco Schwarze direkt noch umgesetzt. Zusammenfassend waren die Tests sehr erfolgreich und für die Stakeholder zufriedenstellend. 
 
 Nach diesem Meeting waren wir mit der Implementierung und den Tests unseres Systems fertig. Jetzt ging es nur noch darum, dass wir die Dokumentationen, den Projektbericht und die Reflexionen schreiben. Dazu haben wir diese untereinander ziemlich gut aufgeteilt. 
 
@@ -93,7 +92,7 @@ Außerdem beendete unser Architekt Benjamin in dieser Iteration alle Diagramme, 
 
 image::../Entwicklerdokumentation/ED-images/Paketdiagramm_(mit_Klassen)_Farbe.png[]
 
-Am Ende dieser Iteration war es nicht nur wichtig, dass das Team die erldigten und geplanten Aufgaben vergleicht. Wir wollten von unseren Stakeholdern eine positive Rückmeldung bei den Akzeptanztests erhalten. Da das Feedback positiv ausgefallen ist und wir unsere Ziele alle erreicht haben, entschieden wir uns erneut für einen grünen Projektstatus. 
+Am Ende dieser Iteration war es nicht nur wichtig, dass das Team die erledigten und geplanten Aufgaben vergleicht. Wir wollten von unseren Stakeholdern eine positive Rückmeldung bei den Akzeptanztests erhalten. Da das Feedback positiv ausgefallen ist und wir unsere Ziele alle erreicht haben, entschieden wir uns erneut für einen grünen Projektstatus. 
 
 image::Essence-Navigator/Essence_Navigator_Iteration07.png[]
 
@@ -101,7 +100,7 @@ image::Essence-Navigator/Essence_Navigator_Iteration07.png[]
 
 === Iteration 08: Dokumentation (SAd)
 
-Zuversichtlich starteten wir in die letzte Iteration des Projektes. Die Implementation der Use Cases, die wir uns vorgenommen hatten, war soweit abgeschlossen und konnte nun weiter getestet werden.
+Zuversichtlich starteten wir in die letzte Iteration des Projektes. Das war außerdem auch die Transition Phase unseres Projektes. Die Implementation der Use Cases, die wir uns vorgenommen hatten, war soweit abgeschlossen und konnte nun weiter getestet werden.
 Des Weiteren bestand unsere Aufgabe hauptsächlich daraus die verschiedenen Dokumentationen, die wir in der vergangenen Iteration begonnen haben, zu beenden. Der Fachaustausch zum Thema Dokumentation hat uns diesbezüglich noch einige Hinweise geben können, die wir direkt umsetzten konnten.
 
 Die erstellte Anwendungsdokumentation konnte nach Abschluss der Implementation des Use Cases 4, welcher sich mit der Kontaktaufnahme von Mitgliedern per E-Mail befasst, angepasst und beendet werden. Letztendlich gliedert sie sich in zwei größere Abschnitte, die sich zum einen mit den Funktionen beschäftigen, die vom normalen Nutzer verwendet werden können und zum anderen nur vom Admin mit seinen uneingeschränkten Rechten.
@@ -110,7 +109,9 @@ Die Entwicklerdokumentation setzt sich aus der Entwurfsdokumentation und der Cod
 
 Abgesehen von den Dokumentationen stand uns auch noch die Übergabe des Systems an die Auftraggeber bevor. Als Vorbereitung darauf sollte das bereitgestellte Abnahmeprotokoll erstellt werden, welches unter anderem die umgesetzten Anforderungen und Use Cases festhalten soll. Daraufhin haben wir uns vor Augen geführt, wie viel wir, von den gestellten Anforderungen an das System, wir umsetzten konnten. Bemessen an der Anzahl der Use Cases hatten wir vier von sieben erfolgreich implementiert und darauf sind wir sehr stolz. Abgesehen davon unterschied sich der Umfang der jeweiligen Szenarien, doch letztendlich kann festgehalten werden, dass sich die wichtigsten, bereit zur Nutzung, im System befinden.
 
-In der letzten Iteration haben wir es auch direkt geschafft das Abnahmegespräch mit unseren Stakeholdern abzuhalten. Diese waren sehr glücklich mit dem Ergbnis. Wir bekamen ein positives Feedback zu unserer Arbeitsweise, da wir trotz unserer gering gehaltenen Meetings für Sophia und Axel transparent gearbeitet haben. 
+In der ersten Woche der letzten Iteration haben wir uns erneut konstruktiv über das Teammitglied ausgetauscht, welches zum jetzigen Zeitpunkt nach mehrmaligem Nachfragen immernoch keine Reflexion angefangen hat. Wir entschieden uns dazu, es doch noch bei Herrn Anke anzusprechen und mit ihm darüber zu reden. Nachdem dieser mit bes
+
+In der letzten Woche haben wir es auch direkt geschafft das Abnahmegespräch mit unseren Stakeholdern abzuhalten. Diese waren sehr glücklich mit dem Ergebnis. Wir bekamen ein positives Feedback zu unserer Arbeitsweise, da wir trotz unserer gering gehaltenen Meetings für Sophia und Axel transparent gearbeitet haben. 
 Nach Meetings mit unseren Auftraggebern haben wir ziemlich selbstständig gearbeitet und wenn nötig nach Rat oder Feedback gefragt, damit wir wussten, dass wir auf dem richtigen Weg sind.
 
 image::Essence-Navigator/Essence_Navigator_Iteration08.png[]
