@@ -24,47 +24,19 @@
 | 05 | Stimmzettel generieren| sehr gering | Generierung von Stimmzetteln (als druckbares Dokument) mit allen Kandidaturen, die sich zu einer Wahl aufstellen lassen.
 |===
 
-....
-@startuml diagramm_use_case-model
-left to right direction
-
-actor Admin
-actor Mitglied 
-
-rectangle "Webseite des STURA" {
-  "UC 01: Kandidaten verwalten" as (uc01) #A9E2F3
-  "UC 02: Mitglieder aufnehmen" as (uc02) #A9E2F3
-  "UC 03: Mitgliederinformationen einpflegen" as (uc03) #A9E2F3
-  "UC 04: Mitglieder per E-Mail kontaktieren" as (uc04) #A9E2F3
-  "UC 05: Stimmzettel generieren" as (uc05) #A9E2F3
-  "UC 06: Workload erfassen" as (uc06) #A9E2F3
-  "UC 07: Aufwandsentschädigung berechnen" as (uc07) #A9E2F3
-}
-
-Admin -- (uc01)
-Admin -- (uc02)
-Admin -- (uc03)
-Admin -- (uc04)
-Mitglied -- (uc04)
-Admin -- (uc05)
-Admin -- (uc06)
-Admin -- (uc07)
-
-@enduml
-
-....
 
 //[#diagramm_use_case-model]
 //[plantuml, "plantuml/diagramm_use_case-model", svg]
 //....
 //include::plantuml/use_case_model.puml[]
 //....
-//[#use_case-model]
-//[plantuml, "plantuml/use_case-model", svg]
 
-//....
-//include::plantuml/use_case_model.puml[]
-//....
+
+[#use_case-model]
+[plantuml, "plantuml/use_case-model", svg]
+....
+include::plantuml/use_case_model.puml[]
+....
 
 //include::plantuml/diagramm_use_case-model.svg[Use Case Model]
 
