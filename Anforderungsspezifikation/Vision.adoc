@@ -1,7 +1,7 @@
 = Vision
 
 == Einführung
-Der Zweck dieses Dokuments ist es, den wesentlichen Bedarf und Funktionalitäten des Weiterentwicklung der Mitgliederdatenbanken zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden und der Begründung diesen Bedarfs. Die  Details, wie die Weiterentwicklung der Mitgliederdatenbank die diesen Bedarf erfüllt, werden in den Use-Cases beschrieben.
+Der Zweck dieses Dokuments ist es, den wesentlichen Bedarf und Funktionalitäten der Weiterentwicklung der Mitgliederdatenbanken zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden und der Begründung des Bedarfs. Die  Details, wie die Weiterentwicklung der Mitgliederdatenbank diesen Bedarf erfüllt, werden in den Use-Cases beschrieben.
 
 === Zweck
 Der Zweck dieses Dokumentes ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
@@ -40,7 +40,7 @@ Allgemein sollen die Abläufe der Mitgliederdatenbank soweit optimiert werden, d
 |Für|	Mitglieder des Studentenrates
 |deren | Daten efizienter verwaltet werden können
 |Das Produkt / die Lösung ist eine | Webseite
-|die 	| die essenziellen Daten für die Mitglieder aufbereitet, zuordnet
+|die 	| die essenziellen Daten für die Mitglieder aufbereitet und zuordnet
 |Im Gegensatz zu | Excel-Tabellen 
 |Unser Produkt|	stellt nur die für den Nutzer relevanten Informationen komfortabel dar
 |===
@@ -50,7 +50,7 @@ Allgemein sollen die Abläufe der Mitgliederdatenbank soweit optimiert werden, d
 |Für|	den Laborbereich der HTW Dresden
 |deren | Server für die Datenbank des StuRa verwedent werden. 
 |Das Produkt / die Lösung  | Webseite
-|die 	| die essenziellen Daten für die Mitglieder aufbereitet, zuordnet
+|die 	| die essenziellen Daten für die Mitglieder aufbereitet und zuordnet
 |Im Gegensatz zu | Excel-Tabellen 
 |Unser Produkt|	stellt nur die für den Nutzer relevanten Informationen komfortabel dar
 |===
@@ -60,7 +60,7 @@ Allgemein sollen die Abläufe der Mitgliederdatenbank soweit optimiert werden, d
 |Für|	den Admin
 |der | 
 |Das Produkt / die Lösung | am meisten nutzen wird.
-|die 	| die essenziellen Daten für die Mitglieder aufbereitet, zuordnet
+|die 	| die essenziellen Daten für die Mitglieder aufbereitet und zuordnet
 |Im Gegensatz zu | Excel-Tabellen 
 |Unser Produkt|	stellt nur die für den Nutzer relevanten Informationen komfortabel dar
 |===
@@ -79,7 +79,7 @@ Allgemein sollen die Abläufe der Mitgliederdatenbank soweit optimiert werden, d
 | Team I4 | Gruppe von Studierenden, die das Projekt übernehmen | Versuchen die Wünsche der Themensteller umzusetzen (das Projekt bearbeiten)
 | Laborbereich | Laborbereich der Hochschule | Diese stellen den Server, worauf die Datenbank laufen soll
 | Themensteller| unsere Aufgabensteller | Deren Ziel ist es, eine gut funktionierende und qualitativ hochwertige Datenbank zu erhalten. 
-| Hacker | Jemand, der illegal in Computersysteme eindringt | Stellt Gefahr für das System da: Fehlfunktionen, Datendiebstahl
+| Hacker | Jemand, der illegal in Computersysteme eindringt | Stellt Gefahr für das System dar: Fehlfunktionen, Datendiebstahl
 | der Gesetzgeber | Gibt rechtliche Rahmenbedingungen vor, z.B. durch Gesetze für Jugendschutz, Datenschutz und Fernabsatz | überwacht Gesetze und Regelungen
 hinsichtlich der Einhaltung des Telemediengesetzes
 |===
@@ -88,7 +88,7 @@ hinsichtlich der Einhaltung des Telemediengesetzes
 
 . Anzahl der Personen, die an der Erfüllung der Aufgabe beteiligt sind, ändert sich mit der Zeit (voraussichtlich) nicht.
 . Die Bearbeitung der Administrationsaufgaben (siehe Glossar) dauert unter 3 Min.
-. Es muss gewährleistet werden, dass 10 Benutzer gleichzeitig mit dem Programm arbeiten können. 
+. Es muss gewährleistet werden, dass 5 Benutzer gleichzeitig mit dem Programm arbeiten können. 
 . Besondere Umgebungsbedingungen: 
 * Die Weiterentwicklung der Mitgliederdatenbank muss weiterhin eine responsive Webseite gewährleisten, damit die Bedienung auch unterwegs mit dem Handy funktioniert.  
 * Die Webseite muss zu den Kernarbeitszeiten online sein. 
@@ -99,14 +99,14 @@ hinsichtlich der Einhaltung des Telemediengesetzes
 == Produkt-/Lösungsüberblick
 === Bedarf und Hauptfunktionen
 
-[%header, cols="4,1,4,1"]
+[%header, cols="3,1,4,1"]
 |===
 |Bedarf|	Priorität|	Features|	Geplantes Release
-|einfache Verwaltung der Kandidaten | Hoch | eigener "Kandidaten" Tab, in dem die Daten des Kandidaten (Name, Vorname, Wahldatum, E-Mail, Beschlussnummer) angelegt und bearbeitet werden können. Kandidaten können auch gelöscht werden. Zusätzlich können relevante Informationen gepflegt werden. | KW21
-|Aufgaben können übersichtlich abgearbeitet werden | Hoch |für Admin des StuRa werden einzelne Aufgaben automatisch nach Mitgliedsaufnahme angelegt, welche abgehakt werden können. | KW22
-|vertrauliche  Informationen können nur von Admins eingesehen werden  | Hoch | "Kandidaten" Tab darf nur von Admins und nicht von Mitgliedern gesehen werden; Telefonnummer von anderen Mitgliedern dürfen auch nur Admins angezeigt werden | KW22
-|einfaches Mittel zur (Gruppen)-Kommunikation |Mittel |Mailverteiler oder Direktmail mittels Einbindung von Thunderbird| KW23
-|Automatisierung der Mitgliederaufnahme nach der Wahl | Mittel | Übertragung des Kandidaten zum Mitglied | KW22
+|einfache Verwaltung der Kandidaten | Hoch | eigener "Kandidaten" Tab, in dem die Daten des Kandidaten (Name, Vorname, Wahldatum, E-Mail, Beschlussnummer) angelegt und bearbeitet werden können. Kandidaten können auch gelöscht werden. Zusätzlich können relevante Informationen gepflegt werden. | KW26
+|Aufgaben können übersichtlich abgearbeitet werden | Hoch |für Admin des StuRa werden einzelne Aufgaben automatisch nach Mitgliedsaufnahme angelegt, welche abgehakt werden können. | KW26
+|vertrauliche  Informationen können nur von Admins eingesehen werden  | Hoch | "Kandidaten" Tab darf nur von Admins und nicht von Mitgliedern gesehen werden; Telefonnummer von anderen Mitgliedern dürfen auch nur Admins angezeigt werden | KW26
+|einfaches Mittel zur (Gruppen)-Kommunikation |Mittel |Mailverteiler oder Direktmail mittels Einbindung von Thunderbird| KW26
+|Automatisierung der Mitgliederaufnahme nach der Wahl | Mittel | Übertragung des Kandidaten zum Mitglied | KW26
 |Automatische Stimmzettelgenerierung | Mittel | Stimmzettel eventuell ausdrucken |  --
 |Workload soll hinzugefügt werden| Niedrig | -- | --
 |Aufwandsentschädigungszahlung vereinfachen| Niedrig | --| --

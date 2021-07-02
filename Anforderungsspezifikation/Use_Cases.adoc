@@ -5,7 +5,7 @@
 
 |===
 | *Akteur* | *Ziel*
-|Admin des Studentenrats | Einpflegen der Mitglieder und Abarbeitung der Check-Listen
+|Admin des Studentenrats | Einpflegen der Mitglieder und Kandidaturen und Abarbeitung der Check-Listen
 |Mitglieder StuRa  | Übersichtliche Einsehbarkeit von Informationen von anderen Mitgliedern
 
 |===
@@ -51,3 +51,4 @@ include::use_case_Einpflegung_weiterer_Informationen.adoc[]
 
 <<<
 include::use_case_Mitglieder_per_E-Mail_kontaktieren.adoc[]
+
