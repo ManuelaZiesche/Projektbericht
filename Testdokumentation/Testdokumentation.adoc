@@ -1,5 +1,8 @@
+:toc:
+:toc-title: Inhaltsverzeichnis 
 
 = Testdokumentation
+
 
 Die Testdokumentation erläutert  die  eingesetzte  Teststrategie,  deren  Organisation  sowie
 dabei aufgetretene Probleme.
@@ -7,33 +10,33 @@ dabei aufgetretene Probleme.
 Die folgenden Testverfahren sollen die Softwarequalität der zu entwickelnden Webanwendung überprüfen und sicherstellen.
 Außerdem sollen die festgelegten Anforderungen auf Erfüllung überprüft werden.
 
-== Testkonzept:
+== Testkonzept
 
-Die wichtigsten Komponenten, welche getestet wurden, bilden die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework). Es galt, nicht zu viel und nicht zu wenig zu testen. Ich denke, wir haben einen sehr guten Mittelweg diesbzgl. gefunden.
+Die wichtigsten Komponenten, welche getestet wurden, sind die Elemente der UI der Webseite (Button, Check-Funktionen, Zeichenfelder) und deren Funktionen sowie die zusammenarbeitenden Komponenten des Backends (Datenbank, Schnittstellen, Django-Framework). Es galt, nicht zu viel und nicht zu wenig zu testen.
 
 *Folgende Testmethoden/-verfahren wurden eingesetzt:*
 
 * *Unittests* (manuell)
 - Kleinste prüfbare Funktionen unserer Webanwendung wurden einzeln & unabhängig auf ihren ordnungsgemäßen Betrieb getestet.
-- Testcases wurden zu passenden zu unseren UseCases ausgearbeitet und tabellarisch festgehalten und wurden manuell durchgeführt.
+- Testcases wurden passend zu unseren Use Cases ausgearbeitet und tabellarisch festgehalten und wurden manuell durchgeführt.
 
 
 * *Integrationstests* (manuell)
 - Einzelbausteine der Webseite wurden in Tests schrittweise zu größeren Testeinheiten zusammengesetzt und manuell geprüft. +
 Voraussetzung: Unsere einzelnen Komponenten wurden bereits getestet und Fehlerzustände korrigiert. +
-Bsp: .. Kandidat zu Mitglied machen → Funktionalität wurde getestet!
+Bsp.: Kandidat zu Mitglied machen → Funktionalität wurde getestet!
 
 Das Ziel war, Fehlerzustände in Schnittstellen zu finden und das Zusammenspiel zwischen integrierten Komponenten zu untersuchen. Es sollte untersucht werden, wie gut diese zusammen funktionieren.
 
 
 
-* *Abnahmetest* 
-- Durch den Abnahmetest direkt durch die Themensteller, wurde das gesamte Projekt auf Erfüllung der Ziele sowie die Zufriedenheit der Umsetzung geprüft.
-Siehe Abnahmedokumentation des Abnahmeprotokolls
+* *Akzeptanztest* 
+- Durch den Akzeptanztest direkt durch die Themensteller, wurde das gesamte Projekt auf Erfüllung der Ziele sowie die Zufriedenheit der Themensteller bei der Umsetzung geprüft.
+Siehe <<Akzeptanztest, Protokoll des Akzeptanztest>>.
 
-Bei der Abwägung bzgl. automatisierter oder manueller Tests fiel die Entscheidung auf manuelle Tests, um die Fertigstellung des Projektes gegen Ende des Semesters (bei möglichen Hürden automatisierter Tests) nicht zu gefährden. Der Hauptfokus lag vor allem darauf, die Robustheit des Systems zu testen.
+Bei der Abwägung bzgl. automatisierter oder manueller Tests fiel die Entscheidung auf manuelle Tests, um die Fertigstellung des Projektes gegen Ende des Semesters (bei möglichen Hürden automatisierter Tests) nicht zu gefährden. Der Einarbeitungsaufwand in die Durchführung von automatisierten Tests wäre wahrscheinlich zu hoch gewesen. Außerdem ist es bei unserer relativ geringen Anzahl an Tests noch gut möglich, diese manuell durchzuführen. Weiterhin wurde uns von unserem Coach zu einem späteren Zeitpunkt dazu geraten, die Tests lieber manuell auszuführen. Der Hauptfokus lag vor allem darauf, die Robustheit des Systems gegenüber ungültigen Daten zu testen.
 
-Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests (bspw. mit Selenium) in Kombination mit Regressionstests sicherlich sehr viel besser gewesen.
+Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests (bspw. mit Selenium) in Kombination mit Regressionstests sicherlich besser gewesen.
 
 
 
@@ -42,19 +45,19 @@ Wäre der Entwicklungsaufwand noch größer gewesen, wären automatisierte Tests
 
 *Testfallbeschreibung*
 
-Die Testfälle wurden verbal beschrieben und in einem Testprotokoll festgehalten. Zu jedem Testfall gibt es im Testprotokoll eine Tabellenzeile mit *Testfallnummer*, *Vorbedingungen*, Definition des *Testobjektes*, *Eingabedaten*, *Handlungen zur Durchführung des Tests* sowie das zu *erwartende Ergebnis*.
+Die Testfälle wurden tabellarisch beschrieben. Zu jedem Testfall gibt es in der Tabelle eine Zeile mit *Testfallnummer*, *Vorbedingungen*, Definition des *Testobjektes*, *Eingabedaten*, *Handlungen zur Durchführung des Tests* sowie das zu *erwartende Ergebnis*.
 
-War ein Test erfolgreich so wurde als Testergebnis _“bestanden“_ in die Tabelle aufgenommen. Das Testergebnis _„nicht bestanden“_ wurde eingetragen, wenn der Test nicht erfolgreich verlief.
+War ein Test erfolgreich so wurde als Testergebnis _“bestanden“_ in das Testprotokoll aufgenommen. Das Testergebnis _„nicht bestanden“_ wurde eingetragen, wenn der Test nicht erfolgreich verlief.
 
-Fehler wurden als sofortige Mitteilung an den Entwickler mitgeteilt.
-Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft. Schwerwiegende Tests konnten wir glücklicherweise nicht verzeichnen, weshalb die Einteilung in leichte und schwere Fehler entfallen ist und die Arbeit so nie ins Stocken kam. Schwere Fehler hätten ggf. dazu geführt, dass aktuellen Arbeiten pausiert und der Fehler gefunden und behoben werden musste.
+Entdeckte Fehler wurden sofort an den Entwickler mitgeteilt.
+Die fehlgeschlagenen Tests wurden nach Beheben des Problems zu einem späteren Zeitpunkt wiederholt und erneut geprüft. Schwerwiegende Fehler konnten wir glücklicherweise nicht verzeichnen, weshalb die Einteilung in leichte und schwere Fehler entfallen ist und die Arbeit so nie ins Stocken kam. Schwere Fehler hätten ggf. dazu geführt, dass aktuelle Arbeiten pausiert und der Fehler gefunden und behoben werden müsste.
 
 Zu jedem Test wurde ein genaues Testdatum festgehalten.
 Personen, welche getestet haben: Sebastian (Rolle des Testers) in Absprache mit Vasco (Rolle des Entwicklers).
 
-== Ergebnisse der Testdurchführung:
+== Ergebnisse der Testdurchführung
 
-Die 29 Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreich und verliefen ohne Fehler.
+Die Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreich und verliefen ohne Fehler.
 
 //Am Ende des Projektes verliefen alle Tests positiv.
 
@@ -66,27 +69,10 @@ Die 29 Testergebnisse waren im 1. Durchlauf bis auf sehr wenige Tests erfolgreic
 
 - Namen konnten mit Zahlen kombiniert werden. Bsp: Stefan1
 
-Im Nachhinein waren wir über die Entscheidung der manuellen Tests sehr froh, da sich auf Grund von Umstrukturierungen im Team (von ehemals zwei Testern zu einem) die Zeit gegen Ende des Projektsemesters sehr knapp wurde und wie gesagt die Robustheit im Vordergrund stand.
+Im Nachhinein waren wir über die Entscheidung der manuellen Tests sehr froh, da sich auf Grund von Umstrukturierungen im Team (von ehemals zwei Testern zu einem) die Zeit gegen Ende des Projektsemesters sehr knapp wurde und die Robustheit im Vordergrund stand.
 
 
 Nachfolgend sind alle Tests mit der Testdokumentation aufgelistet:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -111,7 +97,7 @@ Ab hier test_case_Kandidaten_Verwalten.adoc
 |Test-Datensätze{set:cellbgcolor:FF0000}
 |Unittests{set:cellbgcolor:#f4f4e9}
 |Integrationstests{set:cellbgcolor:#eaf1f5}
-|Testdokumentation{set:cellbgcolor:#e6f2d5}
+|Testprotokoll{set:cellbgcolor:#e6f2d5}
 |===
 
 
@@ -132,7 +118,7 @@ Ab hier test_case_Kandidaten_Verwalten.adoc
 
 
 .*Testdaten*
-[%header, cols="1,2,3,4,5", ]
+[%header, cols="1,3,3,4,4", caption=]
 |===
 |Nr.{set:cellbgcolor:FF0000}
 |Name
@@ -185,7 +171,7 @@ Ab hier test_case_Kandidaten_Verwalten.adoc
 |===
 
 .*Testdaten fortgesetzt*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,3,3,3,3,3", caption=]
 |===
 |Nr.
 |Beschlussnummer
@@ -247,7 +233,7 @@ Ab hier test_case_Kandidaten_Verwalten.adoc
 
 
 .*Unittests*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,4,2,3,3,3", caption=]
 
 |===
 |T.-Nr.{set:cellbgcolor:#f4f4e9}
@@ -389,8 +375,8 @@ Speicherbutton betätigen
 
 
 
-.*Testdokumentation zu Use Case 01 - Kandidaten verwalten*
-[%header, cols="1,2,3,4,5,6", ]
+.*Testprotokoll zu Use Case 01 - Kandidaten verwalten*
+[%header, cols="1,2,3,4,1,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -551,7 +537,7 @@ Noch TestCases zu Use Case 01
 
 
 .*Unittests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#f4f4e9}
 |Vorbedingungen
@@ -592,8 +578,8 @@ Noch TestCases zu Use Case 01
 
 
 
-.*Testdokumentation zu - "Weitere Informationen bearbeiten/löschen"*
-[%header, cols="1,2,3,4,5,6", ]
+.*Testprotokoll zu - "Weitere Informationen bearbeiten/löschen"*
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -635,7 +621,7 @@ Noch TestCases zu Use Case 01
 - Das Kandidatentab ist geöffnet und die Liste der Kandidaten ist sichtbar
 
 .*Integrationstests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#eaf1f5}
 |Vorbedingungen
@@ -671,7 +657,7 @@ Noch TestCases zu Use Case 01
 
 
 .*Testdokumentation (Integrationstests) zu Use Case 01 - Kandidaten verwalten*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -683,21 +669,21 @@ Noch TestCases zu Use Case 01
 
 |18
 |1
-|17.06.2021
+|19.06.2021
 |Sebastian
 |ja
 |-
 
 |19
 |1
-|17.06.2021
+|19.06.2021
 |Sebastian
 |ja
 |-
 
 |20
 |1
-|17.06.2021
+|19.06.2021
 |Sebastian
 |ja
 |-
@@ -732,7 +718,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 
 .*Testdaten*
-[%header, cols="1,2,3,4,5", ]
+[%header, cols="1,2,3,4,5", caption=]
 |===
 |Nr.{set:cellbgcolor:FF0000}
 |Name
@@ -748,7 +734,7 @@ test_case_Mitglieder_aufnehmen.adoc
 |===
 
 .*Testdaten fortgesetzt*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Nr.
 |Beschlussnummer
@@ -768,7 +754,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 
 .*Unittests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#f4f4e9}
 |Vorbedingungen
@@ -795,7 +781,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 
 .*Testdokumentation - "Mitglieder aufnehmen"*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -822,7 +808,7 @@ test_case_Mitglieder_aufnehmen.adoc
 
 
 .*Integrationstests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#eaf1f5}
 |Vorbedingungen
@@ -873,9 +859,9 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 .*Testdaten*
-[%header, cols="1,2,3,4,5", ]
+[%header, cols="1,2,3,4,5", caption=]
 |===
-|Nr.
+|Nr. {set:cellbgcolor:FF0000}
 |Name
 |Vorname
 |Spitzname
@@ -889,7 +875,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 |===
 
 .*Testdaten fortgesetzt*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Nr.
 |Beschlussnummer
@@ -909,7 +895,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 .*Unittests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#f4f4e9}
 |Vorbedingungen
@@ -952,7 +938,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 .*Testdokumentation zu Use Case 03 - "Mitglieder informationen einpflegen"*
 
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -987,7 +973,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 .*Integrationstests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#eaf1f5}
 |Vorbedingungen
@@ -1007,7 +993,7 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 |===
 
 .*Testdokumentation Integrationstests zu Use Case 03 - "Mitglieder informationen einpflegen"*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -1035,24 +1021,6 @@ test_cases_Mitgliederinformationen_einpflegen.adoc
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ////
 test_case_Mitglieder_kontaktieren.adoc
 ////
@@ -1069,7 +1037,7 @@ test_case_Mitglieder_kontaktieren.adoc
 
 
 .*Testdaten*
-[%header, cols="1,2,3,4,5", ]
+[%header, cols="1,2,3,4,5", caption=]
 |===
 |Nr.{set:cellbgcolor:FF0000}
 |Name
@@ -1092,7 +1060,7 @@ test_case_Mitglieder_kontaktieren.adoc
 |===
 
 .*Testdaten fortgesetzt*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Nr.
 |Beschlussnummer
@@ -1121,7 +1089,7 @@ test_case_Mitglieder_kontaktieren.adoc
 
 
 .*Unittests*
-[%header, cols="1,2,3,4,5,6"]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |T.-Nr.{set:cellbgcolor:#f4f4e9}
 |Vorbedingungen
@@ -1149,7 +1117,7 @@ test_case_Mitglieder_kontaktieren.adoc
 
 
 .*Testdokumentation zu Use-Case 04: "Mitglieder per E-Mail kontaktieren"*
-[%header, cols="1,2,3,4,5,6", ]
+[%header, cols="1,2,3,4,5,6", caption=]
 |===
 |Getestet wurde T.-Nr.{set:cellbgcolor:#e6f2d5}
 |Anzahl (Num­me­rie­rung)
@@ -1245,7 +1213,7 @@ Schriftführer: Sabine Adam
 ** Checkbox, ob sie weitergegeben werden darf an normale Mitglieder oder nur für den Admin sichtbar ist
 * Checkliste vollständig abgehakt -> soll sichtbar bleiben
 * Kandidaturentab nur für Admin sichtbar -> ja
-* Mitgliederliste als Exelliste exportieren
+* Mitgliederliste als Excelliste exportieren
 
 
 

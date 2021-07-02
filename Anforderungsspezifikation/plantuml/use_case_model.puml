@@ -1,8 +1,8 @@
 @startuml diagramm_use_case-model
 left to right direction
 
-actor Admin 
-
+actor Admin
+actor Mitglied 
 
 rectangle "Webseite des STURA" {
   "UC 01: Kandidaten verwalten" as (uc01) #A9E2F3
@@ -14,7 +14,6 @@ rectangle "Webseite des STURA" {
   "UC 07: Aufwandsentschädigung berechnen" as (uc07) #A9E2F3
 }
 
-
 Admin -- (uc01)
 Admin -- (uc02)
 Admin -- (uc03)
@@ -23,6 +22,5 @@ Mitglied -- (uc04)
 Admin -- (uc05)
 Admin -- (uc06)
 Admin -- (uc07)
-
 
 @enduml
