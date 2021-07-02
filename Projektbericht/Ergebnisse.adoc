@@ -14,19 +14,19 @@ Use Cases mit einer geringen bis sehr geringen Priorität konnten teilweise aus 
 == Reflexion pro Teammitglied
 
 <<<
-include::reflexion_manuela.adoc[]
+include::reflexion_manuela.adoc[leveloffset=+1]
 
 <<<
-include::reflexion_sebastian.adoc[]
+include::reflexion_sebastian.adoc[leveloffset=+1]
 
 <<<
-include::reflexion_benjamin.adoc[]
+include::reflexion_benjamin.adoc[leveloffset=+1]
 
 <<<
-include::reflexion_Saputra.adoc[]
+include::reflexion_Saputra.adoc[leveloffset=+1]
 
 <<<
-include::reflexion_vasco.adoc[]
+include::reflexion_vasco.adoc[leveloffset=+1]
 
 <<<
-include::reflexion_sabine.adoc[]
+include::reflexion_sabine.adoc[leveloffset=+1]

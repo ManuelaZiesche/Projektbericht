@@ -1,21 +1,31 @@
+:doctype: book
 :toc:
 :toclevels: 3
 :toc-title: Inhaltsverzeichnis
-:toc-placement!:
-:sectanchors:
-:numbered:
+:sectnums:
+:icons: font
 
+//:source-highlighter: highlightjs
+:source-highlighter: rouge
+:rouge-style: github
+:xrefstyle: full
+:experimental:
+:chapter-label:
+:figure-caption: Abbildung
+:table-caption: Tabelle
+:listing-caption: Listing
 
 = Projektbericht - I4 Weiterentwicklung der Mitgliederdatenbank
 Vasco Schwarze <s80476@htw-dresden.de>; Benjamamin Müller <80487@htw-dresden.de>; Sebastian Mathäus <s80460@htw-dresden.de>; Bayu Anggi Saputra <s81212@htw-dresden.de>; Manuela Ziesche <s80485@htw-dresden.de>; Sabine Elisabeth Adam <s80447@htw-dresden.de>
 
 toc::[]
 
-<<<
-include::Planung.adoc[]
 
 <<<
-include::Durchführung2.adoc[]
+include::Planung.adoc[leveloffset=+1]
 
 <<<
-include::Ergebnisse.adoc[]
+include::Durchführung2.adoc[leveloffset=+1]
+
+<<<
+include::Ergebnisse.adoc[leveloffset=+1]
