@@ -7,7 +7,7 @@
 <<<
 include::Vision.adoc[]
 <<<
-include::Use_Casees.adoc[]
+include::Use_Cases.adoc[]
 <<<
 include::Requirements.adoc[]
 <<<

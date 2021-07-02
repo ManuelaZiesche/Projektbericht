@@ -21,6 +21,13 @@ Ist für die Mitgliederaufnahme und die Bearbeitung der Check-Listen zuständig
 . Der Admin wählt die Möglichkeit aus, die kandidierende Person als Mitglied aufzunehmen
 . Der Datensatz der Kandidatur wird aus der Übersicht entfernt und taucht unter dem Tab "Mitglieder" auf, in der er bearbeitet werden kann
 
+
+.Wireframes
+NOTE: Das folgende Wireframe zeigt einen ersten Entwurf der Benutzeroberfläche, die die Anforderungen, die bis zu diesem Zeitpunkt gestellt worden sind, umsetzt. Eine Abweichung zum aktuellen Use Case ist somit möglich.
+
+.Wireframe Kandidatur zu Mitglied aufnehmen
+image::WF/Mitglied_aufnehmen.jpg[WF UC 02]
+
 ===	Nachbedingungen
 
 * Die Kandidatur wurde zum Mitglied umgewandelt und kann unter dem Tab "Mitglieder" bearbeitet werden
