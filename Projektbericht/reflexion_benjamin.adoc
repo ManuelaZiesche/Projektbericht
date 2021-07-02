@@ -4,7 +4,7 @@ Anders als noch in Software Engineering 1, habe ich mittlerweile einige Erfahrun
 
 ==== Weiterführen des Projekts
 
-Während der Fehleranalyse sind uns zunächst die Mängel in unserer Architektur aufgefallen. Zusammen mit der noch unvollständigen Analyse, lag der Fokus nun also darauf, unsere alte Dokumentation zu überarbeiten und zu verbessern. Da ein Kommilitone und ich weiterhin die Rolle des Architekten innehatten, lag es also auch an uns diese Fehler zu beseitigen. Da es uns leider weiterhin fachlich schwer fiel uns in die verschiedenen Architekturmechanis-men hineinzudenken, haben wir Unterstützung durch ein weiteres Teammitglied erhalten. Generell lässt sich sagen, dass die Zusammenarbeit im Team um ein vielfaches besser lief als noch zuvor, da wir uns gegenseitig besser kennengelernt haben.
+Während der Fehleranalyse sind uns zunächst die Mängel in unserer Architektur aufgefallen. Zusammen mit der noch unvollständigen Analyse, lag der Fokus nun also darauf, unsere alte Dokumentation zu überarbeiten und zu verbessern. Da ein Kommilitone und ich weiterhin die Rolle des Architekten innehatten, lag es also auch an uns diese Fehler zu beseitigen. Da es uns leider weiterhin fachlich schwer fiel uns in die verschiedenen Architekturmechanismen hineinzudenken, haben wir Unterstützung durch ein weiteres Teammitglied erhalten. Generell lässt sich sagen, dass die Zusammenarbeit im Team um ein vielfaches besser lief als noch zuvor, da wir uns gegenseitig besser kennengelernt haben.
 
 ==== Verlauf des Projektes
 
