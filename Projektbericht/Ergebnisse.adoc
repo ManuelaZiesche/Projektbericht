@@ -1,7 +1,7 @@
-= Ergebnisse (SAd)
+= Ergebnisse
 // rund 6 Seiten
 
-== Projektergebnisse
+== Projektergebnisse (SAd)
 
 Mithilfe unserer fertiggestellten Software ist es nun möglich Kandidaturen zu verwalten. Das schließt Funktionen wie beispielsweise das Anlegen einer neuen Kandidatur, das Bearbeiten und das Löschen ein. Abgesehen davon, können Kandidaten, welche bei einer Wahl gewählt worden sind, problemlos mit nur zwei Mausklicks als Mitglieder aufgenommen werden. +
 Rote Ausrufezeichen vor Mitgliedernamen machen den Admin auf unvollständige Profile aufmerksam, die er noch überarbeiten muss. Die eingebauten Checklisten, die für jedes einzelne Mitglied angelegt werden, geben Auskunft darüber, ob die geforderten Dokumente erfolgreich eingepflegt worden sind. +
