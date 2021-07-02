@@ -1,5 +1,6 @@
 = Use-Cases
 
+
 == Allgemeine Informationen
 
 |===
@@ -23,10 +24,20 @@
 | 05 | Stimmzettel generieren| sehr gering | Generierung von Stimmzetteln (als druckbares Dokument) mit allen Kandidaturen, die sich zu einer Wahl aufstellen lassen.
 |===
 
-[#diagramm_use_case-model]
-[plantuml, "{diagramsdir}/diagramm_use_case-model", svg]
 
-include::use_case_model.puml[]
+//[#diagramm_use_case-model]
+//[plantuml, "plantuml/diagramm_use_case-model", svg]
+//....
+//include::plantuml/use_case_model.puml[]
+//....
+[#use_case-model]
+[plantuml, "plantuml/use_case-model", svg]
+
+....
+include::plantuml/use_case_model.puml[]
+....
+
+//include::plantuml/diagramm_use_case-model.svg[Use Case Model]
 
 <<<
 include::use_case_Kandidaten_verwalten.adoc[]
