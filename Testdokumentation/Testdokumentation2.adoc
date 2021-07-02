@@ -4,6 +4,7 @@
 :toc-title: Inhaltsverzeichnis
 :sectnums:
 :icons: font
+:chapter-label:
 
 = Testdokumentation
 
