@@ -25,10 +25,10 @@ Ist für die Aufnahme und Bearbeitung der zusätzlichen Informationen zuständig
 NOTE: Die folgenden Wireframes zeigen einen ersten Entwurf der Benutzeroberfläche, die die Anforderungen, die bis zu diesem Zeitpunkt gestellt worden sind, umsetzten. Eine Abweichung zum aktuellen Use Case ist somit möglich.
 
 .Wireframe Mitglied bearbeiten
-image::/WF/Mitglied_bearbeiten.jpeg[WF UC 03]
+image::WF/Mitglied_bearbeiten.jpg[WF UC 03]
 
 .Wireframe Checkliste
-image::/WF/Checkliste.jpeg[WF UC 03]
+image::WF/Checkliste.jpg[WF UC 03]
 
 === Alternative Abläufe
 ==== Alternativer Ablauf 1
