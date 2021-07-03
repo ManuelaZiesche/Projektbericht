@@ -16,7 +16,7 @@
 :listing-caption: Listing
 
 = Projektbericht - I4 Weiterentwicklung der Mitgliederdatenbank
-Vasco Schwarze <s80476@htw-dresden.de>; Benjamamin Müller <80487@htw-dresden.de>; Sebastian Mathäus <s80460@htw-dresden.de>; Bayu Anggi Saputra <s81212@htw-dresden.de>; Manuela Ziesche <s80485@htw-dresden.de>; Sabine Elisabeth Adam <s80447@htw-dresden.de>
+Vasco Schwarze <s80476@htw-dresden.de>; Benjamin Müller <80487@htw-dresden.de>; Sebastian Mathäus <s80460@htw-dresden.de>; Bayu Anggi Saputra <s81212@htw-dresden.de>; Manuela Ziesche <s80485@htw-dresden.de>; Sabine Elisabeth Adam <s80447@htw-dresden.de>
 
 toc::[]
 
