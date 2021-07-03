@@ -32,11 +32,7 @@
 //....
 
 
-[#use_case-model]
-[plantuml, "plantuml/use_case-model", svg]
-....
-include::plantuml/use_case_model.puml[]
-....
+image::Use-Case-Modell.png[Use-Case-Modell]
 
 //include::plantuml/diagramm_use_case-model.svg[Use Case Model]
 
